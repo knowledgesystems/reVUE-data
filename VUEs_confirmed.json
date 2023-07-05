@@ -16,6 +16,19 @@
                 "revisedProteinEffect": "p.549_557del", 
                 "variantClassification":"In_Frame_Del"
             }
+            {
+            
+                "variant": "4:g.55593580_55593606del",
+                "transcriptId": "ENST00000288135",
+                "revisedProteinEffect": "p.549_557del",
+                "variantClassification": "In_Frame_Del"
+            },
+            {
+                "variant": "4:g.55593578_55593606",
+                "transcriptId": "ENST00000288135",
+                "revisedProteinEffect": "p.549_557del",
+                "variantClassification": "In_Frame_Del"
+            }
         ]
     },
     {
