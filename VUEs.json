@@ -436,7 +436,7 @@
     {
         "hugoGeneSymbol": "MET",
         "transcriptId": "ENST00000241453",
-        "genomicLocationDescription": "Indels and substitutions flanking exon 14 (7:116411926_116412083del)",
+        "genomicLocationDescription": "Indels and substitutions flanking exon 14 (e.g. 7:116411926_116412083del)",
         "defaultEffect": "splice",
         "comment": "Skipping of exon 14",
         "context": "Actionable in NSCLC",
@@ -458,7 +458,7 @@
     {
         "hugoGeneSymbol": "PIK3R1",
         "transcriptId": "ENST00000521381",
-        "genomicLocationDescription": "Indels and substitutions flanking exon 11 (5:67589663G>A)",
+        "genomicLocationDescription": "Indels and substitutions flanking exon 11 (e.g. 5:67589663G>A)",
         "defaultEffect": "splice",
         "comment": "Skipping of exon 11",
         "context": "Recurrent in breast and uterine cancer",
@@ -480,7 +480,7 @@
     {
         "hugoGeneSymbol": "FLT3",
         "transcriptId": "ENST00000241453",
-        "genomicLocationDescription": "Indels around tyrosine kinase (13:28608214_28608215insTT...)",
+        "genomicLocationDescription": "Indels around tyrosine kinase (e.g. 13:28608214_28608215insTT...)",
         "defaultEffect": "splice",
         "comment": "Internal Tandem Duplication",
         "context": "Recurrent alteration in AML",
