@@ -401,18 +401,6 @@
                 "genomicLocation":"3,41266017,41266244,CTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTG,-",
                 "vepPredictedProteinEffect": "p.A5_A80del",
                 "vepPredictedVariantClassification": "In_Frame_Del",
-                "revisedProteinEffect": "p.A5_Q68del",
-                "revisedVariantClassification": "In_Frame_Del",
-                "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
-                "confirmed": true
-            },
-            {
-                "variant": "3:g.41266017_41266244del",
-                "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266017,41266244,CTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTG,-",
-                "vepPredictedProteinEffect": "p.A5_A80del",
-                "vepPredictedVariantClassification": "In_Frame_Del",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
