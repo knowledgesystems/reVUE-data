@@ -16,7 +16,7 @@
                 "revisedProteinEffect": "p.549_557del", 
                 "revisedVariantClassification":"In_Frame_Del",
                 "pubmedId": 15507676,
-                "referenceText": "Corless et al, 2004",
+                "referenceText": "Corless et al., 2004",
                 "confirmed": true
             },
             {
@@ -29,7 +29,7 @@
                 "revisedProteinEffect": "p.549_557del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 15507676,
-                "referenceText": "Corless et al, 2004",
+                "referenceText": "Corless et al., 2004",
                 "confirmed": true
             },
             {
@@ -41,7 +41,7 @@
                 "revisedProteinEffect": "p.549_557del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 15507676,
-                "referenceText": "Corless et al, 2004",
+                "referenceText": "Corless et al., 2004",
                 "confirmed": true
             }
         ]
@@ -63,7 +63,7 @@
                 "revisedProteinEffect": "p.G279Ffs*10",
                 "revisedVariantClassification": "Frame_Shift_Ins",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             }
         ]
@@ -85,7 +85,7 @@
                 "revisedProteinEffect": "p.D311Gfs*23",
                 "revisedVariantClassification": "Frame_Shift_Del",
                 "pubmedId": 33681728,
-                "referenceText": "Niersch et al, 2021",
+                "referenceText": "Niersch et al., 2021",
                 "confirmed": false
             }
         ]
@@ -107,7 +107,7 @@
                 "revisedProteinEffect": "p.V10=",
                 "revisedVariantClassification": "Silent",
                 "pubmedId": 31671760,
-                "referenceText": "Swiatkowska et al, 2019",
+                "referenceText": "Swiatkowska et al., 2019",
                 "confirmed": false
             }
         ]
@@ -130,7 +130,7 @@
                 "revisedProteinEffect": "p.X61",
                 "revisedVariantClassification": "splice_donor_variant",
                 "pubmedId": 35236983,
-                "referenceText": "Kobayashi et al, 2022",
+                "referenceText": "Kobayashi et al., 2022",
                 "confirmed": false
             }
         ]
@@ -152,7 +152,7 @@
                 "revisedProteinEffect": "p.Q28_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -164,7 +164,7 @@
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -176,7 +176,7 @@
                 "revisedProteinEffect": "p.M12_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -188,7 +188,7 @@
                 "revisedProteinEffect": "p.A5_Q72del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -200,7 +200,7 @@
                 "revisedProteinEffect": "p.S29_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -212,7 +212,7 @@
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -224,7 +224,7 @@
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -236,7 +236,7 @@
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -248,7 +248,7 @@
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -260,7 +260,7 @@
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -272,7 +272,7 @@
                 "revisedProteinEffect": "p.A5_G69del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -284,7 +284,7 @@
                 "revisedProteinEffect": "p.A5_Q79del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -296,7 +296,7 @@
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -308,7 +308,7 @@
                 "revisedProteinEffect": "p.A5_Q72del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -320,7 +320,7 @@
                 "revisedProteinEffect": "p.A5_E9del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -332,7 +332,7 @@
                 "revisedProteinEffect": "p.A2_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -344,7 +344,7 @@
                 "revisedProteinEffect": "p.Q4_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -356,7 +356,7 @@
                 "revisedProteinEffect": "p.A5_Q68del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -368,7 +368,7 @@
                 "revisedProteinEffect": "p.A5_A97del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -380,7 +380,7 @@
                 "revisedProteinEffect": "p.A5_F70del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -392,7 +392,7 @@
                 "revisedProteinEffect": "p.A5_Q68del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             },
             {
@@ -404,7 +404,7 @@
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
-                "referenceText": "Yaeger et al, 2018",
+                "referenceText": "Yaeger et al., 2018",
                 "confirmed": true
             }
         ]
@@ -426,7 +426,7 @@
                 "revisedProteinEffect": "p.E598_F612dup",
                 "revisedVariantClassification": "In_Frame_Ins",
                 "pubmedId": 27343443,
-                "referenceText": "Schrock et al, 2014",
+                "referenceText": "Schrock et al., 2014",
                 "confirmed": false
             }
         ]
@@ -448,7 +448,7 @@
                 "revisedProteinEffect": "p.D434_E476del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 25488983,
-                "referenceText": "Lucas et al, 2014",
+                "referenceText": "Lucas et al., 2014",
                 "confirmed": false
             }
         ]
@@ -470,7 +470,7 @@
                 "revisedProteinEffect": "p.E598_F612dup",
                 "revisedVariantClassification": "In_Frame_Ins",
                 "pubmedId": 31285539,
-                "referenceText": "Zhang, Yu et al, 2020",
+                "referenceText": "Zhang, Yu et al., 2020",
                 "confirmed": false
             }
         ]
