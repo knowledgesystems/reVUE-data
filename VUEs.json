@@ -1,0 +1,478 @@
+[
+    {
+        "hugoGeneSymbol": "KIT",
+        "transcriptId": "ENST00000288135",
+        "genomicLocationDescription": "Deletions flanking intron 10 - exon 11 boundary (e.g. 4:55593576_55593606del)",
+        "defaultEffect": "splice",
+        "comment": "Changes splice donor site, cause inframe deletion in exon 11",
+        "context": "Actionable in GIST",
+        "revisedProteinEffects": [ 
+            {
+                "variant":"4:g.55593576_55593606del", 
+                "genomicLocation": "4,5,55593576,55593606,CCACAGAAACCCATGTATGAAGTACAGTGGA,-",
+                "transcriptId": "ENST00000288135", 
+                "vepPredictedProteinEffect": "p.X550_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.549_557del", 
+                "revisedVariantClassification":"In_Frame_Del",
+                "pubmedId": 15507676,
+                "referenceText": "Corless et al, 2004",
+                "confirmed": true
+            },
+            {
+            
+                "variant": "4:g.55593580_55593606del",
+                "genomicLocation": "4,55593580,55593606,AGAAACCCATGTATGAAGTACAGTGGA,-",
+                "transcriptId": "ENST00000288135",
+                "vepPredictedProteinEffect": "p.X550_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.549_557del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 15507676,
+                "referenceText": "Corless et al, 2004",
+                "confirmed": true
+            },
+            {
+                "variant": "4:g.55593578_55593606del",
+                "genomicLocation": "4,55593578,55593606,ACAGAAACCCATGTATGAAGTACAGTGGA,-",
+                "transcriptId": "ENST00000288135",
+                "vepPredictedProteinEffect": "p.X550_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.549_557del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 15507676,
+                "referenceText": "Corless et al, 2004",
+                "confirmed": true
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "APC",
+        "transcriptId": "ENST00000257430",
+        "genomicLocationDescription": "5:g.112151184A>G",
+        "defaultEffect": "synonymous",
+        "comment": "Introduces splice acceptor site causing a frameshift",
+        "context": "Recurrent alteration in CRC",
+        "revisedProteinEffects": [
+            {
+                "variant": "5:g.112151184A>G",
+                "genomicLocation": "5,112151184,112151184,A,G",
+                "transcriptId": "ENST00000257430",
+                "vepPredictedProteinEffect": "p.*279*",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.G279Ffs*10",
+                "revisedVariantClassification": "Frame_Shift_Ins",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "BAP1",
+        "transcriptId": "ENST00000460680",
+        "genomicLocationDescription": "3:g.52439306A>G",
+        "defaultEffect": "synonymous",
+        "comment": "Leads to exon 11 skipping",
+        "context": "Recurrent and prognostic in kidney cancer",
+        "revisedProteinEffects": [
+            {
+                "variant": "3:g.52439306A>G",
+                "genomicLocation": "3,52439306,52439306,A,G",
+                "transcriptId": "ENST00000460680",
+                "vepPredictedProteinEffect": "p.G312=",
+                "vepPredictedVariantClassification": "Silent",
+                "revisedProteinEffect": "p.D311Gfs*23",
+                "revisedVariantClassification": "Frame_Shift_Del",
+                "pubmedId": 33681728,
+                "referenceText": "Niersch et al, 2021",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "TP53",
+        "transcriptId": "ENST00000269305",
+        "genomicLocationDescription": "17:g.7579883G>A",
+        "defaultEffect": "synonymous",
+        "comment": "Affects mRNA structure, reduces HDM2 binding",
+        "context": "Recurrent in many cancer types",
+        "revisedProteinEffects": [
+            {
+                "variant": "17:g.7579883G>A",
+                "genomicLocation":"17,7579883,7579883,G,A",
+                "transcriptId": "ENST00000269305",
+                "vepPredictedProteinEffect": "p.V10=",
+                "vepPredictedVariantClassification": "Silent",
+                "revisedProteinEffect": "p.V10=",
+                "revisedVariantClassification": "Silent",
+                "pubmedId": 31671760,
+                "referenceText": "Swiatkowska et al, 2019",
+                "confirmed": false
+            }
+        ]
+       
+    },
+    {
+        "hugoGeneSymbol": "KRAS",
+        "transcriptId": "ENST00000256078",
+        "genomicLocationDescription": "12:g.25380277G>T",
+        "defaultEffect": "missense",
+        "comment": "Introduces a splice donor site if Q61K is not co-occurring with G60G",
+        "context": "Recurrent in many cancer types",
+        "revisedProteinEffects": [
+            {
+                "variant": "12:g.25380277G>T",
+                "genomicLocation":"12,25380277,25380277,G,T",
+                "transcriptId": "ENST00000256078",
+                "vepPredictedProteinEffect": "p.Q61K",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "revisedProteinEffect": "p.X61",
+                "revisedVariantClassification": "splice_donor_variant",
+                "pubmedId": 35236983,
+                "referenceText": "Kobayashi et al, 2022",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "CTNNB1",
+        "transcriptId": "ENST00000349496",
+        "genomicLocationDescription": "Deletions flanking exon 2-3 (e.g. 3:41265579_41266277del)",
+        "defaultEffect": "splice",
+        "comment": "Complete exon 3 skip or inframe deletion in exon 3",
+        "context": "Recurrent alteration in CRC",
+        "revisedProteinEffects": [
+            {
+                "variant": "3:g.41266086_41266304del",
+                "genomicLocation":"3,41266086,41266304,AGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAA,-",
+                "transcriptId": "ENST00000349496",
+                "vepPredictedProteinEffect": "p.X29_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.Q28_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266012_41266312del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266012,41266312,TATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTG,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266038_41266264del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266038,41266264,TGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCAT,-",
+                "vepPredictedProteinEffect": "p.X13_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.M12_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265709_41266219del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265709,41266219,TCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAG,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_Q72del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266090_41266253del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266090,41266253,TTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTA,-",
+                "vepPredictedProteinEffect": "p.X30_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.S29_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265579_41266277del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265579,41266277,GTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265722_41266253del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265722,41266253,TTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266029_41266287del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266029,41266287,AGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGC,-",
+                "vepPredictedProteinEffect": "p.X10_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.E9_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266028_41266420del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266028,41266420,GAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAATGCTGAACTGTGGATAGT,-",
+                "vepPredictedProteinEffect": "p.X10_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.E9_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266016_41266403del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266016,41266403,GCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAAT,-",
+                "vepPredictedProteinEffect": "p.X6_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265975_41266211del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265975,41266211,CATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGAT,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_G69del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265908_41266236del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265908,41266236,TTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_Q79del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266013_41266355del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266013,41266355,ATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265897_41266218del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265897,41266218,GTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_Q72del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41266002_41266029del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41266002,41266029,GTTTCGTATTTATAGCTGATTTGATGGA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_E9del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265562_41266260del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265562,41266260,GGCTACTCAAGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTT,-",
+                "vepPredictedProteinEffect": "p.X1_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A2_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265568_41266266del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265568,41266266,TCAAGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTG,-",
+                "vepPredictedProteinEffect": "p.X3_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.Q4_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265571_41266206del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265571,4126620,AGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACA,-",
+                "vepPredictedProteinEffect": "p.X4_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_Q68del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265648_41266493del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265648,41266493,CCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAATGCTGAACTGTGGATAGTGAGTGTTGAATTAACCTTTTCCAGATATTGATGGACAGTATGCAATGACTCGAGCTCAGAGGGTACGAGCTGC,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_A97del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265674_41266212del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265674,41266212,TTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATT,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_F70del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.41265990_41266204del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,41265990,41266204,AATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAA,-",
+                "vepPredictedProteinEffect": "p.X5_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A5_Q68del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            },
+            {
+                "variant": "3:g.55593576_55593606del",
+                "transcriptId": "ENST00000349496",
+                "genomicLocation":"3,55593576,55593606,CAAGAGACCTGGCCCATGAAGTAAGACTGGA,-",
+                "vepPredictedProteinEffect": "",
+                "vepPredictedVariantClassification": "Intron",
+                "revisedProteinEffect": "p.E9_D81del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 29316426,
+                "referenceText": "Yaeger et al, 2018",
+                "confirmed": true
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "MET",
+        "transcriptId": "ENST00000241453",
+        "genomicLocationDescription": "Indels and substitutions flanking exon 14 (e.g. 7:116411926_116412083del)",
+        "defaultEffect": "splice",
+        "comment": "Skipping of exon 14",
+        "context": "Actionable in NSCLC",
+        "revisedProteinEffects": [
+            {
+                "variant": "13:g.28608217_28608218insCCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
+                "transcriptId": "ENST00000241453",
+                "genomicLocation":"13,28608217,28608218,-,CCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
+                "vepPredictedProteinEffect": "p.X594_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.E598_F612dup",
+                "revisedVariantClassification": "In_Frame_Ins",
+                "pubmedId": 27343443,
+                "referenceText": "Schrock et al, 2014",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "PIK3R1",
+        "transcriptId": "ENST00000521381",
+        "genomicLocationDescription": "Indels and substitutions flanking exon 11 (e.g. 5:67589663G>A)",
+        "defaultEffect": "splice",
+        "comment": "Skipping of exon 11",
+        "context": "Recurrent in breast and uterine cancer",
+        "revisedProteinEffects": [
+            {
+                "variant": "5:g.67589663G>C",
+                "genomicLocation":"5,67589663,67589663,G,C",
+                "vepPredictedProteinEffect": "p.X475_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000521381",
+                "revisedProteinEffect": "p.D434_E476del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 25488983,
+                "referenceText": "Lucas et al, 2014",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "FLT3",
+        "transcriptId": "ENST00000241453",
+        "genomicLocationDescription": "Indels around tyrosine kinase (e.g. 13:28608214_28608215insTT...)",
+        "defaultEffect": "splice",
+        "comment": "Internal Tandem Duplication",
+        "context": "Recurrent alteration in AML",
+        "revisedProteinEffects": [
+            {
+                "variant": "13:g.28608217_28608218insCCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
+                "genomicLocation":"13,28608217,28608218,-,CCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
+                "vepPredictedProteinEffect": "p.X594_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000241453",
+                "revisedProteinEffect": "p.E598_F612dup",
+                "revisedVariantClassification": "In_Frame_Ins",
+                "pubmedId": 31285539,
+                "referenceText": "Zhang, Yu et al, 2020",
+                "confirmed": false
+            }
+        ]
+    }
+]
