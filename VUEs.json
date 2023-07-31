@@ -420,7 +420,7 @@
             {
                 "variant": "7:g.116411926_116412083del",
                 "transcriptId": "ENST00000397752",
-                "genomicLocation":"7,116411926,116412083,-,CCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
+                "genomicLocation":"7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA, -",
                 "vepPredictedProteinEffect": "p.X972_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
