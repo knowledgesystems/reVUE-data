@@ -9,7 +9,7 @@
         "revisedProteinEffects": [ 
             {
                 "variant":"4:g.55593576_55593606del", 
-                "genomicLocation": "4,5,55593576,55593606,CCACAGAAACCCATGTATGAAGTACAGTGGA,-",
+                "genomicLocation": "4,55593576,55593606,CCACAGAAACCCATGTATGAAGTACAGTGGA,-",
                 "transcriptId": "ENST00000288135", 
                 "vepPredictedProteinEffect": "p.X550_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
@@ -472,6 +472,112 @@
                 "pubmedId": 31285539,
                 "referenceText": "Zhang, Yu et al., 2020",
                 "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "ATM",
+        "transcriptId": "ENST00000278616",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "splice",
+        "comment": "",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "11:g.108115753G>A",
+                "genomicLocation":"11,108115753,108115753,G,A",
+                "vepPredictedProteinEffect": "p.G301S",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.C222Qfs*2",
+                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108127067G>A",
+                "genomicLocation":"11,108127067,108127067,G,A",
+                "vepPredictedProteinEffect": "p.X750_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.I709_K750del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108138071T>C",
+                "genomicLocation":"11,108138071,108138071,T,C",
+                "vepPredictedProteinEffect": "p.X880_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.A823Vfs*5",
+                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108175400A>C",
+                "genomicLocation":"11,108175400,108175400,A,C",
+                "vepPredictedProteinEffect": "p.X1833_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.V1883Ifs*63",
+                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108198370A>C",
+                "genomicLocation":"11,108198370,108198370,A,C",
+                "vepPredictedProteinEffect": "p.X2326_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.N2326_K2363del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108198484_108198521del",
+                "genomicLocation":"11,108198484,108198521,AGGTAAGATTTTTGGAGCAACCCTTAAGATAGTTACTT,-",
+                "vepPredictedProteinEffect": "p.X2363_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.N2326_K2363del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108214099_108214102del",
+                "genomicLocation":"11,108214099,108214102,GTGA,-",
+                "vepPredictedProteinEffect": "p.X2806_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.V2757_M2806del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
+            },
+            {
+                "variant": "11:g.108236051G>A",
+                "genomicLocation":"11,108236051,108236051,G,A",
+                "vepPredictedProteinEffect": "p.X2996_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000278616",
+                "revisedProteinEffect": "p.S2996Rfs*5",
+                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": true
             }
         ]
     }
