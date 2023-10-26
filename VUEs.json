@@ -479,25 +479,25 @@
         "hugoGeneSymbol": "ATM",
         "transcriptId": "ENST00000278616",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "splice",
-        "comment": "",
+        "defaultEffect": "missense",
+        "comment": "Changes splice donor site or acceptor site",
         "context": "",
         "revisedProteinEffects": [
             {
                 "variant": "11:g.108115753G>A",
-                "genomicLocation":"11,108115753,108115753,G,A",
+                "genomicLocation": "11,108115753,108115753,G,A",
                 "vepPredictedProteinEffect": "p.G301S",
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.C222Qfs*2",
-                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "revisedVariantClassification": "Splice_Frameshift",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
                 "variant": "11:g.108127067G>A",
-                "genomicLocation":"11,108127067,108127067,G,A",
+                "genomicLocation": "11,108127067,108127067,G,A",
                 "vepPredictedProteinEffect": "p.X750_splice",
                 "vepPredictedVariantClassification": "Splice_Region",
                 "transcriptId": "ENST00000278616",
@@ -505,35 +505,35 @@
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
                 "variant": "11:g.108138071T>C",
-                "genomicLocation":"11,108138071,108138071,T,C",
+                "genomicLocation": "11,108138071,108138071,T,C",
                 "vepPredictedProteinEffect": "p.X880_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.A823Vfs*5",
-                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "revisedVariantClassification": "Splice_Frameshift",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
                 "variant": "11:g.108175400A>C",
-                "genomicLocation":"11,108175400,108175400,A,C",
+                "genomicLocation": "11,108175400,108175400,A,C",
                 "vepPredictedProteinEffect": "p.X1833_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.V1883Ifs*63",
-                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "revisedVariantClassification": "Splice_Frameshift",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
                 "variant": "11:g.108198370A>C",
-                "genomicLocation":"11,108198370,108198370,A,C",
+                "genomicLocation": "11,108198370,108198370,A,C",
                 "vepPredictedProteinEffect": "p.X2326_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000278616",
@@ -541,11 +541,11 @@
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
-                "variant": "11:g.108198484_108198521del",
-                "genomicLocation":"11,108198484,108198521,AGGTAAGATTTTTGGAGCAACCCTTAAGATAGTTACTT,-",
+                "variant": "11:g.108198484_108198522del",
+                "genomicLocation": "11,108198484,108198522,AGGTAAGATTTTTGGAGCAACCCTTAAGATAGTTACTTA,-",
                 "vepPredictedProteinEffect": "p.X2363_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000278616",
@@ -553,11 +553,11 @@
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
-                "variant": "11:g.108214099_108214102del",
-                "genomicLocation":"11,108214099,108214102,GTGA,-",
+                "variant": "11:g.108214099_108214103del",
+                "genomicLocation": "11,108214099,108214103,GTGAG,-",
                 "vepPredictedProteinEffect": "p.X2806_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000278616",
@@ -565,20 +565,234 @@
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             },
             {
                 "variant": "11:g.108236051G>A",
-                "genomicLocation":"11,108236051,108236051,G,A",
+                "genomicLocation": "11,108236051,108236051,G,A",
                 "vepPredictedProteinEffect": "p.X2996_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.S2996Rfs*5",
-                "revisedVariantClassification": "Splice_Frame_Shift_Del",
+                "revisedVariantClassification": "Splice_Frameshift",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": true
+                "confirmed": false
             }
         ]
-    }
+    },
+    {
+        "hugoGeneSymbol": "BRCA1",
+        "transcriptId": "ENST00000357654",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "splice",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "17:g.41197820C>T",
+                "genomicLocation": "17,41197820,41197820,C,T",
+                "vepPredictedProteinEffect": "p.X1823_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000357654",
+                "revisedProteinEffect": "p.A1844Dfs*2",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            },
+            {
+                "variant": "17:g.41228505C>A",
+                "genomicLocation": "17,41228505,41228505,C,A",
+                "vepPredictedProteinEffect": "p.R1495M",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "transcriptId": "ENST00000357654",
+                "revisedProteinEffect": "p.A1453Gfs*9",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "BRCA2",
+        "transcriptId": "ENST00000380152",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "splice",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "13:g.32900634A>G",
+                "genomicLocation": "13,32900634,32900634,A,G",
+                "vepPredictedProteinEffect": "p.X173_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000380152",
+                "revisedProteinEffect": "p.G173Sfs*17",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            },
+            {
+                "variant": "13:g.32931878G>A",
+                "genomicLocation": "13,32931878,32931878,G,A",
+                "vepPredictedProteinEffect": "p.X2540_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000380152",
+                "revisedProteinEffect": "p.L2540Qfs*10",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            },
+            {
+                "variant": "13:g.32954050G>A",
+                "genomicLocation": "13,32954050,32954050,G,A",
+                "vepPredictedProteinEffect": "p.X3039_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000380152",
+                "revisedProteinEffect": "p.V2985Gfs*3",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "BRIP1",
+        "transcriptId": "ENST00000259008",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "splice",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "17:g.59938807C>T",
+                "genomicLocation": "17,59938807,59938807,C,T",
+                "vepPredictedProteinEffect": "p.X31_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000259008",
+                "revisedProteinEffect": "p.M1_S31del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "CDH1",
+        "transcriptId": "ENST00000261769",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "missense",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "16:g.68849663G>A",
+                "genomicLocation": "16,68849663,68849663,G,A",
+                "vepPredictedProteinEffect": "p.X522_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000261769",
+                "revisedProteinEffect": "p.T523*",
+                "revisedVariantClassification": "Splice_Missense? Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            },
+            {
+                "variant": "16:g.68853328G>A",
+                "genomicLocation": "16,68853328,68853328,G,A",
+                "vepPredictedProteinEffect": "p.G571S",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "transcriptId": "ENST00000261769",
+                "revisedProteinEffect": "p.Y523Ffs*15",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "CHEK2",
+        "transcriptId": "ENST00000328354",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "splice",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "22:g.29121230C>T",
+                "genomicLocation": "22,29121230,29121230,C,T",
+                "vepPredictedProteinEffect": "p.X148_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000328354",
+                "revisedProteinEffect": "p.E149Ifs*5",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "PALB2",
+        "transcriptId": "ENST00000261584",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "splice",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "16:g.23634452C>G",
+                "genomicLocation": "16,23634452,23634452,C,G",
+                "vepPredictedProteinEffect": "p.X945_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000261584",
+                "revisedProteinEffect": "p.A946_G999del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            },
+            {
+                "variant": "16:g.23640597C>A",
+                "genomicLocation": "16,23640597,23640597,C,A",
+                "vepPredictedProteinEffect": "p.X839_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000261584",
+                "revisedProteinEffect": "p.T839_K862del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "RAD51D",
+        "transcriptId": "ENST00000590016",
+        "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
+        "defaultEffect": "slice",
+        "comment": "Changes splice donor site or acceptor site",
+        "context": "",
+        "revisedProteinEffects": [
+            {
+                "variant": "17:g.33428057T>A",
+                "genomicLocation": "17,33428057,33428057,T,A",
+                "vepPredictedProteinEffect": "p.X302_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000590016",
+                "revisedProteinEffect": "p.P322Vfs*5",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 31843900,
+                "referenceText": "Casadei S et al., 2019",
+                "confirmed": false
+            }
+        ]
+    }    
 ]
