@@ -420,7 +420,7 @@
             {
                 "variant": "7:g.116411926_116412083del",
                 "transcriptId": "ENST00000397752",
-                "genomicLocation":"7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA, -",
+                "genomicLocation":"7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA,-",
                 "vepPredictedProteinEffect": "p.X972_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
@@ -428,7 +428,43 @@
                 "pubmedId": 27343443,
                 "referenceText": "Schrock et al., 2014",
                 "confirmed": false
-            }
+            },
+            {
+                "variant": "7:g.116411770_116412349del",
+                "transcriptId": "ENST00000397752",
+                "genomicLocation":"7,116411770,116412349,AGATTGTCGTCGATTCTTGTGTGCTGTCTTATATGTAGTCCATAAAACCCATGAGTTCTGGGCACTGGGTCAAAGTCTCCTGGGGCCCATGATAGCCGTCTTTAACAAGCTCTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATATACCTCAGTGGGTTGTGACATTGTTGTTTATTTTTGGTTTTGCATTTATATTTTTATAAAAACCTAAAGGAAGTATTTACCTCTGCCAAGTAAGTATTTGACACAAAATTACATGGCTCTTAATTTTAAAAGAACCCATGTATATATTACATTATGATTTTAGAGTCCATAAGCTCTCATTTCACAAAAAGGTTAATTTGAGCAAAAGTAATTTGTTTATCATCTAAGTGCAATAGTAAGAAATTGCGAAGCTCTCTTTTACAATC,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 27343443,
+                "referenceText": "Schrock et al., 2014",
+                "confirmed": false
+              },
+              {
+                "variant": "7:g.116411818_116412557del",
+                "transcriptId": "ENST00000397752",
+                "genomicLocation":"7,116411818,116412557,CCATGAGTTCTGGGCACTGGGTCAAAGTCTCCTGGGGCCCATGATAGCCGTCTTTAACAAGCTCTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATATACCTCAGTGGGTTGTGACATTGTTGTTTATTTTTGGTTTTGCATTTATATTTTTATAAAAACCTAAAGGAAGTATTTACCTCTGCCAAGTAAGTATTTGACACAAAATTACATGGCTCTTAATTTTAAAAGAACCCATGTATATATTACATTATGATTTTAGAGTCCATAAGCTCTCATTTCACAAAAAGGTTAATTTGAGCAAAAGTAATTTGTTTATCATCTAAGTGCAATAGTAAGAAATTGCGAAGCTCTCTTTTACAATCCAGGAAGAGTTAAGTTACAAAATATACTTATTTAAATGTAAGTTGGAACTGCTACATTTTTTACCTGTTGAAGCCCAAACATTGAAATTATACTGTTAGTAATTCTTCGAAGTGTTTTCAATGAACTGTTAGTACACAGCCTTTTTCCCACCATATTCTAGGACTTGAATGTATTTTGAGACTTAGCCAAGGAAAACCTTCAATTATG,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect":"p.D963_D1010del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 27343443,
+                "referenceText": "Schrock et al., 2014",
+                "confirmed": false
+              },
+              {
+                "variant": "7:g.116411926_116412083del",
+                "transcriptId": "ENST00000397752",
+                "genomicLocation":"7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA,-",
+                "vepPredictedProteinEffect": "p.X972_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect":"p.D963_D1010del",
+                "revisedVariantClassification": "In_Frame_Del",
+                "pubmedId": 27343443,
+                "referenceText": "Schrock et al., 2014",
+                "confirmed": false
+              }
         ]
     },
     {
@@ -777,7 +813,7 @@
         "hugoGeneSymbol": "RAD51D",
         "transcriptId": "ENST00000590016",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "slice",
+        "defaultEffect": "splice",
         "comment": "Changes splice donor site or acceptor site",
         "context": "",
         "revisedProteinEffects": [
