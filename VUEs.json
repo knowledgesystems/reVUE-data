@@ -50,7 +50,7 @@
         "hugoGeneSymbol": "APC",
         "transcriptId": "ENST00000257430",
         "genomicLocationDescription": "5:g.112151184A>G",
-        "defaultEffect": "synonymous",
+        "defaultEffect": "splice",
         "comment": "Introduces splice acceptor site causing a frameshift",
         "context": "Recurrent alteration in CRC",
         "revisedProteinEffects": [
@@ -139,7 +139,7 @@
         "hugoGeneSymbol": "CTNNB1",
         "transcriptId": "ENST00000349496",
         "genomicLocationDescription": "Deletions flanking exon 2-3 (e.g. 3:41265579_41266277del)",
-        "defaultEffect": "splice",
+        "defaultEffect": "splice, intron",
         "comment": "Complete exon 3 skip or inframe deletion in exon 3",
         "context": "Recurrent alteration in CRC",
         "revisedProteinEffects": [
@@ -515,8 +515,8 @@
         "hugoGeneSymbol": "ATM",
         "transcriptId": "ENST00000278616",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "missense",
-        "comment": "Changes splice donor site or acceptor site",
+        "defaultEffect": "missense, splice",
+        "comment": "Splice leads to frameshift and inframe deletion",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -621,8 +621,8 @@
         "hugoGeneSymbol": "BRCA1",
         "transcriptId": "ENST00000357654",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "splice",
-        "comment": "Changes splice donor site or acceptor site",
+        "defaultEffect": "missense, splice",
+        "comment": "Splice leads to frameshift",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -656,7 +656,7 @@
         "transcriptId": "ENST00000380152",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
         "defaultEffect": "splice",
-        "comment": "Changes splice donor site or acceptor site",
+        "comment": "Splice leads to frameshift",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -702,7 +702,7 @@
         "transcriptId": "ENST00000259008",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
         "defaultEffect": "splice",
-        "comment": "Changes splice donor site or acceptor site",
+        "comment": "Splice leads to inframe deletion",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -723,8 +723,8 @@
         "hugoGeneSymbol": "CDH1",
         "transcriptId": "ENST00000261769",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "missense",
-        "comment": "Changes splice donor site or acceptor site",
+        "defaultEffect": "missense, splice",
+        "comment": "Splice leads to frameshift and inframe deletion?",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -758,7 +758,7 @@
         "transcriptId": "ENST00000328354",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
         "defaultEffect": "splice",
-        "comment": "Changes splice donor site or acceptor site",
+        "comment": "Splice leads to frameshift",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -780,7 +780,7 @@
         "transcriptId": "ENST00000261584",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
         "defaultEffect": "splice",
-        "comment": "Changes splice donor site or acceptor site",
+        "comment": "Splice leads to inframe deletion",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -814,7 +814,7 @@
         "transcriptId": "ENST00000590016",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
         "defaultEffect": "splice",
-        "comment": "Changes splice donor site or acceptor site",
+        "comment": "Splice leads to frameshift",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -830,5 +830,27 @@
                 "confirmed": false
             }
         ]
-    }    
+    },
+    {
+        "hugoGeneSymbol": "MLH1",
+        "transcriptId": "ENST00000231790",
+        "genomicLocationDescription": "3 bases upstream from the end of exon 6 in MLH1",
+        "defaultEffect": "splice",
+        "comment": "Created a new splice donor site at the end of exon 6 and frameshift occurred",
+        "context": "In lynch syndome colorectal cancer",
+        "revisedProteinEffects": [
+            {
+                "variant": "3:g.37050394C>T",
+                "genomicLocation": "3,37050394,37050394,C,T",
+                "vepPredictedProteinEffect": "p.X181_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000231790",
+                "revisedProteinEffect": "p.G181Gfs*20",
+                "revisedVariantClassification": "Splice_Frameshift",
+                "pubmedId": 28334867,
+                "referenceText": "Yamaguchi T et al., 2017",
+                "confirmed": false
+            }
+        ]
+    }
 ]
