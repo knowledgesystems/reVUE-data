@@ -527,6 +527,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.C222Qfs*2",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -539,6 +540,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.I709_K750del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -551,6 +553,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.A823Vfs*5",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -563,6 +566,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.V1883Ifs*63",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -575,6 +579,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.N2326_K2363del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -587,6 +592,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.N2326_K2363del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -599,6 +605,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.V2757_M2806del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -611,6 +618,7 @@
                 "transcriptId": "ENST00000278616",
                 "revisedProteinEffect": "p.S2996Rfs*5",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -633,6 +641,7 @@
                 "transcriptId": "ENST00000357654",
                 "revisedProteinEffect": "p.A1844Dfs*2",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -645,6 +654,7 @@
                 "transcriptId": "ENST00000357654",
                 "revisedProteinEffect": "p.A1453Gfs*9",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -667,6 +677,7 @@
                 "transcriptId": "ENST00000380152",
                 "revisedProteinEffect": "p.G173Sfs*17",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -679,6 +690,7 @@
                 "transcriptId": "ENST00000380152",
                 "revisedProteinEffect": "p.L2540Qfs*10",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -691,6 +703,7 @@
                 "transcriptId": "ENST00000380152",
                 "revisedProteinEffect": "p.V2985Gfs*3",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -713,6 +726,7 @@
                 "transcriptId": "ENST00000259008",
                 "revisedProteinEffect": "p.M1_S31del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -735,6 +749,7 @@
                 "transcriptId": "ENST00000261769",
                 "revisedProteinEffect": "p.T523*",
                 "revisedVariantClassification": "Splice_Missense? Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -747,6 +762,7 @@
                 "transcriptId": "ENST00000261769",
                 "revisedProteinEffect": "p.Y523Ffs*15",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -769,6 +785,7 @@
                 "transcriptId": "ENST00000328354",
                 "revisedProteinEffect": "p.E149Ifs*5",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -791,6 +808,7 @@
                 "transcriptId": "ENST00000261584",
                 "revisedProteinEffect": "p.A946_G999del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -803,6 +821,7 @@
                 "transcriptId": "ENST00000261584",
                 "revisedProteinEffect": "p.T839_K862del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -825,6 +844,7 @@
                 "transcriptId": "ENST00000590016",
                 "revisedProteinEffect": "p.P322Vfs*5",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
                 "confirmed": false
@@ -847,6 +867,7 @@
                 "transcriptId": "ENST00000231790",
                 "revisedProteinEffect": "p.G181Gfs*20",
                 "revisedVariantClassification": "Splice_Frameshift",
+                "mutationOrigin": "germline",
                 "pubmedId": 28334867,
                 "referenceText": "Yamaguchi T et al., 2017",
                 "confirmed": false
