@@ -1,0 +1,21 @@
+gene	genotype	position	exon / intron	distance to splice	splice region	cBROCA result	variant_classification	protein_change	chr	start	end	ref	var	transcript_id	reversed
+ATM	c.901G>A; G301S	chr11:108,115,753	exon 7	E|239|1	Donor	skip exon 7, del 239bp, codon 224 stop 	splice_frameshift	p.C222Qfs*2	11	108115753	108115753	G	A	ENST00000278616	
+ATM	c.2250G>A; p.K750K	chr11:108,127,067	exon 14	E|126|1	Donor	skip exon 14, del 126bp (aa 709-750)  	splice_in_frame_del	p.I709_K750del	11	108127067	108127067	G	A	ENST00000278616	
+ATM	c.2638+2T>C	chr11:108,138,071	intron 17	I|2|1066	Donor	skip exon 17, del 172bp, codon 828 stop 	splice_frameshift	p.A823Vfs*5	11	108138071	108138071	T	C	ENST00000278616	
+ATM	c.5497-2A>C	chr11:108,175,400	exon 37	I|1644|2	Acceptor	cryptic splice, del 61bp, codon 1896 stop  	splice_frameshift	p.V1883Ifs*63	11	108175400	108175400	A	C	ENST00000278616	
+ATM	c.6976-2A>C	chr11:108,198,370	intron 47	I|1418|2	Acceptor	skip exon 48, del 114bp (aa 2326-2363) FAT domain	splice_in_frame_del	p.N2326_K2363del	11	108198370	108198370	A	C	ENST00000278616	
+ATM	c.7089+1_38del38	chr11:108,198,484	exon 48	I|1|1262	Donor	skip exon 48, del 114bp (aa 2326-2363) FAT domain	splice_in_frame_del	p.N2326_K2363del	11	108198484	108198522		-	ENST00000278616	
+ATM	c.8418+1delGTGA	chr11:108,214,099	exon 57	I|1|2371	Donor	skip exon 57, del 150bp (aa 2757-2806) kinase domain	splice_in_frame_del	p.V2757_M2806del	11	108214099	108214103		-	ENST00000278616	
+ATM	c.8988-1G>A	chr11:108,236,051	exon 63	I|106|1	Acceptor	cryptic splice, del 13bp, codon 3002 stop  	splice_frameshift	p.S2996Rfs*5	11	108236051	108236051	G	A	ENST00000278616	
+BRCA1	c.5468-1C>T	chr17:41,197,820	exon 24	I|1840|1	Acceptor	cryptic splice, del 11bp, codon 1825 stop  	splice_frameshift	p.A1844Dfs*2	17	41197820	41197820	C	T	ENST00000357654	reverse
+BRCA1	c.4484C>A;p.R1495M	chr17:41,228,505	exon 14	E|127|1	Donor	skip exon 14, del 127bp, codon 1462 stop 	splice_frameshift	p.A1453Gfs*9	17	41228505	41228505	C	A	ENST00000357654	reverse
+BRCA2	c.517-2A>G	chr13:32,900,634	exon 7	I|215|2	Acceptor	skip exon 7, del 115bp, codon 191 stop 	splice_frameshift	p.G173Sfs*17	13	32900634	32900634	A	G	ENST00000380152	
+BRCA2	c.7618-1G>A	chr13:32,931,878	exon 16	I|1132|1	Acceptor	cryptic splice, del 44bp, codon 2550 stop  	splice_frameshift	p.L2540Qfs*10	13	32931878	32931878	G	A	ENST00000380152	
+BRCA2	c.9117G>A,p.P3039P	chr13:32,954,050	exon 23	E|164|1	Donor	skip exon 23, del 164bp; codon 2988 stop 	splice_frameshift	p.V2985Gfs*3	13	32954050	32954050	G	A	ENST00000380152	
+BRIP1	c.93+1C>T	chr17:59,938,807	intron 2	I|1|1539	Donor	skip exon 2, loss of first ATG  	splice_in_frame_del	p.M1_S31del	17	59938807	59938807	C	T	ENST00000259008	reverse
+CDH1	c.1565+1G>A	chr16:68,849,663	exon 10	I|1|3520	Donor	cryptic splice, ins 6bp, codon 523 stop  	splice_missense? Splice_in_frame_del	p.T523*	16	68849663	68849663	G	A	ENST00000261769	
+CDH1	c.1711G>A; G571S	chr16:68,853,328	exon 11	E|146|1	Donor	skip exon 11, del 146bp, codon 538 stop 	splice_frameshift	p.Y523Ffs*15	16	68853328	68853328	G	A	ENST00000261769	
+CHEK2	c.444+1C>T	chr22:29,121,230	exon 2	I|1|118	Donor	cryptic splice, ins 4bp, codon 154 stop  	splice_frameshift	p.E149Ifs*5	22	29121230	29121230	C	T	ENST00000328354	reverse
+PALB2	c.2835-1C>G	chr16:23,634,452	exon 9	I|1|877	Acceptor	skip exon 9, del 162bp (aa 946-999)  	splice_in_frame_del	p.A946_G999del	16	23634452	23634452	C	G	ENST00000261584	reverse
+PALB2	c.2515-1C>A	chr16:23,640,597	exon 6	I|1|363	Acceptor	skip exon 6, del 72bp (aa 839-869)  	splice_in_frame_del	p.T839_K862del	16	23640597	23640597	C	A	ENST00000261584	reverse
+RAD51D	c.904-2T>A	chr17:33,428,057	intron 9	I|163|2	Acceptor	cryptic splice, del 7bp, codon 327 stop  	splice_frameshift	p.P322Vfs*5	17	33428057	33428057	T	A	ENST00000590016	reverse
