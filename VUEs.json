@@ -738,7 +738,7 @@
         "transcriptId": "ENST00000261769",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
         "defaultEffect": "missense, splice",
-        "comment": "Splice leads to frameshift and inframe deletion?",
+        "comment": "Splice leads to frameshift and nonsense",
         "context": "",
         "revisedProteinEffects": [
             {
@@ -748,7 +748,7 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000261769",
                 "revisedProteinEffect": "p.T523*",
-                "revisedVariantClassification": "Splice_Missense? Splice_In_Frame_Del",
+                "revisedVariantClassification": "Splice_Nonsense",
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
