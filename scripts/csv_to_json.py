@@ -14,7 +14,7 @@ df = df[['gene', 'genotype', 'chr', 'start', 'end', 'ref', 'var', 'transcript_id
 # Step 2: Generate hgvsg_id and call Genome Nexus API
 def generate_hgvsg_id(row):
     # Todo: add other type of hgvsg
-    if pd.isnull(row['ref']) or row['ref'] == '':
+    if pd.isnull(row['var']) or row['var'] == '' or row['var'] == '-':
         return f"{row['chr']}:g.{row['start']}_{row['end']}del"
     else:
         return f"{row['chr']}:g.{row['start']}{row['ref']}>{row['var']}"
