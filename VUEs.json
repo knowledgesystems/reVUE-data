@@ -1109,7 +1109,7 @@
         "genomicLocationDescription": "3 bases upstream from the end of exon 6 in MLH1",
         "defaultEffect": "splice",
         "comment": "Created a new splice donor site at the end of exon 6 and frameshift occurred",
-        "context": "In lynch syndome colorectal cancer",
+        "context": "In Lynch syndrome colorectal cancer",
         "revisedProteinEffects": [
             {
                 "variant": "3:g.37050394C>T",
