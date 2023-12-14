@@ -1129,7 +1129,7 @@
     {
         "hugoGeneSymbol": "EGFR",
         "transcriptId": "ENST00000275493",
-        "genomicLocationDescription": "5 bases upstream from the 5' of exon 20 EGFR",
+        "genomicLocationDescription": "5 bases upstream from the 5' of exon 20 EGFR (12:g.25380277G>T)",
         "defaultEffect": "splice",
         "comment": "Inset a repeated sequence from 55248980-55248992",
         "context": "Potentially recurrent in lung cancer, can be linked to Level 1 TKIs",
