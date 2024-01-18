@@ -125,7 +125,7 @@
                 "confirmed": false,
                 "germlineVariantsCount": 0,
                 "somaticVariantsCount": 0,
-                "unknownMutationStatusVariantsCount": 0
+                "unknownMutationStatusVariantsCount": 1
             }
         ]
     },
@@ -150,7 +150,7 @@
                 "confirmed": false,
                 "germlineVariantsCount": 0,
                 "somaticVariantsCount": 9,
-                "unknownMutationStatusVariantsCount": 0
+                "unknownMutationStatusVariantsCount": 8
             }
         ]
     },
@@ -845,7 +845,7 @@
                 "confirmed": false,
                 "germlineVariantsCount": 0,
                 "somaticVariantsCount": 27,
-                "unknownMutationStatusVariantsCount": 0
+                "unknownMutationStatusVariantsCount": 2
             },
             {
                 "variant": "7:g.116411876_116411896del",
@@ -1215,7 +1215,7 @@
                 "confirmed": false,
                 "germlineVariantsCount": 1,
                 "somaticVariantsCount": 14,
-                "unknownMutationStatusVariantsCount": 0
+                "unknownMutationStatusVariantsCount": 2
             },
             {
                 "variant": "16:g.68853328G>A",
