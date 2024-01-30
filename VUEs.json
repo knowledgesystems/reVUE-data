@@ -21,10 +21,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 3,
+                        "somaticVariantsCount": 6,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2383
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4766
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -49,10 +49,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 7,
+                        "somaticVariantsCount": 14,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2383
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4766
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -77,10 +77,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 4,
+                        "somaticVariantsCount": 8,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2383
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4766
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -114,11 +114,11 @@
                 "confirmed": true,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 2,
+                        "germlineVariantsCount": 4,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 9706
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 19412
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -155,8 +155,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1828
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 3656
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -193,8 +193,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 41890
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 83780
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -229,10 +229,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 9,
+                        "somaticVariantsCount": 18,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 15609
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 31218
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -267,10 +267,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -295,10 +295,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -323,10 +323,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -351,10 +351,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 2,
+                        "somaticVariantsCount": 4,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -379,10 +379,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -407,10 +407,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -435,10 +435,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -463,10 +463,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -491,10 +491,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -519,10 +519,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 3,
+                        "somaticVariantsCount": 6,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -547,10 +547,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -575,10 +575,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -603,10 +603,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -631,10 +631,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -659,10 +659,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -689,8 +689,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -717,8 +717,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -745,8 +745,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -773,8 +773,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -801,8 +801,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -829,8 +829,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -857,8 +857,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 3283
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 6566
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -893,10 +893,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -921,10 +921,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -949,10 +949,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -972,15 +972,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1000,15 +1000,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1028,15 +1028,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1056,15 +1056,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1084,15 +1084,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1112,15 +1112,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 21,
+                        "somaticVariantsCount": 42,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1140,15 +1140,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1168,15 +1168,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1196,15 +1196,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 49,
-                        "unknownVariantsCount": 1,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "somaticVariantsCount": 98,
+                        "unknownVariantsCount": 2,
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1224,15 +1224,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1252,15 +1252,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1280,15 +1280,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1308,15 +1308,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1336,15 +1336,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 27,
+                        "somaticVariantsCount": 54,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1364,15 +1364,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1392,15 +1392,15 @@
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 0,
-                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team using Archer",
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2142
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 4284
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1435,10 +1435,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 5,
+                        "somaticVariantsCount": 10,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2994
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 5988
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1473,10 +1473,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 3,
+                        "somaticVariantsCount": 6,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1906
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 3812
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1514,8 +1514,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1540,11 +1540,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 8,
+                        "germlineVariantsCount": 16,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1570,10 +1570,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 1,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1601,8 +1601,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1630,8 +1630,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1659,8 +1659,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1688,8 +1688,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1717,8 +1717,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6175
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12350
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1756,8 +1756,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2539
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 5078
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1782,11 +1782,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 5,
-                        "somaticVariantsCount": 3,
+                        "germlineVariantsCount": 10,
+                        "somaticVariantsCount": 6,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2539
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 5078
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1824,8 +1824,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 4066
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 8132
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1853,8 +1853,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 4066
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 8132
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1879,11 +1879,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 2,
+                        "germlineVariantsCount": 4,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 4066
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 8132
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1921,8 +1921,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1337
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 2674
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1957,11 +1957,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 1,
-                        "somaticVariantsCount": 14,
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 28,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2833
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 5666
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -1987,10 +1987,10 @@
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 2,
+                        "somaticVariantsCount": 4,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 2833
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 5666
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -2025,11 +2025,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 15,
-                        "somaticVariantsCount": 1,
+                        "germlineVariantsCount": 30,
+                        "somaticVariantsCount": 2,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1601
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 3202
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -2067,8 +2067,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1288
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 2576
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -2093,11 +2093,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 1,
+                        "germlineVariantsCount": 2,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1288
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 2576
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -2132,11 +2132,11 @@
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
-                        "germlineVariantsCount": 2,
+                        "germlineVariantsCount": 4,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 296
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 592
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -2152,7 +2152,7 @@
     {
         "hugoGeneSymbol": "MLH1",
         "transcriptId": "ENST00000231790",
-        "genomicLocationDescription": "3 bases upstream from the end of exon 6 in MLH1",
+        "genomicLocationDescription": "3 bases upstream from the 3' end of exon 6 in MLH1",
         "defaultEffect": "splice",
         "comment": "Created a new splice donor site at the end of exon 6 and frameshift occurred",
         "context": "In Lynch syndrome colorectal cancer",
@@ -2174,8 +2174,8 @@
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 1134
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 2268
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
@@ -2191,10 +2191,10 @@
     {
         "hugoGeneSymbol": "EGFR",
         "transcriptId": "ENST00000275493",
-        "genomicLocationDescription": "5 bases upstream from the 5' of exon 20 EGFR (7:g.55248980_55248981insTCCAGGAAGCCT)",
+        "genomicLocationDescription": "5 bases upstream from the 5' end of exon 20 (7:g.55248980_55248981insTCCAGGAAGCCT)",
         "defaultEffect": "splice",
         "comment": "Inset a repeated sequence from 55248980-55248992",
-        "context": "Potentially recurrent in lung cancer, can be linked to Level 1 TKIs",
+        "context": "Recurrent in lung cancer, can be linked to Level 1 TKIs",
         "revisedProteinEffects": [
             {
                 "variant": "7:g.55248980_55248981insTCCAGGAAGCCT",
@@ -2204,16 +2204,16 @@
                 "transcriptId": "ENST00000275493",
                 "revisedProteinEffect": "p.A763_Y764insFQEA",
                 "revisedVariantClassification": "Splice_In_Frame_Ins",
-                "pubmedId": 0,
-                "referenceText": "Signed out by MSK Molecular Diagnostics Service, confirmed by Archer",
+                "pubmedId": 31715539,
+                "referenceText": "Signed out by MSK Molecular Diagnostics Service (Unpublished);AC. Sousa et al., 2020",
                 "confirmed": false,
                 "counts": {
                     "mskimpact": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 11,
+                        "somaticVariantsCount": 22,
                         "unknownVariantsCount": 0,
-                        "totalSampleCount": 99293,
-                        "geneSampleCount": 6256
+                        "totalSampleCount": 198586,
+                        "geneSampleCount": 12512
                     },
                     "tcga": {
                         "germlineVariantsCount": 0,
