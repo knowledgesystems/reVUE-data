@@ -6,21 +6,36 @@
         "defaultEffect": "splice",
         "comment": "Changes splice donor site, cause inframe deletion in exon 11",
         "context": "Actionable in GIST",
-        "revisedProteinEffects": [ 
+        "revisedProteinEffects": [
             {
-                "variant":"4:g.55593576_55593606del", 
+                "variant": "4:g.55593576_55593606del",
                 "genomicLocation": "4,55593576,55593606,CCACAGAAACCCATGTATGAAGTACAGTGGA,-",
-                "transcriptId": "ENST00000288135", 
+                "transcriptId": "ENST00000288135",
                 "vepPredictedProteinEffect": "p.X550_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
-                "revisedProteinEffect": "p.K550_K558del", 
-                "revisedVariantClassification":"In_Frame_Del",
+                "revisedProteinEffect": "p.K550_K558del",
+                "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 15507676,
                 "referenceText": "Corless et al., 2004",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2383
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 334
+                    }
+                }
             },
             {
-            
                 "variant": "4:g.55593580_55593606del",
                 "genomicLocation": "4,55593580,55593606,AGAAACCCATGTATGAAGTACAGTGGA,-",
                 "transcriptId": "ENST00000288135",
@@ -30,7 +45,23 @@
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 15507676,
                 "referenceText": "Corless et al., 2004",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 7,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2383
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 334
+                    }
+                }
             },
             {
                 "variant": "4:g.55593578_55593606del",
@@ -42,7 +73,23 @@
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 15507676,
                 "referenceText": "Corless et al., 2004",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 4,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2383
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 334
+                    }
+                }
             }
         ]
     },
@@ -64,7 +111,23 @@
                 "revisedVariantClassification": "Frame_Shift_Ins",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 9706
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 852
+                    }
+                }
             }
         ]
     },
@@ -86,7 +149,23 @@
                 "revisedVariantClassification": "Frame_Shift_Del",
                 "pubmedId": 33681728,
                 "referenceText": "Niersch et al., 2021",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1828
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 279
+                    }
+                }
             }
         ]
     },
@@ -100,7 +179,7 @@
         "revisedProteinEffects": [
             {
                 "variant": "17:g.7579883G>A",
-                "genomicLocation":"17,7579883,7579883,G,A",
+                "genomicLocation": "17,7579883,7579883,G,A",
                 "transcriptId": "ENST00000269305",
                 "vepPredictedProteinEffect": "p.V10=",
                 "vepPredictedVariantClassification": "Silent",
@@ -108,10 +187,25 @@
                 "revisedVariantClassification": "Silent",
                 "pubmedId": 31671760,
                 "referenceText": "Swiatkowska et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 41890
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 1,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 3863
+                    }
+                }
             }
         ]
-       
     },
     {
         "hugoGeneSymbol": "KRAS",
@@ -123,7 +217,7 @@
         "revisedProteinEffects": [
             {
                 "variant": "12:g.25380277G>T",
-                "genomicLocation":"12,25380277,25380277,G,T",
+                "genomicLocation": "12,25380277,25380277,G,T",
                 "transcriptId": "ENST00000256078",
                 "vepPredictedProteinEffect": "p.Q61K",
                 "vepPredictedVariantClassification": "Missense_Mutation",
@@ -131,7 +225,23 @@
                 "revisedVariantClassification": "splice_donor_variant",
                 "pubmedId": 35236983,
                 "referenceText": "Kobayashi et al., 2022",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 9,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 15609
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 7,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 806
+                    }
+                }
             }
         ]
     },
@@ -145,7 +255,7 @@
         "revisedProteinEffects": [
             {
                 "variant": "3:g.41266086_41266304del",
-                "genomicLocation":"3,41266086,41266304,AGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAA,-",
+                "genomicLocation": "3,41266086,41266304,AGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAA,-",
                 "transcriptId": "ENST00000349496",
                 "vepPredictedProteinEffect": "p.X29_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
@@ -153,259 +263,611 @@
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266012_41266312del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266012,41266312,TATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTG,-",
+                "genomicLocation": "3,41266012,41266312,TATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTG,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266038_41266264del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266038,41266264,TGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCAT,-",
+                "genomicLocation": "3,41266038,41266264,TGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCAT,-",
                 "vepPredictedProteinEffect": "p.X13_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.M12_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265709_41266219del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265709,41266219,TCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAG,-",
+                "genomicLocation": "3,41265709,41266219,TCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAG,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q72del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 2,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266090_41266253del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266090,41266253,TTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTA,-",
+                "genomicLocation": "3,41266090,41266253,TTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTA,-",
                 "vepPredictedProteinEffect": "p.X30_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.S29_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265579_41266277del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265579,41266277,GTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAA,-",
+                "genomicLocation": "3,41265579,41266277,GTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265722_41266253del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265722,41266253,TTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTA,-",
+                "genomicLocation": "3,41265722,41266253,TTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266029_41266287del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266029,41266287,AGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGC,-",
+                "genomicLocation": "3,41266029,41266287,AGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGC,-",
                 "vepPredictedProteinEffect": "p.X10_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266028_41266420del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266028,41266420,GAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAATGCTGAACTGTGGATAGT,-",
+                "genomicLocation": "3,41266028,41266420,GAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAATGCTGAACTGTGGATAGT,-",
                 "vepPredictedProteinEffect": "p.X10_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266016_41266403del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266016,41266403,GCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAAT,-",
+                "genomicLocation": "3,41266016,41266403,GCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAAT,-",
                 "vepPredictedProteinEffect": "p.X6_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265975_41266211del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265975,41266211,CATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGAT,-",
+                "genomicLocation": "3,41265975,41266211,CATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGAT,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_G69del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265908_41266236del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265908,41266236,TTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACA,-",
+                "genomicLocation": "3,41265908,41266236,TTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q79del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266013_41266355del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266013,41266355,ATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTA,-",
+                "genomicLocation": "3,41266013,41266355,ATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265897_41266218del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265897,41266218,GTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCA,-",
+                "genomicLocation": "3,41265897,41266218,GTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q72del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41266002_41266029del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41266002,41266029,GTTTCGTATTTATAGCTGATTTGATGGA,-",
+                "genomicLocation": "3,41266002,41266029,GTTTCGTATTTATAGCTGATTTGATGGA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_E9del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265562_41266260del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265562,41266260,GGCTACTCAAGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTT,-",
+                "genomicLocation": "3,41265562,41266260,GGCTACTCAAGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTT,-",
                 "vepPredictedProteinEffect": "p.X1_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A2_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265568_41266266del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265568,41266266,TCAAGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTG,-",
+                "genomicLocation": "3,41265568,41266266,TCAAGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTG,-",
                 "vepPredictedProteinEffect": "p.X3_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.Q4_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265571_41266206del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265571,4126620,AGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACA,-",
+                "genomicLocation": "3,41265571,4126620,AGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACA,-",
                 "vepPredictedProteinEffect": "p.X4_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q68del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265648_41266493del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265648,41266493,CCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAATGCTGAACTGTGGATAGTGAGTGTTGAATTAACCTTTTCCAGATATTGATGGACAGTATGCAATGACTCGAGCTCAGAGGGTACGAGCTGC,-",
+                "genomicLocation": "3,41265648,41266493,CCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATTTTCTCAGTCCTTCACTCAAGAACAAGTAGCTGGTAAGAGTATTATTTTTCATTGCCTTACTGAAAGTCAGAATGCAGTTTTGAGAACTAAAAAGTTAGTGTATAATAGTTTAAATAAAATGTTGTGGTGAAGAAAAGAGAGTAATAGCAATGTCACTTTTACCATTTAGGATAGCAAATACTTAGGTAAATGCTGAACTGTGGATAGTGAGTGTTGAATTAACCTTTTCCAGATATTGATGGACAGTATGCAATGACTCGAGCTCAGAGGGTACGAGCTGC,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_A97del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265674_41266212del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265674,41266212,TTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATT,-",
+                "genomicLocation": "3,41265674,41266212,TTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACAGGGATT,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_F70del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.41265990_41266204del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,41265990,41266204,AATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAA,-",
+                "genomicLocation": "3,41265990,41266204,AATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAA,-",
                 "vepPredictedProteinEffect": "p.X5_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q68del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             },
             {
                 "variant": "3:g.55593576_55593606del",
                 "transcriptId": "ENST00000349496",
-                "genomicLocation":"3,55593576,55593606,CAAGAGACCTGGCCCATGAAGTAAGACTGGA,-",
+                "genomicLocation": "3,55593576,55593606,CAAGAGACCTGGCCCATGAAGTAAGACTGGA,-",
                 "vepPredictedProteinEffect": "",
                 "vepPredictedVariantClassification": "Intron",
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 29316426,
                 "referenceText": "Yaeger et al., 2018",
-                "confirmed": true
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 3283
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 455
+                    }
+                }
             }
         ]
     },
@@ -420,51 +882,535 @@
             {
                 "variant": "7:g.116411926_116412083del",
                 "transcriptId": "ENST00000397752",
-                "genomicLocation":"7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA,-",
+                "genomicLocation": "7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA,-",
                 "vepPredictedProteinEffect": "p.X972_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
-                "revisedVariantClassification": "In_Frame_Del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 27343443,
                 "referenceText": "Schrock et al., 2014",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
             },
             {
                 "variant": "7:g.116411770_116412349del",
                 "transcriptId": "ENST00000397752",
-                "genomicLocation":"7,116411770,116412349,AGATTGTCGTCGATTCTTGTGTGCTGTCTTATATGTAGTCCATAAAACCCATGAGTTCTGGGCACTGGGTCAAAGTCTCCTGGGGCCCATGATAGCCGTCTTTAACAAGCTCTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATATACCTCAGTGGGTTGTGACATTGTTGTTTATTTTTGGTTTTGCATTTATATTTTTATAAAAACCTAAAGGAAGTATTTACCTCTGCCAAGTAAGTATTTGACACAAAATTACATGGCTCTTAATTTTAAAAGAACCCATGTATATATTACATTATGATTTTAGAGTCCATAAGCTCTCATTTCACAAAAAGGTTAATTTGAGCAAAAGTAATTTGTTTATCATCTAAGTGCAATAGTAAGAAATTGCGAAGCTCTCTTTTACAATC,-",
+                "genomicLocation": "7,116411770,116412349,AGATTGTCGTCGATTCTTGTGTGCTGTCTTATATGTAGTCCATAAAACCCATGAGTTCTGGGCACTGGGTCAAAGTCTCCTGGGGCCCATGATAGCCGTCTTTAACAAGCTCTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATATACCTCAGTGGGTTGTGACATTGTTGTTTATTTTTGGTTTTGCATTTATATTTTTATAAAAACCTAAAGGAAGTATTTACCTCTGCCAAGTAAGTATTTGACACAAAATTACATGGCTCTTAATTTTAAAAGAACCCATGTATATATTACATTATGATTTTAGAGTCCATAAGCTCTCATTTCACAAAAAGGTTAATTTGAGCAAAAGTAATTTGTTTATCATCTAAGTGCAATAGTAAGAAATTGCGAAGCTCTCTTTTACAATC,-",
                 "vepPredictedProteinEffect": "p.X963_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
-                "revisedVariantClassification": "In_Frame_Del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 27343443,
                 "referenceText": "Schrock et al., 2014",
-                "confirmed": false
-              },
-              {
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
                 "variant": "7:g.116411818_116412557del",
                 "transcriptId": "ENST00000397752",
-                "genomicLocation":"7,116411818,116412557,CCATGAGTTCTGGGCACTGGGTCAAAGTCTCCTGGGGCCCATGATAGCCGTCTTTAACAAGCTCTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATATACCTCAGTGGGTTGTGACATTGTTGTTTATTTTTGGTTTTGCATTTATATTTTTATAAAAACCTAAAGGAAGTATTTACCTCTGCCAAGTAAGTATTTGACACAAAATTACATGGCTCTTAATTTTAAAAGAACCCATGTATATATTACATTATGATTTTAGAGTCCATAAGCTCTCATTTCACAAAAAGGTTAATTTGAGCAAAAGTAATTTGTTTATCATCTAAGTGCAATAGTAAGAAATTGCGAAGCTCTCTTTTACAATCCAGGAAGAGTTAAGTTACAAAATATACTTATTTAAATGTAAGTTGGAACTGCTACATTTTTTACCTGTTGAAGCCCAAACATTGAAATTATACTGTTAGTAATTCTTCGAAGTGTTTTCAATGAACTGTTAGTACACAGCCTTTTTCCCACCATATTCTAGGACTTGAATGTATTTTGAGACTTAGCCAAGGAAAACCTTCAATTATG,-",
+                "genomicLocation": "7,116411818,116412557,CCATGAGTTCTGGGCACTGGGTCAAAGTCTCCTGGGGCCCATGATAGCCGTCTTTAACAAGCTCTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATATACCTCAGTGGGTTGTGACATTGTTGTTTATTTTTGGTTTTGCATTTATATTTTTATAAAAACCTAAAGGAAGTATTTACCTCTGCCAAGTAAGTATTTGACACAAAATTACATGGCTCTTAATTTTAAAAGAACCCATGTATATATTACATTATGATTTTAGAGTCCATAAGCTCTCATTTCACAAAAAGGTTAATTTGAGCAAAAGTAATTTGTTTATCATCTAAGTGCAATAGTAAGAAATTGCGAAGCTCTCTTTTACAATCCAGGAAGAGTTAAGTTACAAAATATACTTATTTAAATGTAAGTTGGAACTGCTACATTTTTTACCTGTTGAAGCCCAAACATTGAAATTATACTGTTAGTAATTCTTCGAAGTGTTTTCAATGAACTGTTAGTACACAGCCTTTTTCCCACCATATTCTAGGACTTGAATGTATTTTGAGACTTAGCCAAGGAAAACCTTCAATTATG,-",
                 "vepPredictedProteinEffect": "p.X963_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
-                "revisedProteinEffect":"p.D963_D1010del",
-                "revisedVariantClassification": "In_Frame_Del",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
                 "pubmedId": 27343443,
                 "referenceText": "Schrock et al., 2014",
-                "confirmed": false
-              },
-              {
-                "variant": "7:g.116411926_116412083del",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411874_116411897del",
+                "genomicLocation": "7,116411874,116411897,ACAAGCTCTTTCTTTCTCTCTGTT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
                 "transcriptId": "ENST00000397752",
-                "genomicLocation":"7,116411926,116412083,TACGATGCAAGAGTACACACTCCTCATTTGGATAGGCTTGTAAGTGCCCGAAGTGTAAGCCCAACTACAGAAATGGTTTCAAATGAATCTGTAGACTACCGAGCTACTTTTCCAGAAGGTATATTTCAGTTTATTGTTCTGAGAAATACCTATACATA,-",
-                "vepPredictedProteinEffect": "p.X972_splice",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411881_116411897del",
+                "genomicLocation": "7,116411881,116411897,CTTTCTTTCTCTCTGTT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411881_116411937del",
+                "genomicLocation": "7,116411881,116411937,CTTTCTTTCTCTCTGTTTTAAGATCTGGGCAGTGAATTAGTTCGCTACGATGCAAGA,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
-                "revisedProteinEffect":"p.D963_D1010del",
-                "revisedVariantClassification": "In_Frame_Del",
-                "pubmedId": 27343443,
-                "referenceText": "Schrock et al., 2014",
-                "confirmed": false
-              }
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411860_116411888del",
+                "genomicLocation": "7,116411860,116411888,GATAGCCGTCTTTAACAAGCTCTTTCTTT,-",
+                "vepPredictedProteinEffect": "p.*963*",
+                "vepPredictedVariantClassification": "Intron",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411879_116411896del",
+                "genomicLocation": "7,116411879,116411896,CTCTTTCTTTCTCTCTGT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116412046A>G",
+                "genomicLocation": "7,116412046,116412046,A,G",
+                "vepPredictedProteinEffect": "p.X1010_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 21,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411879_116411897del",
+                "genomicLocation": "7,116411879,116411897,CTCTTTCTTTCTCTCTGTT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411887_116411906del",
+                "genomicLocation": "7,116411887,116411906,TTCTCTCTGTTTTAAGATCT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116412043G>A",
+                "genomicLocation": "7,116412043,116412043,G,A",
+                "vepPredictedProteinEffect": "p.D1010N",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 49,
+                        "unknownVariantsCount": 1,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411885_116411897del",
+                "genomicLocation": "7,116411885,116411897,CTTTCTCTCTGTT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116412041_116412044del",
+                "genomicLocation": "7,116412041,116412044,AAGG,-",
+                "vepPredictedProteinEffect": "p.X1009_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411881_116411895del",
+                "genomicLocation": "7,116411881,116411895,CTTTCTTTCTCTCTG,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411867_116411882del",
+                "genomicLocation": "7,116411867,116411882,GTCTTTAACAAGCTCT,-",
+                "vepPredictedProteinEffect": "p.*963*",
+                "vepPredictedVariantClassification": "Intron",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116412044G>A",
+                "genomicLocation": "7,116412044,116412044,G,A",
+                "vepPredictedProteinEffect": "p.X1010_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 27,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 2,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411876_116411896del",
+                "genomicLocation": "7,116411876,116411896,AAGCTCTTTCTTTCTCTCTGT,-",
+                "vepPredictedProteinEffect": "p.X963_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            },
+            {
+                "variant": "7:g.116411867_116411890del",
+                "genomicLocation": "7,116411867,116411890,GTCTTTAACAAGCTCTTTCTTTCT,-",
+                "vepPredictedProteinEffect": "p.*963*",
+                "vepPredictedVariantClassification": "Intron",
+                "transcriptId": "ENST00000397752",
+                "revisedProteinEffect": "p.D963_D1010del",
+                "revisedVariantClassification": "Splice_In_Frame_Del",
+                "pubmedId": 0,
+                "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2142
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 313
+                    }
+                }
+            }
         ]
     },
     {
@@ -477,7 +1423,7 @@
         "revisedProteinEffects": [
             {
                 "variant": "5:g.67589663G>C",
-                "genomicLocation":"5,67589663,67589663,G,C",
+                "genomicLocation": "5,67589663,67589663,G,C",
                 "vepPredictedProteinEffect": "p.X475_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000521381",
@@ -485,7 +1431,23 @@
                 "revisedVariantClassification": "In_Frame_Del",
                 "pubmedId": 25488983,
                 "referenceText": "Lucas et al., 2014",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 5,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2994
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 453
+                    }
+                }
             }
         ]
     },
@@ -499,7 +1461,7 @@
         "revisedProteinEffects": [
             {
                 "variant": "13:g.28608217_28608218insCCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
-                "genomicLocation":"13,28608217,28608218,-,CCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
+                "genomicLocation": "13,28608217,28608218,-,CCAAACTCTAAATTTTCTCTTGGAAACTCCCATTTGAGATCATATTCATATTCTCTG",
                 "vepPredictedProteinEffect": "p.X594_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "transcriptId": "ENST00000241453",
@@ -507,7 +1469,23 @@
                 "revisedVariantClassification": "In_Frame_Ins",
                 "pubmedId": 31285539,
                 "referenceText": "Zhang, Yu et al., 2020",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1906
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 328
+                    }
+                }
             }
         ]
     },
@@ -530,7 +1508,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108127067G>A",
@@ -543,7 +1537,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 8,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108138071T>C",
@@ -556,7 +1566,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108175400A>C",
@@ -569,7 +1595,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108198370A>C",
@@ -582,7 +1624,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108198484_108198522del",
@@ -595,7 +1653,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108214099_108214103del",
@@ -608,7 +1682,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             },
             {
                 "variant": "11:g.108236051G>A",
@@ -621,7 +1711,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6175
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 616
+                    }
+                }
             }
         ]
     },
@@ -644,7 +1750,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2539
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 305
+                    }
+                }
             },
             {
                 "variant": "17:g.41228505C>A",
@@ -657,7 +1779,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 5,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2539
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 305
+                    }
+                }
             }
         ]
     },
@@ -680,7 +1818,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 4066
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 504
+                    }
+                }
             },
             {
                 "variant": "13:g.32931878G>A",
@@ -693,7 +1847,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 4066
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 504
+                    }
+                }
             },
             {
                 "variant": "13:g.32954050G>A",
@@ -706,7 +1876,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 4066
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 504
+                    }
+                }
             }
         ]
     },
@@ -729,7 +1915,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1337
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 247
+                    }
+                }
             }
         ]
     },
@@ -752,7 +1954,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 1,
+                        "somaticVariantsCount": 14,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2833
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 2,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 358
+                    }
+                }
             },
             {
                 "variant": "16:g.68853328G>A",
@@ -765,7 +1983,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 2,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 2833
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 358
+                    }
+                }
             }
         ]
     },
@@ -788,7 +2022,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 15,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1601
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 148
+                    }
+                }
             }
         ]
     },
@@ -811,7 +2061,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1288
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 205
+                    }
+                }
             },
             {
                 "variant": "16:g.23640597C>A",
@@ -824,7 +2090,23 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 1,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1288
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 205
+                    }
+                }
             }
         ]
     },
@@ -847,17 +2129,33 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 31843900,
                 "referenceText": "Casadei S et al., 2019",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 296
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 88
+                    }
+                }
             }
         ]
     },
     {
         "hugoGeneSymbol": "MLH1",
         "transcriptId": "ENST00000231790",
-        "genomicLocationDescription": "3 bases upstream from the end of exon 6 in MLH1",
+        "genomicLocationDescription": "3 bases upstream from the 3' end of exon 6 in MLH1",
         "defaultEffect": "splice",
         "comment": "Created a new splice donor site at the end of exon 6 and frameshift occurred",
-        "context": "In lynch syndome colorectal cancer",
+        "context": "In Lynch syndrome colorectal cancer",
         "revisedProteinEffects": [
             {
                 "variant": "3:g.37050394C>T",
@@ -870,7 +2168,61 @@
                 "mutationOrigin": "germline",
                 "pubmedId": 28334867,
                 "referenceText": "Yamaguchi T et al., 2017",
-                "confirmed": false
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 1134
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 181
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "EGFR",
+        "transcriptId": "ENST00000275493",
+        "genomicLocationDescription": "5 bases upstream from the 5' end of exon 20 (7:g.55248980_55248981insTCCAGGAAGCCT)",
+        "defaultEffect": "splice",
+        "comment": "Inset a repeated sequence from 55248980-55248992",
+        "context": "Recurrent in lung cancer, can be linked to Level 1 TKIs",
+        "revisedProteinEffects": [
+            {
+                "variant": "7:g.55248980_55248981insTCCAGGAAGCCT",
+                "genomicLocation": "7,55248980,55248981,-,TCCAGGAAGCCT",
+                "vepPredictedProteinEffect": "p.X762_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000275493",
+                "revisedProteinEffect": "p.A763_Y764insFQEA",
+                "revisedVariantClassification": "In_Frame_Ins",
+                "pubmedId": 31715539,
+                "referenceText": "AC. Sousa et al., 2020",
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 11,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 99293,
+                        "geneSampleCount": 6256
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalSampleCount": 10115,
+                        "geneSampleCount": 515
+                    }
+                }
             }
         ]
     }
