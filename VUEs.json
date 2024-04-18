@@ -2661,7 +2661,7 @@
                 "transcriptId": "ENST00000403665.2",
                 "vepPredictedProteinEffect": "p.E565K",
                 "vepPredictedVariantClassification": "missense_variant",
-                "revisedProteinEffect": "p.K550_K558del",
+                "revisedProteinEffect": "p.D526_G572del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
                 "pubmedId": 21718436,
                 "referenceText": "Zucker et al., 2011",
