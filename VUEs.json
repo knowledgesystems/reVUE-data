@@ -1,4 +1,4 @@
-[
+    [
     {
         "hugoGeneSymbol": "KIT",
         "transcriptId": "ENST00000288135",
@@ -2647,7 +2647,142 @@
                         "genePatientCount": 1346
                     }
                 }
+            },
+              {"hugoGeneSymbol": "F11",
+        "transcriptId": "ENST00000403665.2",
+        "genomicLocationDescription": "Alterations in Exon Splice Enhancement Sites (ESE) affecting multiple exons",
+        "defaultEffect": "missense",
+        "comment": "Alters number of ESEs affecting transcription and causing aberrant splicing",
+        "context": "Largely found in cancer-related thrombosis",
+        "revisedProteinEffects": [
+            {
+                "variant": "4:g.187208954G>A",
+                "genomicLocation": "4,187208954,187208954,G,A",
+                "transcriptId": "ENST00000403665.2",
+                "vepPredictedProteinEffect": "p.E565K",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.K550_K558del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "pubmedId": 21718436,
+                "referenceText": "Zucker et al., 2011",
+                "confirmed": false
+            },
+            {
+                "variant": "4:g.187201659G>A",
+                "genomicLocation": "4,187201659,187201659,G,A",
+                "transcriptId": "ENST00000403665.2",
+                "vepPredictedProteinEffect": "p.G350R",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.K343_E379del",
+                "revisedVariantClassification": "Splice_Exon_Skip_Frameshift",
+                "pubmedId": 21718436,
+                "referenceText": "Zucker et al., 2011",
+                "confirmed": false
+            },
+            {
+                "variant": "4:g.187197405C>T",
+                "genomicLocation": "4,187197405,187197405,C,T",
+                "transcriptId": "ENST00000403665.2",
+                "vepPredictedProteinEffect": "p.P206S",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.A199_R252del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "pubmedId": 21718436,
+                "referenceText": "Zucker et al., 2011",
+                "confirmed": false
             }
+      ]
+    },
+    {"hugoGeneSymbol": "MLH1",
+        "transcriptId": "ENST00000231790.2",
+        "genomicLocationDescription": "Alterations on the ESE motifs cause deletion of exons",
+        "defaultEffect": "missense",
+        "comment": "Alters number of ESEs affecting transcription",
+        "context": "Affects splicing across multiple cancer types",
+        "revisedProteinEffects": [
+            {
+                "variant": "3:g.37059048C>T",
+                "genomicLocation": "3,37059048,37059048,C,T",
+                "transcriptId": "ENST00000231790.2",
+                "vepPredictedProteinEffect": "p.A281V",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.His264Leufs*2",
+                "revisedVariantClassification": "Splice_Exon_Skip_Frameshift",
+                "pubmedId": 16995940,
+                "referenceText": "Lastella et al., 2006",
+                "confirmed": false
+            },
+            {
+                "variant": "3:g.37090087G>C",
+                "genomicLocation": "3,37090087,37090087,G,C",
+                "transcriptId": "ENST00000231790.2",
+                "vepPredictedProteinEffect": "p.R659P",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.Glu633_Glu663del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "pubmedId": 16995940,
+                "referenceText": "Lastella et al., 2006",
+                "confirmed": false
+            }
+            ]
+          },
+    {"hugoGeneSymbol": "MSH2",
+        "transcriptId": "ENST00000233146.2",
+        "genomicLocationDescription": "Alterations on the ESE motifs cause skipping of exons",
+        "defaultEffect": "missense",
+        "comment": "Alters number of ESEs affecting transcription",
+        "context": "Affects splicing across multiple cancer types",
+        "revisedProteinEffects": [
+            {
+                "variant": "2:g.47641421C>T",
+                "genomicLocation": "2,47641421,47641421,C,T",
+                "transcriptId": "ENST00000233146.2",
+                "vepPredictedProteinEffect": "p.S269L",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.Val265_Gln314del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "pubmedId": 16995940,
+                "referenceText": "Lastella et al., 2006",
+                "confirmed": false
+            },
+            {
+                "variant": "2:g.47641430C>T",
+                "genomicLocation": "2,47641430,47641430,C,T",
+                "transcriptId": "ENST00000233146.2",
+                "vepPredictedProteinEffect": "p.A272V",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.Val265_Gln314del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "pubmedId": 16995940,
+                "referenceText": "Lastella et al., 2006",
+                "confirmed": false
+            },
+            {
+                "variant": "2:g.47693802G>T",
+                "genomicLocation": "2,47693802,47693802,G,T",
+                "transcriptId": "ENST00000233146.2",
+                "vepPredictedProteinEffect": "p.D506Y",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.Gly504Alafs*3",
+                "revisedVariantClassification": "Splice_Exon_Skip_Frameshift",
+                "pubmedId": 16995940,
+                "referenceText": "Lastella et al., 2006",
+                "confirmed": false
+            },
+            {
+                "variant": "2:g.47693886C>T",
+                "genomicLocation": "2,47693886,47693886,C,T",
+                "transcriptId": "ENST00000233146.2",
+                "vepPredictedProteinEffect": "p.R534C",
+                "vepPredictedVariantClassification": "missense_variant",
+                "revisedProteinEffect": "p.Gly504Alafs*3",
+                "revisedVariantClassification": "Splice_Exon_Skip_Frameshift",
+                "pubmedId": 16995940,
+                "referenceText": "Lastella et al., 2006",
+                "confirmed": false
+            }
+        ]
+    }
         ]
     }
 ]
