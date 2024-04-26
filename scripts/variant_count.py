@@ -111,6 +111,8 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
 # Update mskimpact counts
 study_info_mskimpact = StudyInfo('GENE_PANEL', ["IMPACT341", "IMPACT410", "IMPACT468", "IMPACT505"])
 updateCounts('./files/mskimpact/mskimpact_data_mutations_extended.txt', './files/mskimpact/mskimpact_data_clinical_sample.txt', 'mskimpact', study_info_mskimpact, False, False)
+# Update mskimpact nonsignedout counts
+updateCounts('./files/mskimpact_nonsignedout/data_nonsignedout_mutations.txt', './files/mskimpact_nonsignedout/data_clinical_sample.txt', 'mskimpact_nonsignedout', None, False, False)
 # Update genie counts
 study_info_genie = StudyInfo('SEQ_ASSAY_ID', ["MSK-IMPACT341","MSK-IMPACT410", "MSK-IMPACT468", "MSK-IMPACT505"])
 updateCounts('./files/genie/genie_data_mutations_extended.txt', './files/genie/genie_data_clinical_sample.txt', 'genie', study_info_genie, False, False)

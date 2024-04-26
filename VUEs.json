@@ -39,6 +39,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 428
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 44
                     }
                 }
             },
@@ -74,6 +81,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 428
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 44
                     }
                 }
             },
@@ -109,6 +123,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 428
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 44
                     }
                 }
             }
@@ -154,6 +175,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 5140
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 321,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 682
                     }
                 }
             }
@@ -199,6 +227,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 758
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 156
                     }
                 }
             }
@@ -244,6 +279,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 2148
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 423
                     }
                 }
             }
@@ -289,6 +331,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -324,6 +373,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -359,6 +415,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -394,6 +457,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -429,6 +499,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -464,6 +541,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -499,6 +583,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -534,6 +625,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -569,6 +667,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -604,6 +709,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -639,6 +751,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -674,6 +793,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -709,6 +835,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -744,6 +877,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -779,6 +919,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -814,6 +961,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -849,6 +1003,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -884,6 +1045,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -919,6 +1087,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -954,6 +1129,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             },
@@ -989,6 +1171,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 664
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 51
                     }
                 }
             }
@@ -1034,6 +1223,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1069,6 +1265,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1104,6 +1307,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1139,6 +1349,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1174,6 +1391,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1209,6 +1433,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1244,6 +1475,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1279,6 +1517,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1314,6 +1559,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 1,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1349,6 +1601,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1384,6 +1643,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1419,6 +1685,13 @@
                         "unknownVariantsCount": 1,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1454,6 +1727,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1489,6 +1769,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1524,6 +1811,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1559,6 +1853,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1594,6 +1895,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1629,6 +1937,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             },
@@ -1664,6 +1979,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 122
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 42
                     }
                 }
             }
@@ -1709,6 +2031,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 86
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 16
                     }
                 }
             }
@@ -1754,6 +2083,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 83
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 74
                     }
                 }
             }
@@ -1800,6 +2136,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -1836,6 +2179,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -1872,6 +2222,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -1908,6 +2265,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -1944,6 +2308,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -1980,6 +2351,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -2016,6 +2394,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             },
@@ -2052,6 +2437,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1288
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 797
                     }
                 }
             }
@@ -2098,6 +2490,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 351
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 330
                     }
                 }
             },
@@ -2134,6 +2533,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 351
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 330
                     }
                 }
             }
@@ -2180,6 +2586,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 532
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 221
                     }
                 }
             },
@@ -2216,6 +2629,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 532
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 221
                     }
                 }
             },
@@ -2252,6 +2672,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 532
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 2,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 221
                     }
                 }
             }
@@ -2298,6 +2725,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 156
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 163
                     }
                 }
             }
@@ -2344,6 +2778,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 729
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 170
                     }
                 }
             },
@@ -2380,6 +2821,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 729
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 170
                     }
                 }
             }
@@ -2426,6 +2874,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 86
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 66
                     }
                 }
             }
@@ -2472,6 +2927,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 20
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 11
                     }
                 }
             },
@@ -2508,6 +2970,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 20
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 11
                     }
                 }
             }
@@ -2554,6 +3023,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 2
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6
                     }
                 }
             }
@@ -2600,6 +3076,13 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 8
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
                     }
                 }
             }
@@ -2645,6 +3128,109 @@
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 1346
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 306
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "TP53",
+        "transcriptId": "ENST00000269305",
+        "genomicLocationDescription": "c.375+5G mutations flanking exon 4",
+        "defaultEffect": "splice",
+        "comment": "Splice leads to whole exon 4 skipping inframe deletion or partial exon 4 skipping frameshift",
+        "context": "Recurrent in many cancer types and results in P53 protein loss of function",
+        "revisedProteinEffects": [
+            {
+                "variant": "17:g.7579307C>A",
+                "genomicLocation": "17,7579307,7579307,C,A",
+                "vepPredictedProteinEffect": "p.X125_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000269305",
+                "revisedProteinEffect": "p.S33_T125del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "mutationOrigin": "",
+                "pubmedId": 34505757,
+                "referenceText": "Chui et al., 2021",
+                "confirmed": true,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 1217
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 1
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1109
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 49,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 283
+                    }
+                }
+            },
+            {
+                "variant": "17:g.7579307C>A",
+                "genomicLocation": "17,7579307,7579307,C,A",
+                "vepPredictedProteinEffect": "p.X125_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "transcriptId": "ENST00000269305",
+                "revisedProteinEffect": "p.G59Vfs*23",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "mutationOrigin": "",
+                "pubmedId": 34505757,
+                "referenceText": "Chui et al., 2021",
+                "confirmed": false,
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 1217
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 1
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1109
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 49,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 283
                     }
                 }
             }
