@@ -3782,52 +3782,6 @@
                 }
             },
             {
-                "variant": "17:g.7579307C>A",
-                "genomicLocation": "17,7579307,7579307,C,A",
-                "transcriptId": "ENST00000269305",
-                "vepPredictedProteinEffect": "p.X125_splice",
-                "vepPredictedVariantClassification": "Splice_Region",
-                "revisedProteinEffect": "p.G59Vfs*23",
-                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
-                "confirmed": false,
-                "references": [
-                    {
-                        "pubmedId": "34505757",
-                        "referenceText": "Chui et al., 2021"
-                    }
-                ],
-                "counts": {
-                    "mskimpact": {
-                        "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 0,
-                        "totalPatientCount": 70067,
-                        "genePatientCount": 1217
-                    },
-                    "tcga": {
-                        "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
-                        "genePatientCount": 1
-                    },
-                    "genie": {
-                        "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 0,
-                        "totalPatientCount": 60702,
-                        "genePatientCount": 1109
-                    },
-                    "mskimpact_nonsignedout": {
-                        "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 49,
-                        "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
-                        "genePatientCount": 283
-                    }
-                }
-            },
-            {
                 "variant": "17:g.7579312C>A",
                 "genomicLocation": "17,7579312,7579312,C,A",
                 "transcriptId": "ENST00000269305",
