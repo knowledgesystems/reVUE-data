@@ -15,6 +15,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.K550_K558del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 10",
+                "endLocation": "exon 11",
                 "confirmed": true,
                 "references": [
                     {
@@ -61,6 +64,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.K550_K558del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 10",
+                "endLocation": "exon 11",
                 "confirmed": true,
                 "references": [
                     {
@@ -107,6 +113,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.K550_K558del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 10",
+                "endLocation": "exon 11",
                 "confirmed": true,
                 "references": [
                     {
@@ -163,6 +172,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.G279Ffs*10",
                 "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Ins",
+                "startLocation": "intron 8",
+                "endLocation": "intron 8",
                 "confirmed": true,
                 "references": [
                     {
@@ -219,6 +231,9 @@
                 "vepPredictedVariantClassification": "Silent",
                 "revisedProteinEffect": "p.D311Gfs*23",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 11",
+                "endLocation": "exon 11",
                 "confirmed": false,
                 "references": [
                     {
@@ -275,6 +290,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.X61",
                 "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 3",
+                "endLocation": "exon 3",
                 "confirmed": false,
                 "references": [
                     {
@@ -331,6 +349,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.Q28_D81del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 3",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -377,6 +398,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -423,6 +447,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.M12_D81del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 3",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -469,6 +496,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q72del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -515,6 +545,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.S29_D81del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 3",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -561,6 +594,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -607,6 +643,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -653,6 +692,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 3",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -699,6 +741,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.E9_D81del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 3",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -745,6 +790,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -791,6 +839,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_G69del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -837,6 +888,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q79del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -883,6 +937,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -929,6 +986,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q72del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -975,6 +1035,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_E9del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -1021,6 +1084,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A2_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -1067,6 +1133,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.Q4_D81del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 2",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -1107,12 +1176,15 @@
             },
             {
                 "variant": "3:g.41265571_41266206del",
-                "genomicLocation": "3,41265571,4126620,AGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACA,-",
+                "genomicLocation": "3,41265571,41266206,AGGTTTGTGTCATTAAATCTTTAGTTACTGAATTGGGGCTCTGCTTCGTTGCCATTAAGCCAGTCTGGCTGAGATCCCCCTGCTTTCCTCTCTCCCTGCTTACTTGTCAGGCTACCTTTTGCTCCATTTTCTGCTCACTCCTCCTAATGGCTTGGTGAAATAGCAAACAAGCCACCAGCAGGAATCTAGTCTGGATGACTGCTTCTGGAGCCTGGATGCAGTACCATTCTTCCACTGATTCAGTGAGTAACTGTTAGGTGGTTCCCTAAGGGATTAGGTATTTCATCACTGAGCTAACCCTGGCTATCATTCTGCTTTTCTTGGCTGTCTTTCAGATTTGACTTTATTTCTAAAAATATTTCAATGGGTCATATCACAGATTCTTTTTTTTTAAATTAAAGTAACATTTCCAATCTACTAATGCTAATACTGTTTCGTATTTATAGCTGATTTGATGGAGTTGGACATGGCCATGGAACCAGACAGAAAAGCGGCTGTTAGTCACTGGCAGCAACAGTCTTACCTGGACTCTGGAATCCATTCTGGTGCCACTACCACAGCTCCTTCTCTGAGTGGTAAAGGCAATCCTGAGGAAGAGGATGTGGATACCTCCCAAGTCCTGTATGAGTGGGAACA,-",
                 "transcriptId": "ENST00000349496",
                 "vepPredictedProteinEffect": "p.X4_splice",
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q68del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -1159,6 +1231,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_A97del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 4",
                 "confirmed": true,
                 "references": [
                     {
@@ -1205,6 +1280,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_F70del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -1251,6 +1329,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A5_Q68del",
                 "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 2",
+                "endLocation": "exon 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -1307,6 +1388,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 14",
+                "endLocation": "intron 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1353,6 +1437,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1399,6 +1486,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1445,6 +1535,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1491,6 +1584,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1537,6 +1633,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "exon 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1583,6 +1682,9 @@
                 "vepPredictedVariantClassification": "Intron",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1629,6 +1731,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1675,6 +1780,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 14",
+                "endLocation": "intron 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1721,6 +1829,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1767,6 +1878,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "exon 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1813,6 +1927,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 14",
+                "endLocation": "exon 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1859,6 +1976,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1905,6 +2025,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 14",
+                "endLocation": "intron 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -1951,6 +2074,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -1997,6 +2123,9 @@
                 "vepPredictedVariantClassification": "Intron",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -2043,6 +2172,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 14",
+                "endLocation": "intron 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -2089,6 +2221,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -2135,6 +2270,9 @@
                 "vepPredictedVariantClassification": "Intron",
                 "revisedProteinEffect": "p.D963_D1010del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -2191,6 +2329,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.D434_E476del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 11",
+                "endLocation": "intron 11",
                 "confirmed": false,
                 "references": [
                     {
@@ -2247,6 +2388,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.E598_F612dup",
                 "revisedVariantClassification": "Splice_Exon_Extension_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Ins",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -2303,6 +2447,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.C222Qfs*2",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 7",
+                "endLocation": "exon 7",
                 "confirmed": false,
                 "references": [
                     {
@@ -2350,6 +2497,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.I709_K750del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 14",
+                "endLocation": "exon 14",
                 "confirmed": true,
                 "references": [
                     {
@@ -2402,6 +2552,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A823Vfs*5",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 17",
+                "endLocation": "intron 17",
                 "confirmed": false,
                 "references": [
                     {
@@ -2449,6 +2602,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.V1833Ifs*63",
                 "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 36",
+                "endLocation": "intron 36",
                 "confirmed": false,
                 "references": [
                     {
@@ -2496,6 +2652,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.N2326_K2363del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 47",
+                "endLocation": "intron 47",
                 "confirmed": false,
                 "references": [
                     {
@@ -2543,6 +2702,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.N2326_K2363del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 48",
+                "endLocation": "intron 48",
                 "confirmed": false,
                 "references": [
                     {
@@ -2590,6 +2752,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.V2757_M2806del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 57",
+                "endLocation": "intron 57",
                 "confirmed": false,
                 "references": [
                     {
@@ -2637,6 +2802,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.S2996Rfs*5",
                 "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 62",
+                "endLocation": "intron 62",
                 "confirmed": false,
                 "references": [
                     {
@@ -2684,6 +2852,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.L2544_E2596del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 52",
+                "endLocation": "exon 52",
                 "confirmed": true,
                 "references": [
                     {
@@ -2732,6 +2903,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.S1135_K1192",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 24",
+                "endLocation": "exon 24",
                 "confirmed": true,
                 "references": [
                     {
@@ -2798,6 +2972,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A1844Dfs*2",
                 "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 21",
+                "endLocation": "intron 21",
                 "confirmed": false,
                 "references": [
                     {
@@ -2845,6 +3022,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.A1453Gfs*9",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 13",
+                "endLocation": "exon 13",
                 "confirmed": false,
                 "references": [
                     {
@@ -2902,6 +3082,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.G173Sfs*17",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 6",
+                "endLocation": "intron 6",
                 "confirmed": false,
                 "references": [
                     {
@@ -2949,6 +3132,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.L2540Qfs*10",
                 "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 15",
+                "endLocation": "intron 15",
                 "confirmed": false,
                 "references": [
                     {
@@ -2996,6 +3182,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.V2985Gfs*3",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 23",
+                "endLocation": "exon 23",
                 "confirmed": false,
                 "references": [
                     {
@@ -3053,6 +3242,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.D127Dfs*1",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 5",
+                "endLocation": "exon 5",
                 "confirmed": true,
                 "references": [
                     {
@@ -3101,6 +3293,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.M1_S31del",
                 "revisedVariantClassification": "Splice_Exon_Skip_Non_Start",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 1",
+                "endLocation": "intron 1",
                 "confirmed": false,
                 "references": [
                     {
@@ -3158,6 +3353,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.T523*",
                 "revisedVariantClassification": "Splice_Exon_Extension_Nonsense",
+                "revisedStandardVariantClassification": "Nonsense_Mutation",
+                "startLocation": "intron 10",
+                "endLocation": "intron 10",
                 "confirmed": false,
                 "references": [
                     {
@@ -3205,6 +3403,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.Y523Ffs*15",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 11",
+                "endLocation": "exon 11",
                 "confirmed": false,
                 "references": [
                     {
@@ -3243,6 +3444,61 @@
                     }
                 },
                 "mutationOrigin": "germline"
+            },
+            {
+                "variant": "16:g.68845762G>A",
+                "genomicLocation": "16,68845762,68845762,G,A",
+                "transcriptId": "ENST00000261769",
+                "vepPredictedProteinEffect": "p.X336_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.S337Vfs*14",
+                "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Ins",
+                "startLocation": "exon 7",
+                "endLocation": "exon 7",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "8127895",
+                        "referenceText": "Oda et al., 1994"
+                    },
+                    {
+                        "pubmedId": "18427545",
+                        "referenceText": "Karam et al., 2008"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 818
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 170
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 729
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 1,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "variantNote": "The heterozygous germline variant, CDH1 c.1008G>A (p.Glu336=) is located at the last nucleotide of exon 7 of the CDH1 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD) and has been reported in an individual affected with diffuse gastric cancer (PMID: 27730413). Experimental studies and analysis of RNA demonstrated that this variant leads to aberrant splicing (PMID: 8127895, 18427545). Additionally, a different variant at this position (c.1008G>T) has been reported in a family affected with hereditary diffuse gastric cancer (PMID: 9537325, 19725995). In summary, although additional studies are required to fully establish its clinical significance, this c.1008G>A variant is classified as likely pathogenic.\nPathogenic variants in CDH1 cause hereditary diffuse gastric cancer which is an autosomal dominant characterized by susceptibility to diffuse gastric cancer (also referred to as signet ring carcinoma or isolated cell-type carcinoma) and lobular breast cancer (https://www.ncbi.nlm.nih.gov/books/NBK1139/). Relatives of an individual with a pathogenic CDH1 variant have up-to 50% probability of carrying the same variant, and carriers are at an increased risk of developingCDH1-associated disease.",
+                "otherVariation": "Can also be 25, 42, 150 bp intron 7 insertion, and whole intron 7 insertions"
             }
         ]
     },
@@ -3262,6 +3518,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.E149Ifs*5",
                 "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Ins",
+                "startLocation": "intron 2",
+                "endLocation": "intron 2",
                 "confirmed": false,
                 "references": [
                     {
@@ -3319,6 +3578,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.A946_G999del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 7",
+                "endLocation": "intron 7",
                 "confirmed": false,
                 "references": [
                     {
@@ -3366,6 +3628,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.T839_K862del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 4",
+                "endLocation": "intron 4",
                 "confirmed": false,
                 "references": [
                     {
@@ -3423,6 +3688,9 @@
                 "vepPredictedVariantClassification": "Splice_Site",
                 "revisedProteinEffect": "p.P322Vfs*5",
                 "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 8",
+                "endLocation": "intron 8",
                 "confirmed": false,
                 "references": [
                     {
@@ -3480,6 +3748,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.S556Rfs*13",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 15",
+                "endLocation": "exon 15",
                 "confirmed": true,
                 "references": [
                     {
@@ -3536,6 +3807,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.H264Lfs*2",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 10",
+                "endLocation": "exon 10",
                 "confirmed": false,
                 "references": [
                     {
@@ -3551,12 +3825,12 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 9
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
-                        "genePatientCount": 53
+                        "unknownVariantsCount": 1,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
                     },
                     "genie": {
                         "germlineVariantsCount": 0,
@@ -3565,12 +3839,12 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 8
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 1,
-                        "totalPatientCount": 10953,
-                        "genePatientCount": 0
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
                     }
                 },
                 "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types"
@@ -3583,6 +3857,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.E633_E663del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 17",
+                "endLocation": "exon 17",
                 "confirmed": false,
                 "references": [
                     {
@@ -3598,12 +3875,12 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 9
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
-                        "genePatientCount": 53
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
                     },
                     "genie": {
                         "germlineVariantsCount": 0,
@@ -3612,12 +3889,12 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 8
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
-                        "genePatientCount": 0
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
                     }
                 },
                 "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types"
@@ -3629,7 +3906,10 @@
                 "vepPredictedProteinEffect": "p.X181_splice",
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.G181Gfs*20",
-                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 6",
+                "endLocation": "exon 6",
                 "confirmed": false,
                 "references": [
                     {
@@ -3668,6 +3948,218 @@
                     }
                 },
                 "mutationOrigin": "germline"
+            },
+            {
+                "variant": "3:g.37053309A>G",
+                "genomicLocation": "3,37053309,37053309,A,G",
+                "transcriptId": "ENST00000231790",
+                "vepPredictedProteinEffect": "p.X182_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.R84Sfs*5",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 6",
+                "endLocation": "intron 6",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 9
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 8
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 1,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "3:g.37053590G>T",
+                "genomicLocation": "3,37053590,37053590,G,T",
+                "transcriptId": "ENST00000231790",
+                "vepPredictedProteinEffect": "p.R226L",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "revisedProteinEffect": "p.Q197Rfs*7",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 8",
+                "endLocation": "exon 8",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 9
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 8
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "3:g.37059089A>C",
+                "genomicLocation": "3,37059089,37059089,A,C",
+                "transcriptId": "ENST00000231790",
+                "vepPredictedProteinEffect": "p.S295R",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "revisedProteinEffect": "p.H264Lfs*1",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 10",
+                "endLocation": "exon 10",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 9
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 8
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "3:g.37067499G>C",
+                "genomicLocation": "3,37067499,37067499,G,C",
+                "transcriptId": "ENST00000231790",
+                "vepPredictedProteinEffect": "p.X470_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.T347Kfs*7",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 12",
+                "endLocation": "intron 12",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 9
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 53
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 8
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
             }
         ]
     },
@@ -3687,6 +4179,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.A763_Y764insFQEA",
                 "revisedVariantClassification": "Splice_Exon_Extension_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Ins",
+                "startLocation": "intron 19",
+                "endLocation": "intron 19",
                 "confirmed": true,
                 "references": [
                     {
@@ -3743,6 +4238,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.S33_T125del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 3",
+                "endLocation": "intron 3",
                 "confirmed": true,
                 "references": [
                     {
@@ -3779,7 +4277,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 283
                     }
-                }
+                },
+                "otherVariation": "Partial exon 4 skip, p.G59Vfs*23, Splice_Exon_Shortening_Out_Of_Frame"
             },
             {
                 "variant": "17:g.7579312C>A",
@@ -3789,6 +4288,9 @@
                 "vepPredictedVariantClassification": "Splice_Region",
                 "revisedProteinEffect": "p.S33_T125del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 4",
+                "endLocation": "exon 4",
                 "confirmed": true,
                 "references": [
                     {
@@ -3847,6 +4349,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.D526_G572del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 14",
+                "endLocation": "exon 14",
                 "confirmed": false,
                 "references": [
                     {
@@ -3862,11 +4367,11 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 0
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
+                        "totalPatientCount": 10953,
                         "genePatientCount": 0
                     },
                     "genie": {
@@ -3876,11 +4381,11 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 0
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
+                        "totalPatientCount": 87119,
                         "genePatientCount": 0
                     }
                 }
@@ -3893,6 +4398,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.K343_E379del",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 10",
+                "endLocation": "exon 10",
                 "confirmed": false,
                 "references": [
                     {
@@ -3908,11 +4416,11 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 0
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
+                        "unknownVariantsCount": 1,
+                        "totalPatientCount": 10953,
                         "genePatientCount": 0
                     },
                     "genie": {
@@ -3922,11 +4430,11 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 0
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
-                        "unknownVariantsCount": 1,
-                        "totalPatientCount": 10953,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
                         "genePatientCount": 0
                     }
                 }
@@ -3939,6 +4447,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.A199_R252del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 7",
+                "endLocation": "exon 7",
                 "confirmed": false,
                 "references": [
                     {
@@ -3954,11 +4465,11 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 0
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
+                        "totalPatientCount": 10953,
                         "genePatientCount": 0
                     },
                     "genie": {
@@ -3968,11 +4479,11 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 0
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
+                        "totalPatientCount": 87119,
                         "genePatientCount": 0
                     }
                 }
@@ -3995,6 +4506,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.V265_Q314del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 5",
+                "endLocation": "exon 5",
                 "confirmed": false,
                 "references": [
                     {
@@ -4010,12 +4524,12 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 22
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
-                        "genePatientCount": 21
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
                     },
                     "genie": {
                         "germlineVariantsCount": 0,
@@ -4024,12 +4538,12 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 17
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
-                        "genePatientCount": 0
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
                     }
                 }
             },
@@ -4041,6 +4555,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.V265_Q314del",
                 "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "exon 5",
+                "endLocation": "exon 5",
                 "confirmed": false,
                 "references": [
                     {
@@ -4056,12 +4573,12 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 22
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
-                        "genePatientCount": 21
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
                     },
                     "genie": {
                         "germlineVariantsCount": 0,
@@ -4070,12 +4587,12 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 17
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
-                        "genePatientCount": 0
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
                     }
                 }
             },
@@ -4087,6 +4604,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.G504Afs*3",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 10",
+                "endLocation": "exon 10",
                 "confirmed": false,
                 "references": [
                     {
@@ -4102,12 +4622,12 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 22
                     },
-                    "mskimpact_nonsignedout": {
+                    "tcga": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 87119,
-                        "genePatientCount": 21
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
                     },
                     "genie": {
                         "germlineVariantsCount": 0,
@@ -4116,12 +4636,12 @@
                         "totalPatientCount": 60702,
                         "genePatientCount": 17
                     },
-                    "tcga": {
+                    "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
-                        "totalPatientCount": 10953,
-                        "genePatientCount": 0
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
                     }
                 }
             },
@@ -4133,6 +4653,9 @@
                 "vepPredictedVariantClassification": "Missense_Mutation",
                 "revisedProteinEffect": "p.G504Afs*3",
                 "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 10",
+                "endLocation": "exon 10",
                 "confirmed": false,
                 "references": [
                     {
@@ -4148,16 +4671,73 @@
                         "totalPatientCount": 70067,
                         "genePatientCount": 22
                     },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 4,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 17
+                    },
                     "mskimpact_nonsignedout": {
                         "germlineVariantsCount": 0,
                         "somaticVariantsCount": 0,
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 87119,
                         "genePatientCount": 21
+                    }
+                }
+            },
+            {
+                "variant": "2:g.47641560A>T",
+                "genomicLocation": "2,47641560,47641560,A,T",
+                "transcriptId": "ENST00000233146",
+                "vepPredictedProteinEffect": "p.X314_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.V265_Q314del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 5",
+                "endLocation": "intron 5",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "33259954",
+                        "referenceText": "Oldfield et al., 2021"
+                    },
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 3,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 22
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
                     },
                     "genie": {
                         "germlineVariantsCount": 0,
-                        "somaticVariantsCount": 4,
+                        "somaticVariantsCount": 3,
                         "unknownVariantsCount": 0,
                         "totalPatientCount": 60702,
                         "genePatientCount": 17
@@ -4169,7 +4749,288 @@
                         "totalPatientCount": 10953,
                         "genePatientCount": 0
                     }
-                }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "2:g.47693952G>C",
+                "genomicLocation": "2,47693952,47693952,G,C",
+                "transcriptId": "ENST00000233146",
+                "vepPredictedProteinEffect": "p.*554*",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.G504Afs*3",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 10",
+                "endLocation": "intron 10",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "33259954",
+                        "referenceText": "Oldfield et al., 2021"
+                    },
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 22
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 17
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "2:g.47637512G>T",
+                "genomicLocation": "2,47637512,47637512,G,T",
+                "transcriptId": "ENST00000233146",
+                "vepPredictedProteinEffect": "p.X215_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A123_Q215del",
+                "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "startLocation": "intron 3",
+                "endLocation": "intron 3",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 22
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 17
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "2:g.47703711G>C",
+                "genomicLocation": "2,47703711,47703711,G,C",
+                "transcriptId": "ENST00000233146",
+                "vepPredictedProteinEffect": "p.X737_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.G669Gfs*7",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 13",
+                "endLocation": "intron 13",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 22
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 17
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            },
+            {
+                "variant": "2:g.47708011G>A",
+                "genomicLocation": "2,47708011,47708011,G,A",
+                "transcriptId": "ENST00000233146",
+                "vepPredictedProteinEffect": "p.X878_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.G820Afs*2",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "intron 15",
+                "endLocation": "intron 15",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "12362047",
+                        "referenceText": "Kurzawski et al., 2002"
+                    },
+                    {
+                        "pubmedId": "16451135",
+                        "referenceText": "Kurzawski et al., 2006"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 22
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 21
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 17
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "mutationOrigin": "germline"
+            }
+        ]
+    },
+    {
+        "hugoGeneSymbol": "RB1",
+        "transcriptId": "ENST00000267163",
+        "genomicLocationDescription": "c.1206C>T mutation on exon 12",
+        "defaultEffect": "synonymous",
+        "comment": "Disrupting the splicing enhancer element and caused skipping of exon 12",
+        "context": "Reported in an individual with unilateral retinoblastoma",
+        "revisedProteinEffects": [
+            {
+                "variant": "13:g.48947619C>T",
+                "genomicLocation": "13,48947619,48947619,C,T",
+                "transcriptId": "ENST00000267163",
+                "vepPredictedProteinEffect": "p.S402=",
+                "vepPredictedVariantClassification": "Silent",
+                "revisedProteinEffect": "p.R376Rfs*4",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "startLocation": "exon 12",
+                "endLocation": "exon 12",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21763628",
+                        "referenceText": "Ahani et al., 2011"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 180
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 32
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 156
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 0
+                    }
+                },
+                "variantNote": "This heterozygous RB1 c.1206C>T variant is a synonymous variant that does not alter the amino acid at this position (p.Ser402=). This variant has been identified in 3/30442 South Asian chromosomes by the Genome Aggregation Database (gnomAD: http://gnomad.broadinstitute.org). It has been reported in an individual with unilateral retinoblastoma and was demonstrated to cause abnormal splicing based on patient RNA studies (PMID 21763628). In our patient (DMG19-4863) with unilateral retinoblastoma, tumor analysis identified somatic biallelic mutations (two somatic hits) in RB1 (DMG internal data). In summary, based on the currently available data, the clinical significance of the RB1 c.1206C>T (p.Ser402=) variant is uncertain."
             }
         ]
     }
