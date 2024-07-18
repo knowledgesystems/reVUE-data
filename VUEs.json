@@ -3165,7 +3165,7 @@
                 "variant": "13:g.32919384T>G",
                 "genomicLocation": "13,32919384,32919384,T,G",
                 "transcriptId": "ENST00000380152",
-                "vepPredictedProteinEffect": NaN,
+                "vepPredictedProteinEffect": "NA",
                 "vepPredictedVariantClassification": "Intron",
                 "revisedProteinEffect": "p.G2313Gfs*9",
                 "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
