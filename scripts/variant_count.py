@@ -36,47 +36,51 @@ with open('../VUEs.json', 'r') as f:
     data = json.load(f)
 
 def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_info: StudyInfo, multiple_study: bool, first_study: bool):
+    # Create a set of unique genomic locations for every currently curated VUE
     jsonSet = {vue['genomicLocation'] for vueSet in data for vue in vueSet['revisedProteinEffects']}
 
+    # Define variables for later use
     counts =  {'germlineVariantsCount': {}, 'somaticVariantsCount': {}, 'unknownVariantsCount': {}, 'totalPatientCount': 0, 'patientCountByGene': {}}
     mutationPatientsId = set()
     checkedPatientId = set()
+
     # Read clinical sample data
-    clinical_sample_df = pd.read_csv(clinical_file, sep='\t')
+    clinical_sample_df = pd.read_csv(clinical_file, sep='\t', comment = "#")
 
     # Filter data by gene panel
     if study_info is not None:
-        filtered_clinical_sample_df = clinical_sample_df[clinical_sample_df[study_info.panel_name].isin(study_info.panel_list)]
+        # Gets sample data within designated panels
+        filtered_clinical_sample_df = clinical_sample_df[clinical_sample_df[study_info.getPanelName()].isin(study_info.getPanelList())]
     else:
         filtered_clinical_sample_df = clinical_sample_df
 
-    # Count unique PATIENT_ID
+    # Count unique PATIENT_ID and map sample to PATIENT_ID
     counts['totalPatientCount'] = len(filtered_clinical_sample_df['PATIENT_ID'].unique())
     sample_to_patient_map = dict(zip(filtered_clinical_sample_df['SAMPLE_ID'], filtered_clinical_sample_df['PATIENT_ID']))
-    mutations_df = pd.read_csv(mutation_file, sep='\t', usecols=['Hugo_Symbol', 'Chromosome', 'Start_Position', 'End_Position', 'Reference_Allele', 'Tumor_Seq_Allele1', 'Tumor_Seq_Allele2', 'Mutation_Status', 'Tumor_Sample_Barcode'])
 
+    # Read genomic mutation data and filter to mutations in samples within gene-panel filtered clinical
+    mutations_df = pd.read_csv(mutation_file, sep='\t', usecols=['Hugo_Symbol', 'Chromosome', 'Start_Position', 'End_Position', 'Reference_Allele', 'Tumor_Seq_Allele1', 'Tumor_Seq_Allele2', 'Mutation_Status', 'Tumor_Sample_Barcode'], comment = "#")
     filtered_mutations_df = mutations_df[mutations_df['Tumor_Sample_Barcode'].isin(sample_to_patient_map.keys())]
 
-    # Count sample number by gene
-    # Group the DataFrame by 'Hugo_Symbol' and count unique 'Tumor_Sample_Barcode' values
-    for gene, group in filtered_mutations_df.groupby('Hugo_Symbol'):
-        for index, row in group.iterrows():
-            patientId = sample_to_patient_map.get(row['Tumor_Sample_Barcode'])
-            if patientId and patientId not in checkedPatientId:
-                counts['patientCountByGene'][gene] = counts['patientCountByGene'].get(gene, 0) + 1
-                checkedPatientId.add(patientId)
+    #Count sample number per gene
+    filtered_mutations_df["Patient_ID"] = filtered_mutations_df["Tumor_Sample_Barcode"].apply(lambda x: sample_to_patient_map.get(x))
+    for gene in filtered_mutations_df["Hugo_Symbol"].unique():
+        counts["patientCountByGene"][gene] = len(filtered_mutations_df[filtered_mutations_df["Hugo_Symbol"] == gene]["Patient_ID"].unique())
 
-    for index, row in filtered_mutations_df.iterrows():
-        genomicLocationString = f"{row['Chromosome']},{row['Start_Position']},{row['End_Position']},{row['Reference_Allele']},{row['Tumor_Seq_Allele2']}"
-        if genomicLocationString in jsonSet:
-            if row['Tumor_Sample_Barcode'] in sample_to_patient_map and sample_to_patient_map[row['Tumor_Sample_Barcode']] not in mutationPatientsId:
-                mutationPatientsId.add(sample_to_patient_map[row['Tumor_Sample_Barcode']])
-                if row['Mutation_Status'].lower() == 'germline':
-                    counts['germlineVariantsCount'][genomicLocationString] = counts['germlineVariantsCount'].get(genomicLocationString, 0) + 1
-                elif row['Mutation_Status'].lower() == 'somatic':
-                    counts['somaticVariantsCount'][genomicLocationString] = counts['somaticVariantsCount'].get(genomicLocationString, 0) + 1
-                else:
-                    counts['unknownVariantsCount'][genomicLocationString] = counts['unknownVariantsCount'].get(genomicLocationString, 0) + 1
+    # Create GenomicLocationString for each mutation event
+    filtered_mutations_df["GenomicLocationString"] = filtered_mutations_df["Chromosome"] + "," + filtered_mutations_df["Start_Position"].astype(str) + "," +filtered_mutations_df["End_Position"].astype(str) + "," + filtered_mutations_df["Reference_Allele"] + "," + filtered_mutations_df["Tumor_Seq_Allele2"]
+
+    # Filter for VUEs and remove duplicate samples on same VUE
+    filtered_mutations_df["IsVUE"] = filtered_mutations_df["GenomicLocationString"].isin(jsonSet)
+    vue_mutations_df = filtered_mutations_df.loc[filtered_mutations_df["IsVUE"] == True]
+    vue_mutations_df = vue_mutations_df[vue_mutations_df["Tumor_Sample_Barcode"].isin(sample_to_patient_map)]
+    vue_mutations_df = vue_mutations_df.drop_duplicates(subset=["GenomicLocationString", "Patient_ID"])
+
+    # Count number of germline, somatic, unknown type variants per VUE
+    mutation_status_gb = vue_mutations_df.groupby(["GenomicLocationString", "Mutation_Status"]).count()
+    for x,y in mutation_status_gb.index:
+        counts['%sVariantsCount'%y.lower()][x] = mutation_status_gb.loc[(x,y)][0]
+
 
     # Add the count numbers to the corresponding JSON objects
     for vueSet in data:
@@ -107,6 +111,8 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
                         "totalPatientCount": counts.get("totalPatientCount"),
                         "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0)
                 }}
+
+
 
 # Update mskimpact counts
 study_info_mskimpact = StudyInfo('GENE_PANEL', ["IMPACT341", "IMPACT410", "IMPACT468", "IMPACT505"])
