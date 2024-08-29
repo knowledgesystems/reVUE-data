@@ -2,6 +2,7 @@ import json
 import os
 import pandas as pd
 from typing import List
+import requests
 
 
 # Download files first
@@ -35,6 +36,18 @@ def find_file_pairs(folder_path: str):
 with open('../VUEs.json', 'r') as f:
     data = json.load(f)
 
+def theraputic_level(genomic_location):
+    # Make sure to set the ONCOKB_TOKEN
+    url = f"https://www.oncokb.org/api/v1/annotate/mutations/byGenomicChange?genomicLocation={genomic_location}&referenceGenome=GRCh37"
+    headers = {
+        "Authorization": f"Bearer {os.environ.get('ONCOKB_TOKEN')}"
+    }
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return response.json().get('highestSensitiveLevel', None)
+    else:
+        return None
+
 def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_info: StudyInfo, multiple_study: bool, first_study: bool):
     jsonSet = {vue['genomicLocation'] for vueSet in data for vue in vueSet['revisedProteinEffects']}
 
@@ -48,7 +61,8 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
         filtered_clinical_sample_df = clinical_sample_df[clinical_sample_df[study_info.panel_name].isin(study_info.panel_list)]
     else:
         filtered_clinical_sample_df = clinical_sample_df
-
+    # Use filtered_clinical_sample_df to count how many samples per cancer type
+    # counts['totalSampleCountByCancerType'] = filtered_clinical_sample_df['CANCER_TYPE'].value_counts().to_dict()
     # Count unique PATIENT_ID
     counts['totalPatientCount'] = len(filtered_clinical_sample_df['PATIENT_ID'].unique())
     sample_to_patient_map = dict(zip(filtered_clinical_sample_df['SAMPLE_ID'], filtered_clinical_sample_df['PATIENT_ID']))
@@ -89,6 +103,7 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
     # Add the count numbers to the corresponding JSON objects
     for vueSet in data:
         for vue in vueSet['revisedProteinEffects']:
+            vue['therapeuticLevel'] = theraputic_level(vue['genomicLocation'])
             if 'counts' in vue:
                 if multiple_study and study_id in vue['counts'] and not first_study:
                     # before each for loop, check if the key exists in the dictionary
@@ -99,6 +114,7 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
                             "germlineVariantsCountByCancerType": {},
                             "somaticVariantsCountByCancerType": {},
                             "unknownVariantsCountByCancerType": {},
+                            # "totalVariantCountByCancerType": {},
                             "totalPatientCount": counts.get("totalPatientCount") + vue['counts'][study_id]['totalPatientCount'],
                             "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0) + vue['counts'][study_id]['genePatientCount']
                         }
@@ -108,6 +124,8 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
                         vue['counts'][study_id]['somaticVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0) + vue['counts'][study_id]['somaticVariantsCountByCancerType'].get(cancerType, 0)
                     for cancerType in vue['counts'][study_id]['unknownVariantsCountByCancerType']:
                         vue['counts'][study_id]['unknownVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0) + vue['counts'][study_id]['unknownVariantsCountByCancerType'].get(cancerType, 0)
+                    # for cancerType in vue['counts'][study_id]['totalVariantCountByCancerType']:
+                    #     vue['counts'][study_id]['totalVariantCountByCancerType'][cancerType] = counts['totalSampleCountByCancerType'].get(cancerType, 0) + vue['counts'][study_id]['totalVariantCountByCancerType'].get(cancerType, 0)
                 else:
                     vue['counts'][study_id] = { 
                             "germlineVariantsCount": counts["germlineVariantsCount"].get(vue['genomicLocation'], 0),
@@ -116,6 +134,7 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
                             "germlineVariantsCountByCancerType": {},
                             "somaticVariantsCountByCancerType": {},
                             "unknownVariantsCountByCancerType": {},
+                            # "totalVariantCountByCancerType": {},
                             "totalPatientCount": counts.get("totalPatientCount"),
                             "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0)
                         }
@@ -125,6 +144,8 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
                         vue['counts'][study_id]['somaticVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0)
                     for cancerType in counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}):
                         vue['counts'][study_id]['unknownVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0)
+                    # for cancerType in counts['totalSampleCountByCancerType']:
+                    #     vue['counts'][study_id]['totalVariantCountByCancerType'][cancerType] = counts['totalSampleCountByCancerType'].get(cancerType, 0)
             else:
                 vue['counts']= { 
                     study_id: {
@@ -134,6 +155,7 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
                         "germlineVariantsCountByCancerType": counts['sampleCountByCancerType']['germlineVariantsCount'].get(vue['genomicLocation'], {}),
                         "somaticVariantsCountByCancerType": counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}),
                         "unknownVariantsCountByCancerType": counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}),
+                        "totalVariantCountByCancerType": counts['totalSampleCountByCancerType'][cancerType],
                         "totalPatientCount": counts.get("totalPatientCount"),
                         "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0)
                 }}

@@ -69,7 +69,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 6581
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "4:g.55593580_55593606del",
@@ -133,7 +134,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 6581
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "4:g.55593578_55593606del",
@@ -197,7 +199,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 6581
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -273,7 +276,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 6116
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -343,7 +347,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2509
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -423,7 +428,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5375
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_2"
             }
         ]
     },
@@ -497,7 +503,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266012_41266312del",
@@ -561,7 +568,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266038_41266264del",
@@ -625,7 +633,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265709_41266219del",
@@ -689,7 +698,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266090_41266253del",
@@ -753,7 +763,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265579_41266277del",
@@ -817,7 +828,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265722_41266253del",
@@ -881,7 +893,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266029_41266287del",
@@ -945,7 +958,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266028_41266420del",
@@ -1009,7 +1023,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266016_41266403del",
@@ -1073,7 +1088,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265975_41266211del",
@@ -1137,7 +1153,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265908_41266236del",
@@ -1201,7 +1218,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266013_41266355del",
@@ -1265,7 +1283,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265897_41266218del",
@@ -1329,7 +1348,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41266002_41266029del",
@@ -1393,7 +1413,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265562_41266260del",
@@ -1453,7 +1474,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265568_41266266del",
@@ -1513,7 +1535,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265571_41266206del",
@@ -1573,7 +1596,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265648_41266493del",
@@ -1633,7 +1657,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265674_41266212del",
@@ -1693,7 +1718,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.41265990_41266204del",
@@ -1753,7 +1779,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2071
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -1827,7 +1854,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411770_116412349del",
@@ -1889,7 +1917,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411818_116412557del",
@@ -1953,7 +1982,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411874_116411897del",
@@ -2013,7 +2043,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411881_116411897del",
@@ -2073,7 +2104,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411881_116411937del",
@@ -2133,7 +2165,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411860_116411888del",
@@ -2193,7 +2226,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "7:g.116411879_116411896del",
@@ -2253,7 +2287,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116412046A>G",
@@ -2321,7 +2356,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411879_116411897del",
@@ -2381,7 +2417,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411887_116411906del",
@@ -2441,7 +2478,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116412043G>A",
@@ -2515,7 +2553,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411885_116411897del",
@@ -2575,7 +2614,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116412041_116412044del",
@@ -2635,7 +2675,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411881_116411895del",
@@ -2695,7 +2736,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411867_116411882del",
@@ -2755,7 +2797,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "7:g.116412044G>A",
@@ -2823,7 +2866,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411876_116411896del",
@@ -2883,7 +2927,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "7:g.116411867_116411890del",
@@ -2943,7 +2988,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5652
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -3019,7 +3065,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 5323
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -3089,7 +3136,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 6689
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -3160,7 +3208,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "11:g.108127067G>A",
@@ -3237,7 +3286,8 @@
                     }
                 },
                 "mutationOrigin": "germline",
-                "variantNote": "This heterozygous germline variant ATM c.2250G>A variant does not change the encoded amino acid of the ATM protein (p.Lys750=), however, it falls at the last base pair of exon 14 of ATM. This variant has been identified in <0.01% of Non-Finnish European chromosomes in the genome Aggregation Database (http://gnomad.broadinstitute.org). It has been reported in combination with another pathogenic variant in individuals and families with Ataxia-telangiectasia (PMID: 9463314, 10980530, 9887333, 10330348, 19691550). It has also been reported in the heterozygous state in a BRCA1/2 negative individual undergoing multigene panel testing (PMID:26270727). An experimental study showed that this variant affects splicing and leads to exon skipping of exon 14 (PMID: 9887333). This variant is classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.). Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia."
+                "variantNote": "This heterozygous germline variant ATM c.2250G>A variant does not change the encoded amino acid of the ATM protein (p.Lys750=), however, it falls at the last base pair of exon 14 of ATM. This variant has been identified in <0.01% of Non-Finnish European chromosomes in the genome Aggregation Database (http://gnomad.broadinstitute.org). It has been reported in combination with another pathogenic variant in individuals and families with Ataxia-telangiectasia (PMID: 9463314, 10980530, 9887333, 10330348, 19691550). It has also been reported in the heterozygous state in a BRCA1/2 negative individual undergoing multigene panel testing (PMID:26270727). An experimental study showed that this variant affects splicing and leads to exon skipping of exon 14 (PMID: 9887333). This variant is classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.). Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia.",
+                "therapeuticLevel": null
             },
             {
                 "variant": "11:g.108138071T>C",
@@ -3300,7 +3350,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108175400A>C",
@@ -3361,7 +3412,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108198370A>C",
@@ -3422,7 +3474,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108198484_108198522del",
@@ -3483,7 +3536,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108214099_108214103del",
@@ -3544,7 +3598,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108236051G>A",
@@ -3605,7 +3660,8 @@
                         "genePatientCount": 10386
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108202764G>A",
@@ -3669,7 +3725,8 @@
                     }
                 },
                 "mutationOrigin": "germline",
-                "variantNote": "This heterozygous ATM c.7788G>A p.Glu2596Glu variant is a synonymous variant that occurs at the last nucleotide of exon 52 and does not alter the amino acid at this position. It has been identified in 0.002% of Non-Finnish European chromosomes by the Exome Aggregation Consortium (ExAC: http://exac.broadinstitute.org; dbSNP). This variant has been reported in two homozygous and one compound heterozygous individuals with ataxia-telangiectasia (PMID: 9792409 and 26693373). It has been demonstrated to cause altered splicing, leading to deletion of 53 amino acids in exon 52 (PMID: 9792409). This region includes part of the FAT domain, which has been suggested to be important for proper activity of the protein (PMID: 23532176, 25460276, 10782091, 27229179). In summary, based on the previous reports of this variant in individuals with ataxia-telangiectasia and its impact on the protein, this variant meets our criteria to be classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.) Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia."
+                "variantNote": "This heterozygous ATM c.7788G>A p.Glu2596Glu variant is a synonymous variant that occurs at the last nucleotide of exon 52 and does not alter the amino acid at this position. It has been identified in 0.002% of Non-Finnish European chromosomes by the Exome Aggregation Consortium (ExAC: http://exac.broadinstitute.org; dbSNP). This variant has been reported in two homozygous and one compound heterozygous individuals with ataxia-telangiectasia (PMID: 9792409 and 26693373). It has been demonstrated to cause altered splicing, leading to deletion of 53 amino acids in exon 52 (PMID: 9792409). This region includes part of the FAT domain, which has been suggested to be important for proper activity of the protein (PMID: 23532176, 25460276, 10782091, 27229179). In summary, based on the previous reports of this variant in individuals with ataxia-telangiectasia and its impact on the protein, this variant meets our criteria to be classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.) Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia.",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "11:g.108151895G>A",
@@ -3744,7 +3801,8 @@
                     }
                 },
                 "mutationOrigin": "germline",
-                "variantNote": "This heterozygous ATM c.3576G>A variant is a synonymous alteration that does not change a Lysine to another amino acid at codon 1192 (p.Lys1192=). This variant occurs in the last nucleotide of an exon and leads to aberrant splicing leading to exon skipping according to in-vitro RNA studies (PMID: 9887333, 16941484, 21965147). This variant has been identified in 4/113572 of Non-Finnish European chromosomes by the Genome Aggregation Database (http://gnomad.broadinstitute.org/;), and has been reported in multiple individuals with ataxia telangiectasia in heterozygous (in-trans with another pathogenic ATM variant) or homozygous states (PMID: 30819809, 8845835, 9443866, 9792409, 9887333, 10330348, 12552559, 16941484, 17124347). Furthermore, this variant has been detected in patients with breast, thyroid or ampullary cancers (PMID: 27599564, 30620386, 31300551). In summary, based on the previous reports of this variant in individuals with ATM associated disease and in-vitro functional studies, this variant is classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.) Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia."
+                "variantNote": "This heterozygous ATM c.3576G>A variant is a synonymous alteration that does not change a Lysine to another amino acid at codon 1192 (p.Lys1192=). This variant occurs in the last nucleotide of an exon and leads to aberrant splicing leading to exon skipping according to in-vitro RNA studies (PMID: 9887333, 16941484, 21965147). This variant has been identified in 4/113572 of Non-Finnish European chromosomes by the Genome Aggregation Database (http://gnomad.broadinstitute.org/;), and has been reported in multiple individuals with ataxia telangiectasia in heterozygous (in-trans with another pathogenic ATM variant) or homozygous states (PMID: 30819809, 8845835, 9443866, 9792409, 9887333, 10330348, 12552559, 16941484, 17124347). Furthermore, this variant has been detected in patients with breast, thyroid or ampullary cancers (PMID: 27599564, 30620386, 31300551). In summary, based on the previous reports of this variant in individuals with ATM associated disease and in-vitro functional studies, this variant is classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.) Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia.",
+                "therapeuticLevel": null
             }
         ]
     },
@@ -3815,7 +3873,8 @@
                         "genePatientCount": 6515
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "17:g.41228505C>A",
@@ -3885,7 +3944,8 @@
                         "genePatientCount": 6515
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -3956,7 +4016,8 @@
                         "genePatientCount": 6294
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "13:g.32931878G>A",
@@ -4017,7 +4078,8 @@
                         "genePatientCount": 6294
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "13:g.32954050G>A",
@@ -4083,7 +4145,8 @@
                         "genePatientCount": 6294
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "13:g.32919384T>G",
@@ -4143,7 +4206,8 @@
                         "totalPatientCount": 10953,
                         "genePatientCount": 504
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -4217,7 +4281,8 @@
                     }
                 },
                 "mutationOrigin": "germline",
-                "variantNote": "This silent sequence change affects codon 169 of the BRIP1 mRNA and does not change the encoded amino acid sequence (p.Gln169=). This variant falls at the last nucleotide of BRIP1 exon 5. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD), and has been reported in the literature in individuals with breast and ovarian cancers (PMID: 29368626). An experimental study using patient RNA showed that this variant led to skipping of exon 5 and a prematurely truncated protein product (PMID: 29368626). In summary, although additional studies are required to fully establish its clinical significance, this BRIp1 c.507G>A p.Gln169= variant is classified as likely pathogenic. Heterozygous pathogenic variants in BRIP1 have been associated with an increased risk of ovarian cancer (PMID: 26315354, 2196457) and may increase the risk of breast cancer (PMID: 17033622). Biallelic mutations in BRIP1 have been associated with Fanconi Anemia, an autosomal recessive condition characterized by physical abnormalities, bone marrow failure, and increased risk of malignancy. If a BRIP1 mutation carrier's partner is heterozygous for a pathogenic BRIP1 mutation, there is a 25% risk that each child would be affected by Fanconi Anemia."
+                "variantNote": "This silent sequence change affects codon 169 of the BRIP1 mRNA and does not change the encoded amino acid sequence (p.Gln169=). This variant falls at the last nucleotide of BRIP1 exon 5. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD), and has been reported in the literature in individuals with breast and ovarian cancers (PMID: 29368626). An experimental study using patient RNA showed that this variant led to skipping of exon 5 and a prematurely truncated protein product (PMID: 29368626). In summary, although additional studies are required to fully establish its clinical significance, this BRIp1 c.507G>A p.Gln169= variant is classified as likely pathogenic. Heterozygous pathogenic variants in BRIP1 have been associated with an increased risk of ovarian cancer (PMID: 26315354, 2196457) and may increase the risk of breast cancer (PMID: 17033622). Biallelic mutations in BRIP1 have been associated with Fanconi Anemia, an autosomal recessive condition characterized by physical abnormalities, bone marrow failure, and increased risk of malignancy. If a BRIP1 mutation carrier's partner is heterozygous for a pathogenic BRIP1 mutation, there is a 25% risk that each child would be affected by Fanconi Anemia.",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "17:g.59938807C>T",
@@ -4278,7 +4343,8 @@
                         "genePatientCount": 5013
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -4363,7 +4429,8 @@
                         "genePatientCount": 6194
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "16:g.68853328G>A",
@@ -4428,7 +4495,8 @@
                         "genePatientCount": 6194
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "16:g.68845762G>A",
@@ -4498,7 +4566,8 @@
                     }
                 },
                 "variantNote": "The heterozygous germline variant, CDH1 c.1008G>A (p.Glu336=) is located at the last nucleotide of exon 7 of the CDH1 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD) and has been reported in an individual affected with diffuse gastric cancer (PMID: 27730413). Experimental studies and analysis of RNA demonstrated that this variant leads to aberrant splicing (PMID: 8127895, 18427545). Additionally, a different variant at this position (c.1008G>T) has been reported in a family affected with hereditary diffuse gastric cancer (PMID: 9537325, 19725995). In summary, although additional studies are required to fully establish its clinical significance, this c.1008G>A variant is classified as likely pathogenic.\nPathogenic variants in CDH1 cause hereditary diffuse gastric cancer which is an autosomal dominant characterized by susceptibility to diffuse gastric cancer (also referred to as signet ring carcinoma or isolated cell-type carcinoma) and lobular breast cancer (https://www.ncbi.nlm.nih.gov/books/NBK1139/). Relatives of an individual with a pathogenic CDH1 variant have up-to 50% probability of carrying the same variant, and carriers are at an increased risk of developingCDH1-associated disease.",
-                "otherVariation": "Can also be 25, 42, 150 bp intron 7 insertion, and whole intron 7 insertions"
+                "otherVariation": "Can also be 25, 42, 150 bp intron 7 insertion, and whole intron 7 insertions",
+                "therapeuticLevel": null
             }
         ]
     },
@@ -4583,7 +4652,8 @@
                         "genePatientCount": 4512
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -4654,7 +4724,8 @@
                         "genePatientCount": 4771
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "16:g.23640597C>A",
@@ -4717,7 +4788,8 @@
                         "genePatientCount": 4771
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -4790,7 +4862,8 @@
                         "genePatientCount": 3301
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -4875,7 +4948,8 @@
                     }
                 },
                 "mutationOrigin": "germline",
-                "variantNote": "The heterozygous germline variant, MLH1 c.1731G>A (p.Ser577Ser), results in a silent mutation and occurs at the last nucleotide of exon 15. This variant is absent from the major population databases (1000G, ESP and gnomAD). It is a well known pathogenic variant that has been reported in several individuals and families with Lynch syndrome (PMID: 16341550, 15849733, 20223024, 26300997, 14635101, 16216036, 16395668, 19669161). Experimental studies using mRNA isolated from patients blood as well as a reporter minigene assay showed that this variant results in the skipping of exon 15 and leads to an out-of-frame transcript and premature protein truncation (PMID: 16341550, 18561205, 16451135). In summary, based on the previous reports of this variant in individuals with MLH1 associated cancers and its truncating effect on the protein, this variant meets our criteria to be classified as pathogenic. Lynch syndrome is an autosomal dominant condition that confers an increased risk for colorectal cancer and endometrial cancers as well as other cancers. There is a 50% chance that each child would inherit this variant from a carrier parent."
+                "variantNote": "The heterozygous germline variant, MLH1 c.1731G>A (p.Ser577Ser), results in a silent mutation and occurs at the last nucleotide of exon 15. This variant is absent from the major population databases (1000G, ESP and gnomAD). It is a well known pathogenic variant that has been reported in several individuals and families with Lynch syndrome (PMID: 16341550, 15849733, 20223024, 26300997, 14635101, 16216036, 16395668, 19669161). Experimental studies using mRNA isolated from patients blood as well as a reporter minigene assay showed that this variant results in the skipping of exon 15 and leads to an out-of-frame transcript and premature protein truncation (PMID: 16341550, 18561205, 16451135). In summary, based on the previous reports of this variant in individuals with MLH1 associated cancers and its truncating effect on the protein, this variant meets our criteria to be classified as pathogenic. Lynch syndrome is an autosomal dominant condition that confers an increased risk for colorectal cancer and endometrial cancers as well as other cancers. There is a 50% chance that each child would inherit this variant from a carrier parent.",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "3:g.37059048C>T",
@@ -4940,7 +5014,8 @@
                         "genePatientCount": 6319
                     }
                 },
-                "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types"
+                "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types",
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.37090087G>C",
@@ -5001,7 +5076,8 @@
                         "genePatientCount": 6319
                     }
                 },
-                "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types"
+                "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "3:g.37050394C>T",
@@ -5064,7 +5140,8 @@
                         "genePatientCount": 6319
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "3:g.37053309A>G",
@@ -5125,7 +5202,8 @@
                         "genePatientCount": 181
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             },
             {
                 "variant": "3:g.37053590G>T",
@@ -5192,7 +5270,8 @@
                         "genePatientCount": 181
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.37059089A>C",
@@ -5257,7 +5336,8 @@
                         "genePatientCount": 181
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "3:g.37067499G>C",
@@ -5328,7 +5408,8 @@
                         "genePatientCount": 181
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -5402,7 +5483,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 11009
                     }
-                }
+                },
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -5489,7 +5571,8 @@
                         "genePatientCount": 8966
                     }
                 },
-                "otherVariation": "Partial exon 4 skip, p.G59Vfs*23, Splice_Exon_Shortening_Out_Of_Frame"
+                "otherVariation": "Partial exon 4 skip, p.G59Vfs*23, Splice_Exon_Shortening_Out_Of_Frame",
+                "therapeuticLevel": null
             },
             {
                 "variant": "17:g.7579312C>A",
@@ -5572,7 +5655,8 @@
                     }
                 },
                 "mutationOrigin": "germline",
-                "variantNote": "The heterozygous germline variant, TP53 c.375G>T (Thr125=), is located at the last nucleotide of exon 4 of the TP53 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD). It has been reported in a family with Li Fraumeni syndrome (PMID: 11420676). In vitro studies and analysis of RNA from patient cells demonstrated that this variant leads to aberrant splicing (PMID: 11420676, 25730903). Two other variants at this position (c.375G>A and c.375G>C) have been reported in individuals and families with Li Fraumeni syndrome (PMID: 9242456, 10864200, 11420676, 24382691, 31105275). In summary, although additional studies are required to fully establish its clinical significance, based on its previous report in an individual with Li Fraumeni syndrome and its demonstrated impact on splicing, this c.375G>T (p.?) variant is classified as likely pathogenic. Li-Fraumeni syndrome (LFS) is an autosomal dominant cancer predisposition syndrome associated with an increased risk of tumors including soft tissue sarcoma, osteosarcoma, pre-menopausal breast cancer, brain tumors, adrenocortical carcinoma (ACC), and leukemias (http://www.ncbi.nlm.nih.gov/books/NBK1311/)."
+                "variantNote": "The heterozygous germline variant, TP53 c.375G>T (Thr125=), is located at the last nucleotide of exon 4 of the TP53 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD). It has been reported in a family with Li Fraumeni syndrome (PMID: 11420676). In vitro studies and analysis of RNA from patient cells demonstrated that this variant leads to aberrant splicing (PMID: 11420676, 25730903). Two other variants at this position (c.375G>A and c.375G>C) have been reported in individuals and families with Li Fraumeni syndrome (PMID: 9242456, 10864200, 11420676, 24382691, 31105275). In summary, although additional studies are required to fully establish its clinical significance, based on its previous report in an individual with Li Fraumeni syndrome and its demonstrated impact on splicing, this c.375G>T (p.?) variant is classified as likely pathogenic. Li-Fraumeni syndrome (LFS) is an autosomal dominant cancer predisposition syndrome associated with an increased risk of tumors including soft tissue sarcoma, osteosarcoma, pre-menopausal breast cancer, brain tumors, adrenocortical carcinoma (ACC), and leukemias (http://www.ncbi.nlm.nih.gov/books/NBK1311/).",
+                "therapeuticLevel": null
             }
         ]
     },
@@ -5642,7 +5726,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "4:g.187201659G>A",
@@ -5702,7 +5787,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "4:g.187197405C>T",
@@ -5762,7 +5848,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 2
                     }
-                }
+                },
+                "therapeuticLevel": null
             }
         ]
     },
@@ -5832,7 +5919,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 7387
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47641430C>T",
@@ -5906,7 +5994,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 7387
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47693802G>T",
@@ -5970,7 +6059,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 7387
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47693886C>T",
@@ -6036,7 +6126,8 @@
                         "totalPatientCount": 87119,
                         "genePatientCount": 7387
                     }
-                }
+                },
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47641560A>T",
@@ -6126,7 +6217,8 @@
                         "genePatientCount": 180
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47693952G>C",
@@ -6195,7 +6287,8 @@
                         "genePatientCount": 180
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47637512G>T",
@@ -6260,7 +6353,8 @@
                         "genePatientCount": 180
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47703711G>C",
@@ -6325,7 +6419,8 @@
                         "genePatientCount": 180
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             },
             {
                 "variant": "2:g.47708011G>A",
@@ -6390,7 +6485,8 @@
                         "genePatientCount": 180
                     }
                 },
-                "mutationOrigin": "germline"
+                "mutationOrigin": "germline",
+                "therapeuticLevel": null
             }
         ]
     },
@@ -6463,7 +6559,8 @@
                         "genePatientCount": 475
                     }
                 },
-                "variantNote": "This heterozygous RB1 c.1206C>T variant is a synonymous variant that does not alter the amino acid at this position (p.Ser402=). This variant has been identified in 3/30442 South Asian chromosomes by the Genome Aggregation Database (gnomAD: http://gnomad.broadinstitute.org). It has been reported in an individual with unilateral retinoblastoma and was demonstrated to cause abnormal splicing based on patient RNA studies (PMID 21763628). In our patient (DMG19-4863) with unilateral retinoblastoma, tumor analysis identified somatic biallelic mutations (two somatic hits) in RB1 (DMG internal data). In summary, based on the currently available data, the clinical significance of the RB1 c.1206C>T (p.Ser402=) variant is uncertain."
+                "variantNote": "This heterozygous RB1 c.1206C>T variant is a synonymous variant that does not alter the amino acid at this position (p.Ser402=). This variant has been identified in 3/30442 South Asian chromosomes by the Genome Aggregation Database (gnomAD: http://gnomad.broadinstitute.org). It has been reported in an individual with unilateral retinoblastoma and was demonstrated to cause abnormal splicing based on patient RNA studies (PMID 21763628). In our patient (DMG19-4863) with unilateral retinoblastoma, tumor analysis identified somatic biallelic mutations (two somatic hits) in RB1 (DMG internal data). In summary, based on the currently available data, the clinical significance of the RB1 c.1206C>T (p.Ser402=) variant is uncertain.",
+                "therapeuticLevel": null
             }
         ]
     }
