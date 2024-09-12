@@ -36,7 +36,7 @@ def find_file_pairs(folder_path: str):
 with open('../VUEs.json', 'r') as f:
     data = json.load(f)
 
-def theraputic_level(genomic_location):
+def therapeutic_level(genomic_location):
     # Make sure to set the ONCOKB_TOKEN
     url = f"https://www.oncokb.org/api/v1/annotate/mutations/byGenomicChange?genomicLocation={genomic_location}&referenceGenome=GRCh37"
     headers = {
@@ -103,7 +103,7 @@ def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_in
     # Add the count numbers to the corresponding JSON objects
     for vueSet in data:
         for vue in vueSet['revisedProteinEffects']:
-            vue['therapeuticLevel'] = theraputic_level(vue['genomicLocation'])
+            vue['therapeuticLevel'] = therapeutic_level(vue['genomicLocation'])
             if 'counts' in vue:
                 if multiple_study and study_id in vue['counts'] and not first_study:
                     # before each for loop, check if the key exists in the dictionary
