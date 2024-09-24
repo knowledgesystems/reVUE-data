@@ -3810,7 +3810,7 @@
         "hugoGeneSymbol": "BRCA1",
         "transcriptId": "ENST00000357654",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "missense, splice",
+        "defaultEffect": "missense, splice, intron",
         "comment": "Splice leads to frameshift",
         "context": "",
         "revisedProteinEffects": [
@@ -3946,6 +3946,454 @@
                 },
                 "mutationOrigin": "germline",
                 "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "17:g.41258474T>C",
+                "genomicLocation": "17,41258474,41258474,T,C",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.R71G",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "revisedProteinEffect": "p.C64*",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000357654:c.211A>G",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "11385711",
+                        "referenceText": "Vega et al., 2001"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 1,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {
+                            "Ovarian Cancer": 1
+                        },
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "22 bp of exon 4 were deleted, creating with the first bases of exon 5 a termination codon at position 64, which results in a truncated protein",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "17:g.41258472C>T",
+                "genomicLocation": "17,41258472,41258472,C,T",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.X71_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.C64*",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000357654:c.212+1G>A",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "Deletion of 22 bp at the end of exon 4",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "17:g.41256985T>C",
+                "genomicLocation": "17,41256985,41256985,T,C",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.*71*",
+                "vepPredictedVariantClassification": "Intron",
+                "revisedProteinEffect": "p.R71Sfs*20",
+                "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Ins",
+                "hgvsc": "ENST00000357654:c.213-12A>G",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 1,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {
+                            "Breast Cancer": 1
+                        },
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "Insertion of 11 bp of intro 5 at the beginning of exon 6",
+                "therapeuticLevel": null
+            },
+            {
+                "variant": "17:g.41234420C>A",
+                "genomicLocation": "7,116412044,116412044,G,A",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.X1453_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.R1397Yfs*2",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000357654:c.4357+1G>T",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 19,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {
+                            "Non-Small Cell Lung Cancer": 16,
+                            "Cancer of Unknown Primary": 1,
+                            "Glioma": 2
+                        },
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 14,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {
+                            "Non-Small Cell Lung Cancer": 11,
+                            "Glioma": 2,
+                            "Cancer of Unknown Primary": 1
+                        },
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 1,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "Skipping of exon 13",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "17:g.41234420del",
+                "genomicLocation": "17,41234420,41234420,C,-",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.X1453_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A1453Qfs*3",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000357654:c.4357+1delG",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "Deletion of a guanine at the last base of exon 13 (r.4357del) because of the use of a cryptic donor splice site created by the DNA mutation; this mutated transcript also produces a truncated protein (p.Ala1453GlnfsX3)",
+                "otherVariation": "Can also be a a skipping of exon 13, although in the case of c.4357+1delG this aberrant band is observed in a lower proportion; this frameshift deletion is predicted to generate a premature stop codon (p.Arg1397TyrfsX2)",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "17:g.41228504C>A",
+                "genomicLocation": "17,41228504,41228504,C,A",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.X1495_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.A1453Gfs*10",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000357654:c.4484+1G>T",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "This mutation arises in the invariant guanine in the consensus sequence of the 5_ donor splice site of exon 14. cDNA analysis showed that this mutation abolishes the natural 5_ splice site of exon 14, causing complete deletion of this exon (r.4358_4484del). The alteration is predicted to lead to a truncated protein (p.Ala1453GlyfsX10).",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "17:g.41219622T>C",
+                "genomicLocation": "17,41219622,41219622,T,C",
+                "transcriptId": "ENST00000357654",
+                "vepPredictedProteinEffect": "p.*1692*",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.V1665Sfs*8",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000357654:c.5074+3A>G",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 2078
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6515
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 1440
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 305
+                    }
+                },
+                "variantNote": "The BRCA1 c.5074+3A>G variant was identified in a woman with bilateral breast cancer; her mother, who was diagnosed with breast cancer at age 53 and with colorectal cancer at age 68, carried the same variant. RNA analysis of this variant shows a skipping of exon 17 (r.4987_5074del). the pathogenicity of this mutation may derive from the splicing anomalies detected and is supported by the co-segregation with breast cancer observed in this family.",
+                "otherVariation": "Can also be an insertion of the first 153 bp of intron 17 (r.5074_5075ins5074+1_5074+153), which is predicted to lead to the truncated proteins p.Asp1692GlyfsX15",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
@@ -3953,7 +4401,7 @@
         "hugoGeneSymbol": "BRCA2",
         "transcriptId": "ENST00000380152",
         "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
-        "defaultEffect": "splice",
+        "defaultEffect": "splice, intron",
         "comment": "Splice leads to frameshift",
         "context": "",
         "revisedProteinEffects": [
@@ -4152,7 +4600,7 @@
                 "variant": "13:g.32919384T>G",
                 "genomicLocation": "13,32919384,32919384,T,G",
                 "transcriptId": "ENST00000380152",
-                "vepPredictedProteinEffect": "NA",
+                "vepPredictedProteinEffect": "p.*2313*",
                 "vepPredictedVariantClassification": "Intron",
                 "revisedProteinEffect": "p.G2313Gfs*9",
                 "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
@@ -4162,7 +4610,7 @@
                 "references": [
                     {
                         "pubmedId": "22753590",
-                        "referenceText": "Anczuków et al., 2012"
+                        "referenceText": "Anczuk\u0097w et al., 2012"
                     }
                 ],
                 "counts": {
@@ -4208,6 +4656,327 @@
                     }
                 },
                 "therapeuticLevel": null
+            },
+            {
+                "variant": "13:g.32900635G>A",
+                "genomicLocation": "13,32900635,32900635,G,A",
+                "transcriptId": "ENST00000380152",
+                "vepPredictedProteinEffect": "p.X173_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.G173Sfs*19",
+                "revisedVariantClassification": "Splice_Exon_Skip_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000380152.3:c.517-1G>A",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {
+                            "Pancreatic Cancer": 1,
+                            "Prostate Cancer": 1
+                        },
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 3344
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6294
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 2381
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 504
+                    }
+                },
+                "variantNote": "Leads to a skipping of exon 7 (r.517_631del)",
+                "otherVariation": "Activate a cryptic donor splice site that leads to the skipping of most of exon 6 and all of exon 7 (r.478_631del). This transcript is predicted to lead to a truncated protein (p.Val160SerfsX19) ",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "13:g.32907378A>G",
+                "genomicLocation": "13,32907378,32907378,A,G",
+                "transcriptId": "ENST00000380152",
+                "vepPredictedProteinEffect": "p.N588S",
+                "vepPredictedVariantClassification": "Missense_Mutation",
+                "revisedProteinEffect": "p.N588_G637delinsS",
+                "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+                "revisedStandardVariantClassification": "In_Frame_Del",
+                "hgvsc": "ENST00000380152.3:c.1763A>G",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 3344
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6294
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 2381
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 504
+                    }
+                },
+                "variantNote": "Identified in a woman diagnosed with breast cancer at age 31. This variant creates a new cryptic donor site, which leads to an alternative transcript consisting of an in-frame deletion of 147 nucleotides (r.1763_1909del) that, in turn, produces an in-frame deletion of 49 amino acids with the insertion of a serine (p.Asn588_Gly637delinsSer)",
+                "therapeuticLevel": null
+            },
+            {
+                "variant": "13:g.32944538G>A",
+                "genomicLocation": "13,32944538,32944538,G,A",
+                "transcriptId": "ENST00000380152",
+                "vepPredictedProteinEffect": "p.X2778_splice",
+                "vepPredictedVariantClassification": "Splice_Site",
+                "revisedProteinEffect": "p.I2778Yfs*15",
+                "revisedVariantClassification": "Splice_Exon_Shortening_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Del",
+                "hgvsc": "ENST00000380152.3:c.8332-1G>A",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {
+                            "Esophagogastric Cancer": 1
+                        },
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 3344
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6294
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 1,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {
+                            "Esophagogastric Cancer": 1
+                        },
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 2381
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 504
+                    }
+                },
+                "variantNote": "This mutation arises in the invariant dinucleotide in the consensus sequence of the 3_ acceptor splice site of exon 19. cDNA analysis of the mutation showed that this mutation abolishes the natural 3_ splice site of exon 19 and leads to the activation of a cryptic splice site 14 bp downstream. Consequently, the mutated transcript shows a 14-bp deletion at the beginning of exon 19 (r.8332_8345del). This change is predicted to generate a truncated protein (p.Ile2778TyrfsX15)",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "13:g.32953872T>G",
+                "genomicLocation": "13,32953872,32953872,T,G",
+                "transcriptId": "ENST00000380152",
+                "vepPredictedProteinEffect": "p.*2985*",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.V2985Afs*8",
+                "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Ins",
+                "hgvsc": "ENST00000380152.3:c.8954-15T>G",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 3344
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6294
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 2381
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 504
+                    }
+                },
+                "variantNote": "It creates a new cryptic donor site that leads to an alternative transcript with an insertion of the last 14 nucleotides of intron 22 (r.8953_8954ins8954-14_8954-1), generating a truncated protein (p.Val2985AlafsX8). Segregation analysis showed that the two sisters with breast cancer (diagnosed at 29 and 40 years old, respectively) are carriers of this variant, which was inherited from their unaffected father whose history is non-informative of HBOCS.",
+                "therapeuticLevel": "LEVEL_1"
+            },
+            {
+                "variant": "13:g.32953882A>G",
+                "genomicLocation": "13,32953882,32953882,A,G",
+                "transcriptId": "ENST00000380152",
+                "vepPredictedProteinEffect": "p.X2985_splice",
+                "vepPredictedVariantClassification": "Splice_Region",
+                "revisedProteinEffect": "p.V2985Dfs*34",
+                "revisedVariantClassification": "Splice_Exon_Extension_Out_Of_Frame",
+                "revisedStandardVariantClassification": "Frame_Shift_Ins",
+                "hgvsc": "ENST00000380152.3:c.8954-5A>G",
+                "confirmed": false,
+                "references": [
+                    {
+                        "pubmedId": "21735045",
+                        "referenceText": "Men\u008endez et al., 2012"
+                    }
+                ],
+                "counts": {
+                    "mskimpact": {
+                        "germlineVariantsCount": 2,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {
+                            "Endometrial Cancer": 1,
+                            "Prostate Cancer": 1
+                        },
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 70067,
+                        "genePatientCount": 3344
+                    },
+                    "mskimpact_nonsignedout": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 87119,
+                        "genePatientCount": 6294
+                    },
+                    "genie": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 60702,
+                        "genePatientCount": 2381
+                    },
+                    "tcga": {
+                        "germlineVariantsCount": 0,
+                        "somaticVariantsCount": 0,
+                        "unknownVariantsCount": 0,
+                        "germlineVariantsCountByCancerType": {},
+                        "somaticVariantsCountByCancerType": {},
+                        "unknownVariantsCountByCancerType": {},
+                        "totalPatientCount": 10953,
+                        "genePatientCount": 504
+                    }
+                },
+                "variantNote": "It creates a novel cryptic donor site that leads to an alternative transcript with an insertion of the last four nucleotides of intron 22 (r.8953_8954ins8954-4_8954-1), generating a truncated protein (p.Val2985AspfsX34). The variant was observed in a young female patient with metachronic bilateral cancer diagnosed at 36 and 42 years who has no relative affected by tumors associated with HBOCS.",
+                "therapeuticLevel": "LEVEL_1"
             }
         ]
     },
