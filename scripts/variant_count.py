@@ -33,7 +33,7 @@ def find_file_pairs(folder_path: str):
 
     return pairs
 
-with open('../VUEs.json', 'r') as f:
+with open('../generated/VUEs.json', 'r') as f:
     data = json.load(f)
 
 def therapeutic_level(genomic_location):
@@ -178,5 +178,5 @@ for index, pair in enumerate(tcga_file_pairs):
     updateCounts(mutation_file_path, clinical_file_path, 'tcga', None, True, index == 0)
 
 # Write the updated JSON data back to the file
-with open('../VUEs.json', 'w') as f:
+with open('../generated/VUEs.json', 'w') as f:
     json.dump(data, f, indent=4)
