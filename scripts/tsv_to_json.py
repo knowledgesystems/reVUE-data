@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Read the file as a dataframe
-df = pd.read_csv('../VUEs_table.txt', delimiter='\t', encoding='utf-8')
+df = pd.read_csv('../VUEs.txt', delimiter='\t', encoding='utf-8')
 
 # Set columns to string type for splitting
 df['pubmedId'] = df['pubmedId'].astype(str)
@@ -110,5 +110,5 @@ for name, group in grouped_data:
     json_array.append(group_dict)
 
 # Write the JSON array to a file
-with open('../VUEs.json', 'w', encoding='utf-8') as f:
+with open('../generated/VUEs.json', 'w', encoding='utf-8') as f:
     json.dump(json_array, f, indent=4, ensure_ascii=False)
