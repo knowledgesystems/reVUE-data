@@ -31,6 +31,19 @@ For each gene:
         - totalPatientCount (integer)
         - genePatientCount (integer)
 
+## File Hierarchy
+Starting from version v1.4.3, Genome Nexus uses the new `./generated/VUEs.json` file to store VUE data. For compatibility with older versions, the previous file, `./VUEs.json`, is still retained. However, please note the following:
+
+- `./generated/VUEs.json`:
+    - Contains the latest reVUE data.
+    - Actively maintained and updated with new information.
+
+- `./VUEs.json`:
+    - Used by Genome Nexus versions prior to v1.4.3.
+    - No longer maintained or updated.
+
+Both files are kept in the repository to ensure support for all versions of Genome Nexus. However, all future updates will be made exclusively to ./generated/VUEs.json. Users are encouraged to upgrade to v1.4.3 or later to benefit from the latest data.
+
 ## VUE updating process
 #### Submit potential VUEs
 
