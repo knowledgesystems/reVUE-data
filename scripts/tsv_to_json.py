@@ -41,8 +41,7 @@ for name, group in grouped_data:
             "revisedStandardVariantClassification": row['revisedStandardVariantClassification'],
             "hgvsc": row['hgvsc'],
             "confirmed": bool(row['confirmed']),
-            "references": [],
-            "counts": {}
+            "references": []
         }
         if not pd.isnull(row['mutationOrigin']):
             variant_dict['mutationOrigin'] = row['mutationOrigin']
@@ -65,43 +64,6 @@ for name, group in grouped_data:
 
         # Add pairs to the reference list
         variant_dict['references'] = pairs
-
-        # Check and add counts if not empty
-        if not pd.isnull(row['mskimpact_germlineVariantsCount']) and not pd.isnull(row['mskimpact_somaticVariantsCount']) and not pd.isnull(row['mskimpact_unknownVariantsCount']) and not pd.isnull(row['mskimpact_totalPatientCount']) and not pd.isnull(row['mskimpact_genePatientCount']):
-            variant_dict['counts']['mskimpact'] = {
-                "germlineVariantsCount": int(row['mskimpact_germlineVariantsCount']),
-                "somaticVariantsCount": int(row['mskimpact_somaticVariantsCount']),
-                "unknownVariantsCount": int(row['mskimpact_unknownVariantsCount']),
-                "totalPatientCount": int(row['mskimpact_totalPatientCount']),
-                "genePatientCount": int(row['mskimpact_genePatientCount'])
-            }
-
-        if not pd.isnull(row['tcga_germlineVariantsCount']) and not pd.isnull(row['tcga_somaticVariantsCount']) and not pd.isnull(row['tcga_unknownVariantsCount']) and not pd.isnull(row['tcga_totalPatientCount']) and not pd.isnull(row['tcga_genePatientCount']):
-            variant_dict['counts']['tcga'] = {
-                "germlineVariantsCount": int(row['tcga_germlineVariantsCount']),
-                "somaticVariantsCount": int(row['tcga_somaticVariantsCount']),
-                "unknownVariantsCount": int(row['tcga_unknownVariantsCount']),
-                "totalPatientCount": int(row['tcga_totalPatientCount']),
-                "genePatientCount": int(row['tcga_genePatientCount'])
-            }
-
-        if not pd.isnull(row['genie_germlineVariantsCount']) and not pd.isnull(row['genie_somaticVariantsCount']) and not pd.isnull(row['genie_unknownVariantsCount']) and not pd.isnull(row['genie_totalPatientCount']) and not pd.isnull(row['genie_genePatientCount']):
-            variant_dict['counts']['genie'] = {
-                "germlineVariantsCount": int(row['genie_germlineVariantsCount']),
-                "somaticVariantsCount": int(row['genie_somaticVariantsCount']),
-                "unknownVariantsCount": int(row['genie_unknownVariantsCount']),
-                "totalPatientCount": int(row['genie_totalPatientCount']),
-                "genePatientCount": int(row['genie_genePatientCount'])
-            }
-
-        if not pd.isnull(row['mskimpact_nonsignedout_germlineVariantsCount']) and not pd.isnull(row['mskimpact_nonsignedout_somaticVariantsCount']) and not pd.isnull(row['mskimpact_nonsignedout_unknownVariantsCount']) and not pd.isnull(row['mskimpact_nonsignedout_totalPatientCount']) and not pd.isnull(row['mskimpact_nonsignedout_genePatientCount']):
-            variant_dict['counts']['mskimpact_nonsignedout'] = {
-                "germlineVariantsCount": int(row['mskimpact_nonsignedout_germlineVariantsCount']),
-                "somaticVariantsCount": int(row['mskimpact_nonsignedout_somaticVariantsCount']),
-                "unknownVariantsCount": int(row['mskimpact_nonsignedout_unknownVariantsCount']),
-                "totalPatientCount": int(row['mskimpact_nonsignedout_totalPatientCount']),
-                "genePatientCount": int(row['mskimpact_nonsignedout_genePatientCount'])
-            }
 
         # Add the variant dictionary to the revisedProteinEffects list
         group_dict['revisedProteinEffects'].append(variant_dict)
