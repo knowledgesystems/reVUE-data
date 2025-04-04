@@ -6184,8 +6184,12 @@
                 "confirmed": false,
                 "references": [
                     {
-                        "pubmedId": "nan",
-                        "referenceText": "nan"
+                        "pubmedId": "8127895",
+                        "referenceText": "Oda et al., 1994"
+                    },
+                    {
+                        "pubmedId": "18427545",
+                        "referenceText": "Karam et al., 2008"
                     }
                 ],
                 "variantNote": "The heterozygous germline variant, CDH1 c.1008G>A (p.Glu336=) is located at the last nucleotide of exon 7 of the CDH1 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD) and has been reported in an individual affected with diffuse gastric cancer (PMID: 27730413). Experimental studies and analysis of RNA demonstrated that this variant leads to aberrant splicing (PMID: 8127895, 18427545). Additionally, a different variant at this position (c.1008G>T) has been reported in a family affected with hereditary diffuse gastric cancer (PMID: 9537325, 19725995). In summary, although additional studies are required to fully establish its clinical significance, this c.1008G>A variant is classified as likely pathogenic.",
