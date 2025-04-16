@@ -46,26 +46,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 3,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Gastrointestinal Stromal Tumor": 3
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 3,
@@ -75,7 +55,7 @@
               "Gastrointestinal Stromal Tumor": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -118,36 +98,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 8,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Gastrointestinal Stromal Tumor": 8
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 8,
+            "somaticVariantsCount": 5,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Gastrointestinal Stromal Tumor": 8
+              "Gastrointestinal Stromal Tumor": 5
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -190,36 +150,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 5,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Gastrointestinal Stromal Tumor": 5
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 5,
+            "somaticVariantsCount": 3,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Gastrointestinal Stromal Tumor": 5
+              "Gastrointestinal Stromal Tumor": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -276,46 +216,20 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 191,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Appendiceal Cancer": 1,
-              "Cancer of Unknown Primary": 2,
-              "Colorectal Cancer": 187,
-              "Gastrointestinal Neuroendocrine Tumor": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
-            "somaticVariantsCount": 512,
+            "somaticVariantsCount": 321,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Colorectal Cancer": 1
             },
             "somaticVariantsCountByCancerType": {
-              "Appendiceal Cancer": 1,
-              "Cancer of Unknown Primary": 2,
-              "Colorectal Cancer": 503,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
+              "Colorectal Cancer": 316,
               "Non-Small Cell Lung Cancer": 1,
               "Tubular Adenoma of the Colon": 4
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -366,36 +280,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Renal Clear Cell Carcinoma": 1
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Renal Clear Cell Carcinoma": 1
-            },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -451,66 +343,19 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 41,
+            "somaticVariantsCount": 7,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Anal Cancer": 1,
-              "Cancer of Unknown Primary": 3,
-              "Colorectal Cancer": 24,
-              "Endometrial Cancer": 1,
+              "Colorectal Cancer": 4,
               "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 3,
-              "Non-Small Cell Lung Cancer": 2,
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 2,
-              "Prostate Cancer": 2,
-              "Thyroid Cancer": 1
+              "Pancreatic Cancer": 1,
+              "Prostate Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 7,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Cholangiocarcinoma": 1,
-              "Colorectal Cancer": 3,
-              "Melanoma": 1,
-              "Thyroid Cancer": 2
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 41,
-            "unknownVariantsCount": 7,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Anal Cancer": 1,
-              "Cancer of Unknown Primary": 3,
-              "Colorectal Cancer": 24,
-              "Endometrial Cancer": 1,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 3,
-              "Non-Small Cell Lung Cancer": 2,
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 2,
-              "Prostate Cancer": 2,
-              "Thyroid Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Cholangiocarcinoma": 1,
-              "Colorectal Cancer": 3,
-              "Melanoma": 1,
-              "Thyroid Cancer": 2
-            },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -563,26 +408,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -592,7 +417,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -635,26 +460,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -664,7 +469,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -707,26 +512,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -736,7 +521,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -779,26 +564,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -808,7 +573,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -851,26 +616,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -880,7 +625,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -923,26 +668,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -952,7 +677,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -995,26 +720,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1024,7 +729,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1067,26 +772,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1096,7 +781,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1139,26 +824,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1168,7 +833,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1211,26 +876,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1240,7 +885,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1283,26 +928,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1312,7 +937,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1355,26 +980,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1384,7 +989,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1427,26 +1032,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1456,7 +1041,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1499,26 +1084,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1528,7 +1093,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1571,26 +1136,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1600,7 +1145,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1641,24 +1186,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1666,7 +1193,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1707,24 +1234,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1732,7 +1241,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1773,24 +1282,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1798,7 +1289,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1839,24 +1330,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1864,7 +1337,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1905,24 +1378,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1930,7 +1385,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -1971,24 +1426,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1996,7 +1433,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -2049,26 +1486,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Hepatobiliary Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -2078,7 +1495,7 @@
               "Hepatobiliary Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2121,24 +1538,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -2148,7 +1547,7 @@
               "Glioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2191,26 +1590,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -2220,7 +1599,7 @@
               "Non-Small Cell Lung Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2261,24 +1640,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2286,7 +1647,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2327,24 +1688,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2352,7 +1695,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2393,24 +1736,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2418,7 +1743,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2459,24 +1784,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2484,7 +1791,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2525,24 +1832,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2550,7 +1839,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2597,42 +1886,18 @@
             },
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 40,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 2,
-              "Hepatobiliary Cancer": 1,
-              "Non-Small Cell Lung Cancer": 37
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 45,
+            "somaticVariantsCount": 19,
             "unknownVariantsCount": 1,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 2,
-              "Hepatobiliary Cancer": 1,
-              "Non-Small Cell Lung Cancer": 42
+              "Non-Small Cell Lung Cancer": 19
             },
             "unknownVariantsCountByCancerType": {
               "Non-Small Cell Lung Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2673,24 +1938,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2698,7 +1945,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2739,24 +1986,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2764,7 +1993,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2812,46 +2041,21 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 68,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 2,
-              "Glioma": 1,
-              "Non-Small Cell Lung Cancer": 64,
-              "Salivary Gland Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 72,
+            "somaticVariantsCount": 38,
             "unknownVariantsCount": 1,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 2,
+              "Cancer of Unknown Primary": 1,
               "Glioma": 1,
-              "Non-Small Cell Lung Cancer": 68,
+              "Non-Small Cell Lung Cancer": 35,
               "Salivary Gland Cancer": 1
             },
             "unknownVariantsCountByCancerType": {
               "Non-Small Cell Lung Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2892,24 +2096,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2917,7 +2103,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -2958,24 +2144,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2983,7 +2151,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3024,24 +2192,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3049,7 +2199,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3090,24 +2240,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3115,7 +2247,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3176,24 +2308,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3201,7 +2315,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3242,24 +2356,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3267,7 +2363,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -3321,27 +2417,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 1,
-              "Glioma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -3352,7 +2427,7 @@
               "Glioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3402,58 +2477,23 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 17,
+            "somaticVariantsCount": 15,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Breast Cancer": 2,
-              "Colorectal Cancer": 1,
-              "Endometrial Cancer": 3,
-              "Glioma": 3,
+              "Colorectal Cancer": 3,
+              "Endometrial Cancer": 2,
+              "Glioma": 2,
               "Hepatobiliary Cancer": 1,
-              "Mature T and NK Neoplasms": 1,
               "Melanoma": 1,
               "Ovarian Cancer": 1,
-              "Prostate Cancer": 3,
-              "Salivary Gland Cancer": 1
+              "Prostate Cancer": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Esophagogastric Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 20,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 2,
-              "Colorectal Cancer": 3,
-              "Endometrial Cancer": 3,
-              "Glioma": 3,
-              "Hepatobiliary Cancer": 1,
-              "Mature T and NK Neoplasms": 1,
-              "Melanoma": 2,
-              "Ovarian Cancer": 1,
-              "Prostate Cancer": 3,
-              "Salivary Gland Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Esophagogastric Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -3504,36 +2544,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Leukemia": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Leukemia": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -3585,36 +2603,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Soft Tissue Sarcoma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Soft Tissue Sarcoma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3671,38 +2667,9 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 13,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Sarcoma": 1,
-              "Colorectal Cancer": 1,
-              "Endometrial Cancer": 1,
-              "Glioma": 1,
-              "Hodgkin Lymphoma": 1,
-              "Mesothelioma": 1,
-              "Non-Small Cell Lung Cancer": 2,
-              "Pancreatic Cancer": 3,
-              "Prostate Cancer": 1,
-              "Thyroid Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 8,
-            "somaticVariantsCount": 15,
+            "somaticVariantsCount": 2,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Cancer of Unknown Primary": 2,
@@ -3713,19 +2680,11 @@
               "Prostate Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
-              "Breast Sarcoma": 1,
-              "Colorectal Cancer": 2,
-              "Endometrial Cancer": 2,
-              "Glioma": 1,
-              "Hodgkin Lymphoma": 1,
-              "Mesothelioma": 1,
-              "Non-Small Cell Lung Cancer": 2,
-              "Pancreatic Cancer": 3,
-              "Prostate Cancer": 1,
-              "Thyroid Cancer": 1
+              "Colorectal Cancer": 1,
+              "Endometrial Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3769,24 +2728,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -3796,7 +2737,7 @@
               "Esophagogastric Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3838,24 +2779,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3863,7 +2786,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3905,24 +2828,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3930,7 +2835,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -3972,24 +2877,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3997,7 +2884,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4039,24 +2926,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4064,7 +2933,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4106,24 +2975,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4131,7 +2982,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4176,24 +3027,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -4203,7 +3036,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4259,40 +3092,19 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 3,
-            "somaticVariantsCount": 2,
+            "somaticVariantsCount": 1,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Colorectal Cancer": 1,
               "Non-Small Cell Lung Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1,
               "Skin Cancer, Non-Melanoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -4344,24 +3156,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4369,7 +3163,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4418,32 +3212,9 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 7,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 3,
-              "Ovarian Cancer": 2,
-              "Pancreatic Cancer": 1,
-              "Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 4,
-            "somaticVariantsCount": 8,
+            "somaticVariantsCount": 2,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Breast Cancer": 1,
@@ -4451,13 +3222,11 @@
               "Ovarian Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 3,
-              "Ovarian Cancer": 3,
-              "Pancreatic Cancer": 1,
+              "Ovarian Cancer": 1,
               "Small Cell Lung Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4505,40 +3274,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
-            "somaticVariantsCount": 2,
+            "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Ovarian Cancer": 1
             },
-            "somaticVariantsCountByCancerType": {
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 1
-            },
+            "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4580,36 +3325,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4653,24 +3376,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -4680,7 +3385,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4745,24 +3450,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4770,7 +3457,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4812,24 +3499,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4837,7 +3506,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -4880,24 +3549,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4905,7 +3556,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -4957,38 +3608,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Melanoma": 1,
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Melanoma": 1,
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5030,40 +3657,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 3,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 1,
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 3,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 1,
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5110,44 +3711,19 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 4,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 2,
-              "Colorectal Cancer": 1,
-              "Ovarian Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 2,
-            "somaticVariantsCount": 6,
+            "somaticVariantsCount": 2,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Prostate Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
               "Bladder Cancer": 1,
-              "Breast Cancer": 2,
-              "Colorectal Cancer": 1,
-              "Ovarian Cancer": 1,
               "Skin Cancer, Non-Melanoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5188,24 +3764,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5213,7 +3771,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5259,24 +3817,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 2,
             "somaticVariantsCount": 0,
@@ -5287,7 +3827,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5329,24 +3869,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5354,7 +3876,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5398,38 +3920,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Esophagogastric Cancer": 1,
-              "Melanoma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
+            "somaticVariantsCount": 1,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Esophagogastric Cancer": 1,
-              "Melanoma": 1
+              "Esophagogastric Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5471,24 +3971,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5496,7 +3978,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5541,24 +4023,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 2,
             "somaticVariantsCount": 0,
@@ -5569,7 +4033,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -5624,38 +4088,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
-            "somaticVariantsCount": 1,
+            "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Endometrial Cancer": 1
             },
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1
-            },
+            "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5697,24 +4139,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5722,7 +4146,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -5782,52 +4206,22 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 20,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 6,
-              "Cancer of Unknown Primary": 1,
-              "Colorectal Cancer": 5,
-              "Endometrial Cancer": 1,
-              "Esophagogastric Cancer": 6,
-              "Glioma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 2,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 2
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
-            "somaticVariantsCount": 21,
-            "unknownVariantsCount": 2,
+            "somaticVariantsCount": 12,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Colorectal Cancer": 1
             },
             "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 6,
+              "Breast Cancer": 3,
               "Cancer of Unknown Primary": 1,
-              "Colorectal Cancer": 5,
-              "Endometrial Cancer": 1,
-              "Esophagogastric Cancer": 7,
+              "Colorectal Cancer": 4,
+              "Esophagogastric Cancer": 3,
               "Glioma": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 2
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5871,38 +4265,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "B-Lymphoblastic Leukemia/Lymphoma": 1,
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2,
+            "somaticVariantsCount": 1,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "B-Lymphoblastic Leukemia/Lymphoma": 1,
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -5953,40 +4325,18 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 1,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Esophagogastric Cancer": 1
             },
             "somaticVariantsCountByCancerType": {
               "Colorectal Cancer": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
           }
         }
       }
@@ -6050,31 +4400,9 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 4,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1,
-              "Glioma": 2,
-              "Mesothelioma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 13,
-            "somaticVariantsCount": 4,
+            "somaticVariantsCount": 1,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Bladder Cancer": 1,
@@ -6088,12 +4416,10 @@
               "Prostate Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1,
-              "Glioma": 2,
               "Mesothelioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -6145,24 +4471,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -6170,7 +4478,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6214,24 +4522,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -6241,7 +4531,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -6295,38 +4585,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
-            "somaticVariantsCount": 1,
+            "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Endometrial Cancer": 1
             },
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 1
-            },
+            "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -6392,42 +4660,19 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 7,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 4,
-              "Endometrial Cancer": 1,
-              "Glioma": 2
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
-            "somaticVariantsCount": 13,
+            "somaticVariantsCount": 6,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Pancreatic Cancer": 1
             },
             "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 9,
-              "Endometrial Cancer": 2,
-              "Glioma": 2
+              "Colorectal Cancer": 5,
+              "Endometrial Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6471,7 +4716,7 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
             "unknownVariantsCount": 0,
@@ -6480,31 +4725,7 @@
               "Appendiceal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Head and Neck Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Appendiceal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Head and Neck Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6546,24 +4767,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -6571,7 +4774,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6615,24 +4818,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -6642,7 +4827,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6684,36 +4869,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6761,24 +4924,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -6788,7 +4933,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6834,24 +4979,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -6859,7 +4986,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -6909,26 +5036,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 1,
@@ -6940,7 +5047,7 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -6993,36 +5100,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 13,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 13
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 16,
+            "somaticVariantsCount": 9,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 16
+              "Non-Small Cell Lung Cancer": 9
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -7090,63 +5177,30 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 29,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 3,
-              "Cancer of Unknown Primary": 3,
-              "Colorectal Cancer": 6,
-              "Esophagogastric Cancer": 4,
-              "Glioma": 2,
-              "Head and Neck Cancer": 1,
-              "Non-Small Cell Lung Cancer": 5,
-              "Pancreatic Cancer": 1,
-              "Prostate Cancer": 1,
-              "Skin Cancer, Non-Melanoma": 2,
-              "Soft Tissue Sarcoma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 78,
+            "somaticVariantsCount": 49,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Anal Cancer": 1,
               "Bladder Cancer": 2,
-              "Breast Cancer": 6,
-              "Cancer of Unknown Primary": 6,
-              "Colorectal Cancer": 12,
+              "Breast Cancer": 3,
+              "Cancer of Unknown Primary": 3,
+              "Colorectal Cancer": 6,
               "Endometrial Cancer": 2,
-              "Esophagogastric Cancer": 5,
-              "Glioma": 5,
-              "Head and Neck Cancer": 1,
-              "Non-Small Cell Lung Cancer": 15,
+              "Esophagogastric Cancer": 1,
+              "Glioma": 3,
+              "Non-Small Cell Lung Cancer": 10,
               "Ovarian Cancer": 6,
-              "Pancreatic Cancer": 7,
+              "Pancreatic Cancer": 6,
               "Peritoneal Cancer, NOS": 1,
-              "Prostate Cancer": 1,
               "Sellar Tumor": 1,
-              "Skin Cancer, Non-Melanoma": 2,
               "Small Cell Lung Cancer": 2,
-              "Soft Tissue Sarcoma": 3
+              "Soft Tissue Sarcoma": 2
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7209,95 +5263,34 @@
             },
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 110,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 1,
-              "Ampullary Cancer": 1,
-              "Bladder Cancer": 2,
-              "Breast Cancer": 2,
-              "Cancer of Unknown Primary": 12,
-              "Colorectal Cancer": 1,
-              "Esophagogastric Cancer": 2,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 3,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 2,
-              "Melanoma": 2,
-              "Non-Small Cell Lung Cancer": 69,
-              "Ovarian Cancer": 1,
-              "Prostate Cancer": 2,
-              "Renal Cell Carcinoma": 1,
-              "Skin Cancer, Non-Melanoma": 1,
-              "Small Bowel Cancer": 1,
-              "Small Cell Lung Cancer": 3
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 25,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 1,
-              "Bladder Cancer": 2,
-              "Endometrial Cancer": 2,
-              "Glioma": 1,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 1,
-              "Non-Small Cell Lung Cancer": 14,
-              "Ovarian Epithelial Tumor": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 234,
-            "unknownVariantsCount": 26,
+            "somaticVariantsCount": 124,
+            "unknownVariantsCount": 1,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 2,
-              "Ampullary Cancer": 1,
-              "Bladder Cancer": 6,
+              "Adrenocortical Carcinoma": 1,
+              "Bladder Cancer": 4,
               "Bone Cancer": 1,
-              "Breast Cancer": 5,
-              "Cancer of Unknown Primary": 17,
-              "Colorectal Cancer": 7,
+              "Breast Cancer": 3,
+              "Cancer of Unknown Primary": 5,
+              "Colorectal Cancer": 6,
               "Endometrial Cancer": 1,
-              "Esophagogastric Cancer": 3,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 3,
-              "Head and Neck Cancer": 8,
-              "Hepatobiliary Cancer": 3,
-              "Melanoma": 2,
-              "Non-Small Cell Lung Cancer": 147,
-              "Ovarian Cancer": 1,
+              "Esophagogastric Cancer": 1,
+              "Head and Neck Cancer": 5,
+              "Hepatobiliary Cancer": 1,
+              "Non-Small Cell Lung Cancer": 78,
               "Pancreatic Cancer": 4,
-              "Prostate Cancer": 3,
-              "Renal Cell Carcinoma": 1,
-              "Skin Cancer, Non-Melanoma": 3,
-              "Small Bowel Cancer": 1,
-              "Small Cell Lung Cancer": 12,
+              "Prostate Cancer": 1,
+              "Skin Cancer, Non-Melanoma": 2,
+              "Small Cell Lung Cancer": 9,
               "Soft Tissue Sarcoma": 1,
               "Uterine Sarcoma": 1
             },
             "unknownVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 1,
-              "Bladder Cancer": 2,
-              "Endometrial Cancer": 2,
-              "Glioma": 1,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 2,
-              "Non-Small Cell Lung Cancer": 14,
-              "Ovarian Epithelial Tumor": 1
+              "Hepatobiliary Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -7348,24 +5341,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -7373,7 +5348,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7414,36 +5389,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7484,24 +5437,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -7509,7 +5444,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -7560,36 +5495,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Mesothelioma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Mesothelioma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7638,50 +5551,22 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 5,
             "unknownVariantsCount": 1,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Breast Cancer": 1,
-              "Endometrial Cancer": 1,
-              "Ovarian Cancer": 1,
-              "Renal Cell Carcinoma": 1,
-              "Small Bowel Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Soft Tissue Sarcoma": 1
-            },
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 7,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Breast Cancer": 1,
               "Cancer of Unknown Primary": 1,
               "Endometrial Cancer": 1,
-              "Ovarian Cancer": 1,
-              "Renal Cell Carcinoma": 1,
               "Skin Cancer, Non-Melanoma": 1,
               "Small Bowel Cancer": 1
             },
             "unknownVariantsCountByCancerType": {
               "Soft Tissue Sarcoma": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7724,26 +5609,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Non-Small Cell Lung Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -7753,7 +5618,7 @@
               "Non-Small Cell Lung Cancer": 2
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7797,48 +5662,17 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 17,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 1,
-              "Cervical Cancer": 1,
-              "Colorectal Cancer": 1,
-              "Endometrial Cancer": 3,
-              "Melanoma": 7,
-              "Non-Small Cell Lung Cancer": 3,
-              "Soft Tissue Sarcoma": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
-            "somaticVariantsCount": 17,
+            "somaticVariantsCount": 4,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
-              "Cancer of Unknown Primary": 1,
-              "Cervical Cancer": 1,
-              "Colorectal Cancer": 1,
-              "Endometrial Cancer": 3,
-              "Melanoma": 7,
-              "Non-Small Cell Lung Cancer": 3,
-              "Soft Tissue Sarcoma": 1
+              "Endometrial Cancer": 1,
+              "Melanoma": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -7905,34 +5739,9 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 7,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 2,
-              "Endometrial Cancer": 1,
-              "Esophagogastric Cancer": 1,
-              "Glioma": 1,
-              "Ovarian Cancer": 1,
-              "Thyroid Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 21,
-            "somaticVariantsCount": 8,
+            "somaticVariantsCount": 4,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Bladder Cancer": 2,
@@ -7947,16 +5756,13 @@
               "Tubular Adenoma of the Colon": 1
             },
             "somaticVariantsCountByCancerType": {
-              "Colorectal Cancer": 2,
-              "Endometrial Cancer": 1,
+              "Colorectal Cancer": 1,
               "Esophagogastric Cancer": 1,
-              "Glioma": 1,
               "Melanoma": 1,
-              "Ovarian Cancer": 1,
               "Thyroid Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -8006,24 +5812,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -8031,7 +5819,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -8077,24 +5865,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -8102,7 +5872,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -8148,24 +5918,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -8173,7 +5925,7 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       },
@@ -8219,36 +5971,14 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
+          "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
@@ -8302,24 +6032,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 71283
           },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -8329,7 +6041,7 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 71283
           }
         }
       }
