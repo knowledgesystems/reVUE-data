@@ -1,76 +1,62 @@
 import pandas as pd
 import json
+from pathlib import Path
 
-# Read the file as a dataframe
-df = pd.read_csv('../VUEs.txt', delimiter='\t', encoding='utf-8')
+def normalize_value(val):
+    if pd.isna(val) or str(val).strip() == '':
+        return None
+    return str(val).strip()
 
-# Set columns to string type for splitting
-df['pubmedId'] = df['pubmedId'].astype(str)
-df['referenceText'] = df['referenceText'].astype(str)
+def build_variant_dict(row):
+    pubmed_ids = row['pubmedId'].split(';') if row['pubmedId'] else []
+    reference_texts = row['referenceText'].split(';') if row['referenceText'] else []
 
-# Group data by hugoGeneSymbol while preserving the order
-grouped_data = df.groupby('hugoGeneSymbol', sort=False)
+    references = [
+        {
+            "pubmedId": pid,
+            "referenceText": rtxt
+        }
+        for pid, rtxt in zip(pubmed_ids, reference_texts)
+    ]
 
-# Initialize the final JSON array
-json_array = []
-
-# Iterate over each group
-for name, group in grouped_data:
-    # Initialize the dictionary for each group
-    group_dict = {
-        "hugoGeneSymbol": name,
-        "transcriptId": group['transcriptId'].iloc[0],
-        "genomicLocationDescription": group['genomicLocationDescription'].iloc[0],
-        "defaultEffect": group['defaultEffect'].iloc[0],
-        "comment": group['comment'].iloc[0] if not pd.isnull(group['comment'].iloc[0]) else "",
-        "context": group['context'].iloc[0] if not pd.isnull(group['context'].iloc[0]) else "",
-        "revisedProteinEffects": []
+    variant = {
+        "variant": row['variant'],
+        "genomicLocation": row['genomicLocation'],
+        "transcriptId": row['transcriptId'],
+        "vepPredictedProteinEffect": row['vepPredictedProteinEffect'],
+        "vepPredictedVariantClassification": row['vepPredictedVariantClassification'],
+        "revisedProteinEffect": row['revisedProteinEffect'],
+        "revisedVariantClassification": row['revisedVariantClassification'],
+        "revisedStandardVariantClassification": row['revisedStandardVariantClassification'],
+        "hgvsc": row['hgvsc'],
+        "confirmed": str(row['confirmed']).lower() == 'true' if isinstance(row['confirmed'], str) else bool(row['confirmed']),
+        "references": references
     }
 
-    # Iterate over each row in the group
-    for index, row in group.iterrows():
-        # Create a dictionary for each variant
-        variant_dict = {
-            "variant": row['variant'],
-            "genomicLocation": row['genomicLocation'],
-            "transcriptId": row['transcriptId'],
-            "vepPredictedProteinEffect": row['vepPredictedProteinEffect'],
-            "vepPredictedVariantClassification": row['vepPredictedVariantClassification'],
-            "revisedProteinEffect": row['revisedProteinEffect'],
-            "revisedVariantClassification": row['revisedVariantClassification'],
-            "revisedStandardVariantClassification": row['revisedStandardVariantClassification'],
-            "hgvsc": row['hgvsc'],
-            "confirmed": bool(row['confirmed']),
-            "references": []
-        }
-        if not pd.isnull(row['mutationOrigin']):
-            variant_dict['mutationOrigin'] = row['mutationOrigin']
-        if not pd.isnull(row['variantNote']):
-            variant_dict['variantNote'] = row['variantNote']
-        if not pd.isnull(row['otherVariation']):
-            variant_dict['otherVariation'] = row['otherVariation']
+    return variant
 
-        # Parse pubmedId and referenceText
-        pubmed_ids = row['pubmedId'].split(';')
-        reference_texts = row['referenceText'].split(';')
 
-        # Create pairs of pubmedId and referenceText
-        pairs = []
-        for i in range(min(len(pubmed_ids), len(reference_texts))):
-            pairs.append({
-                "pubmedId": pubmed_ids[i],
-                "referenceText": reference_texts[i]
-            })
+input_path = Path('../VUEs.txt')
+output_path = Path('../generated/VUEs.json')
 
-        # Add pairs to the reference list
-        variant_dict['references'] = pairs
+df = pd.read_csv(input_path, sep='\t', dtype=str).fillna('')
+df = df.applymap(normalize_value)
 
-        # Add the variant dictionary to the revisedProteinEffects list
-        group_dict['revisedProteinEffects'].append(variant_dict)
+json_output = []
 
-    # Add the group dictionary to the final JSON array
-    json_array.append(group_dict)
+for hugo, group in df.groupby('hugoGeneSymbol', sort=False):
+    first = group.iloc[0]
+    gene_entry = {
+        "hugoGeneSymbol": hugo,
+        "transcriptId": first['transcriptId'],
+        "genomicLocationDescription": first['genomicLocationDescription'],
+        "defaultEffect": first['defaultEffect'],
+        "comment": first['comment'],
+        "context": first['context'],
+        "revisedProteinEffects": [build_variant_dict(row) for _, row in group.iterrows()]
+    }
+    json_output.append(gene_entry)
 
-# Write the JSON array to a file
-with open('../generated/VUEs.json', 'w', encoding='utf-8') as f:
-    json.dump(json_array, f, indent=4, ensure_ascii=False)
+output_path.parent.mkdir(parents=True, exist_ok=True)
+with open(output_path, 'w', encoding='utf-8') as f:
+    json.dump(json_output, f, indent=4, ensure_ascii=False)
