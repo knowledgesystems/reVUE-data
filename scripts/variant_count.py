@@ -37,11 +37,6 @@ def get_therapeutic_level(genomic_location):
         return response.json().get('highestSensitiveLevel', None)
     return None
 
-# Add the therapeutic levels
-vue_df['therapeuticLevel'] = vue_df.index.to_series().apply(get_therapeutic_level)
-
-
-
 def read_clinical_df(path, cohort_name, target_gene_panels_by_cohorts):
     """Read and normalize a clinical file. Filter by GENE_PANEL if gene panels are provided for this cohort."""
     df = pd.read_csv(path, sep="\t", low_memory=False)
@@ -182,21 +177,22 @@ def merge_sample_maps(sample_maps_by_cohort):
     return dict(chain.from_iterable(d.items() for d in sample_maps_by_cohort.values()))
 
 def update_vue_counts_json(vues_json, vue_df):
-    for vue in vues_json:
-        for effect in vue.get("revisedProteinEffects", []):
-            vue_key = effect.get("genomicLocation")
-            if vue_key in vue_df.index:
+    for gene in vues_json:
+        for vue in gene.get("revisedProteinEffects", []):
+            vue_genomic_location = vue.get("genomicLocation")
+            if vue_genomic_location in vue_df.index:
                 counts_by_cohort = {}
                 for col in vue_df.columns:
                     if col.startswith("count_"):
                         cohort = col.replace("count_", "")
-                        count_data = vue_df.at[vue_key, col]
+                        count_data = vue_df.at[vue_genomic_location, col]
                         if isinstance(count_data, dict):
                             # Directly store the count structure as-is
                             counts_by_cohort[cohort] = count_data
-                if "counts" in effect:
-                    del effect["counts"]
-                effect["counts"] = counts_by_cohort
+                if "counts" in vue:
+                    del vue["counts"]
+                vue["counts"] = counts_by_cohort
+                vue["therapeuticLevel"] = get_therapeutic_level(vue_genomic_location)
     return vues_json
 
 cohorts = {
