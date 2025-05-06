@@ -1,9 +1,9 @@
 import json
 import os
 import pandas as pd
-from typing import List
+from typing import List, Dict, Set, Any, Tuple
 import requests
-
+from itertools import chain
 
 # Download files first
 # There will be internal MSK-IMAPCT, GENIE v15 public cohort, and TCGA Pan-Cancer Atlas (32 cohorts)
@@ -12,171 +12,296 @@ import requests
 # MSK-IMAPCT data can be downloaded from https://github.mskcc.org/cdsi/msk-impact.git in msk_solid_heme folder. Files are stored in /files/mskimpact
 # GENIE data can be downloaded from https://www.synapse.org/#!Synapse:syn53210170. Files are stored in /files/genie
 
-class StudyInfo:
-    def __init__(self, panel_name: str, panel_list: List[str]):
-        self.panel_name = panel_name
-        self.panel_list = panel_list
+# Define gene panels
+target_gene_panels_by_cohorts = {
+    "mskimpact": ["IMPACT341", "IMPACT410", "IMPACT468", "IMPACT505"],
+    "mskimpact_nonsignedout": ["IMPACT341", "IMPACT410", "IMPACT468", "IMPACT505"],
+    # "genie": ["MSK-IMPACT341", "MSK-IMPACT410", "MSK-IMPACT468", "MSK-IMPACT505"]
+}
+vues = pd.read_json('../generated/VUEs.json')
 
-def find_file_pairs(folder_path: str):
-    # Get all files in the directory
-    files = os.listdir(folder_path)
-    mutation_files = [f for f in files if f.endswith('_mutations.txt')]
-    clinical_files = [f for f in files if f.endswith('_clinical_samples.txt')]
+vue_df = pd.json_normalize(
+    data=vues.to_dict(orient='records'),
+    record_path='revisedProteinEffects'
+)
 
-    # Find pairs of files that have the same prefix
-    pairs = []
-    for m_file in mutation_files:
-        prefix = m_file.replace('_mutations.txt', '')
-        for c_file in clinical_files:
-            if c_file.startswith(prefix):
-                pairs.append((m_file, c_file))
+vue_df = vue_df.rename(columns={'genomicLocation': 'vue'})
+vue_df = vue_df.set_index('vue')[[]]
 
-    return pairs
-
-with open('../generated/VUEs.json', 'r') as f:
-    data = json.load(f)
-
-def therapeutic_level(genomic_location):
-    # Make sure to set the ONCOKB_TOKEN
+# fetch therapeutic level from OncoKB
+def get_therapeutic_level(genomic_location):
     url = f"https://www.oncokb.org/api/v1/annotate/mutations/byGenomicChange?genomicLocation={genomic_location}&referenceGenome=GRCh37"
-    headers = {
-        "Authorization": f"Bearer {os.environ.get('ONCOKB_TOKEN')}"
-    }
+    headers = {"Authorization": f"Bearer {os.environ.get('ONCOKB_TOKEN')}"}
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         return response.json().get('highestSensitiveLevel', None)
-    else:
-        return None
+    return None
 
-def updateCounts(mutation_file: str, clinical_file: str, study_id: str, study_info: StudyInfo, multiple_study: bool, first_study: bool):
-    jsonSet = {vue['genomicLocation'] for vueSet in data for vue in vueSet['revisedProteinEffects']}
+def read_clinical_df(path, cohort_name, target_gene_panels_by_cohorts):
+    """Read and normalize a clinical file. Filter by GENE_PANEL if gene panels are provided for this cohort."""
+    df = pd.read_csv(path, sep="\t", low_memory=False)
 
-    counts =  {'germlineVariantsCount': {}, 'somaticVariantsCount': {}, 'unknownVariantsCount': {}, 'sampleCountByCancerType': {'germlineVariantsCount': {}, 'somaticVariantsCount': {}, 'unknownVariantsCount': {}}, 'totalPatientCount': 0, 'patientCountByGene': {}}
-    mutationPatientsId = set()
-    # Read clinical sample data
-    clinical_sample_df = pd.read_csv(clinical_file, sep='\t')
+    gene_panel_column = "SEQ_ASSAY_ID" if cohort_name == "genie" else "GENE_PANEL"
+    if cohort_name in target_gene_panels_by_cohorts and gene_panel_column in df.columns:
+        target_panels = target_gene_panels_by_cohorts[cohort_name]
+        df = df[df[gene_panel_column].isin(target_panels)]
 
-    # Filter data by gene panel
-    if study_info is not None:
-        filtered_clinical_sample_df = clinical_sample_df[clinical_sample_df[study_info.panel_name].isin(study_info.panel_list)]
-    else:
-        filtered_clinical_sample_df = clinical_sample_df
-    # Use filtered_clinical_sample_df to count how many samples per cancer type
-    # counts['totalSampleCountByCancerType'] = filtered_clinical_sample_df['CANCER_TYPE'].value_counts().to_dict()
-    # Count unique PATIENT_ID
-    counts['totalPatientCount'] = len(filtered_clinical_sample_df['PATIENT_ID'].unique())
-    sample_to_patient_map = dict(zip(filtered_clinical_sample_df['SAMPLE_ID'], filtered_clinical_sample_df['PATIENT_ID']))
-    sample_to_cancer_type_map = dict(zip(filtered_clinical_sample_df['SAMPLE_ID'], filtered_clinical_sample_df['CANCER_TYPE']))
-    mutations_df = pd.read_csv(mutation_file, sep='\t', usecols=['Hugo_Symbol', 'Chromosome', 'Start_Position', 'End_Position', 'Reference_Allele', 'Tumor_Seq_Allele1', 'Tumor_Seq_Allele2', 'Mutation_Status', 'Tumor_Sample_Barcode'])
+    df = df[['SAMPLE_ID', 'PATIENT_ID', 'CANCER_TYPE']].copy()
+    df[['SAMPLE_ID', 'PATIENT_ID']] = df[['SAMPLE_ID', 'PATIENT_ID']].apply(
+        lambda col: col.str.replace("GENIE-MSK-", "", regex=False)
+    )
+    return df
 
-    filtered_mutations_df = mutations_df[mutations_df['Tumor_Sample_Barcode'].isin(sample_to_patient_map.keys())]
+def read_mutation_df(path):
+    df = pd.read_csv(path, sep="\t", low_memory=False)
+    df = df[[
+        'Chromosome', 'Start_Position', 'End_Position',
+        'Reference_Allele', 'Tumor_Seq_Allele2',
+        'Tumor_Sample_Barcode', 'Mutation_Status'
+    ]].copy()
 
-    # Count sample number by gene
-    # Group the DataFrame by 'Hugo_Symbol' and count unique 'Tumor_Sample_Barcode' values
-    for gene, group in filtered_mutations_df.groupby('Hugo_Symbol'):
-        checkedPatientId = set()
-        for index, row in group.iterrows():
-            patientId = sample_to_patient_map.get(row['Tumor_Sample_Barcode'])
-            if patientId and patientId not in checkedPatientId:
-                counts['patientCountByGene'][gene] = counts['patientCountByGene'].get(gene, 0) + 1
-                checkedPatientId.add(patientId)
+    df['Tumor_Sample_Barcode'] = df['Tumor_Sample_Barcode'].str.replace("GENIE-MSK-", "", regex=False)
+    df['genomicLocation'] = df[['Chromosome', 'Start_Position', 'End_Position',
+                                'Reference_Allele', 'Tumor_Seq_Allele2']].astype(str).agg(','.join, axis=1)
 
-    for index, row in filtered_mutations_df.iterrows():
-        genomicLocationString = f"{row['Chromosome']},{row['Start_Position']},{row['End_Position']},{row['Reference_Allele']},{row['Tumor_Seq_Allele2']}"
-        if genomicLocationString in jsonSet:
-            if row['Tumor_Sample_Barcode'] in sample_to_patient_map and sample_to_patient_map[row['Tumor_Sample_Barcode']] not in mutationPatientsId:
-                mutationPatientsId.add(sample_to_patient_map[row['Tumor_Sample_Barcode']])
-                cancerType = sample_to_cancer_type_map.get(row['Tumor_Sample_Barcode'])
-                if row['Mutation_Status'].lower() == 'germline':
-                    counts['germlineVariantsCount'][genomicLocationString] = counts['germlineVariantsCount'].get(genomicLocationString, 0) + 1
-                    counts['sampleCountByCancerType']['germlineVariantsCount'][genomicLocationString] = counts['sampleCountByCancerType']['germlineVariantsCount'].get(genomicLocationString, {})
-                    counts['sampleCountByCancerType']['germlineVariantsCount'][genomicLocationString][cancerType] = counts['sampleCountByCancerType']['germlineVariantsCount'].get(genomicLocationString, {}).get(cancerType, 0) + 1
-                elif row['Mutation_Status'].lower() == 'somatic':
-                    counts['somaticVariantsCount'][genomicLocationString] = counts['somaticVariantsCount'].get(genomicLocationString, 0) + 1
-                    counts['sampleCountByCancerType']['somaticVariantsCount'][genomicLocationString] = counts['sampleCountByCancerType']['somaticVariantsCount'].get(genomicLocationString, {})
-                    counts['sampleCountByCancerType']['somaticVariantsCount'][genomicLocationString][cancerType] = counts['sampleCountByCancerType']['somaticVariantsCount'].get(genomicLocationString, {}).get(cancerType, 0) + 1
-                else:
-                    counts['unknownVariantsCount'][genomicLocationString] = counts['unknownVariantsCount'].get(genomicLocationString, 0) + 1
-                    counts['sampleCountByCancerType']['unknownVariantsCount'][genomicLocationString] = counts['sampleCountByCancerType']['unknownVariantsCount'].get(genomicLocationString, {})
-                    counts['sampleCountByCancerType']['unknownVariantsCount'][genomicLocationString][cancerType] = counts['sampleCountByCancerType']['unknownVariantsCount'].get(genomicLocationString, {}).get(cancerType, 0) + 1
+    return df
 
-    # Add the count numbers to the corresponding JSON objects
-    for vueSet in data:
-        for vue in vueSet['revisedProteinEffects']:
-            vue['therapeuticLevel'] = therapeutic_level(vue['genomicLocation'])
-            if 'counts' in vue:
-                if multiple_study and study_id in vue['counts'] and not first_study:
-                    # before each for loop, check if the key exists in the dictionary
-                    vue['counts'][study_id] = { 
-                            "germlineVariantsCount": counts["germlineVariantsCount"].get(vue['genomicLocation'], 0) + vue['counts'][study_id]['germlineVariantsCount'],
-                            "somaticVariantsCount": counts["somaticVariantsCount"].get(vue['genomicLocation'], 0) + vue['counts'][study_id]['somaticVariantsCount'],
-                            "unknownVariantsCount": counts["unknownVariantsCount"].get(vue['genomicLocation'], 0) + vue['counts'][study_id]['unknownVariantsCount'],
-                            "germlineVariantsCountByCancerType": {},
-                            "somaticVariantsCountByCancerType": {},
-                            "unknownVariantsCountByCancerType": {},
-                            # "totalVariantCountByCancerType": {},
-                            "totalPatientCount": counts.get("totalPatientCount") + vue['counts'][study_id]['totalPatientCount'],
-                            "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0) + vue['counts'][study_id]['genePatientCount']
-                        }
-                    for cancerType in vue['counts'][study_id]['germlineVariantsCountByCancerType']:
-                        vue['counts'][study_id]['germlineVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['germlineVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0) + vue['counts'][study_id]['germlineVariantsCountByCancerType'].get(cancerType, 0)
-                    for cancerType in vue['counts'][study_id]['somaticVariantsCountByCancerType']:
-                        vue['counts'][study_id]['somaticVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0) + vue['counts'][study_id]['somaticVariantsCountByCancerType'].get(cancerType, 0)
-                    for cancerType in vue['counts'][study_id]['unknownVariantsCountByCancerType']:
-                        vue['counts'][study_id]['unknownVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0) + vue['counts'][study_id]['unknownVariantsCountByCancerType'].get(cancerType, 0)
-                    # for cancerType in vue['counts'][study_id]['totalVariantCountByCancerType']:
-                    #     vue['counts'][study_id]['totalVariantCountByCancerType'][cancerType] = counts['totalSampleCountByCancerType'].get(cancerType, 0) + vue['counts'][study_id]['totalVariantCountByCancerType'].get(cancerType, 0)
-                else:
-                    vue['counts'][study_id] = { 
-                            "germlineVariantsCount": counts["germlineVariantsCount"].get(vue['genomicLocation'], 0),
-                            "somaticVariantsCount": counts["somaticVariantsCount"].get(vue['genomicLocation'], 0),
-                            "unknownVariantsCount": counts["unknownVariantsCount"].get(vue['genomicLocation'], 0),
-                            "germlineVariantsCountByCancerType": {},
-                            "somaticVariantsCountByCancerType": {},
-                            "unknownVariantsCountByCancerType": {},
-                            # "totalVariantCountByCancerType": {},
-                            "totalPatientCount": counts.get("totalPatientCount"),
-                            "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0)
-                        }
-                    for cancerType in counts['sampleCountByCancerType']['germlineVariantsCount'].get(vue['genomicLocation'], {}):
-                        vue['counts'][study_id]['germlineVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['germlineVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0)
-                    for cancerType in counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}):
-                        vue['counts'][study_id]['somaticVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0)
-                    for cancerType in counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}):
-                        vue['counts'][study_id]['unknownVariantsCountByCancerType'][cancerType] = counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}).get(cancerType, 0)
-                    # for cancerType in counts['totalSampleCountByCancerType']:
-                    #     vue['counts'][study_id]['totalVariantCountByCancerType'][cancerType] = counts['totalSampleCountByCancerType'].get(cancerType, 0)
-            else:
-                vue['counts']= { 
-                    study_id: {
-                        "germlineVariantsCount": counts["germlineVariantsCount"].get(vue['genomicLocation'], 0),
-                        "somaticVariantsCount": counts["somaticVariantsCount"].get(vue['genomicLocation'], 0),
-                        "unknownVariantsCount": counts["unknownVariantsCount"].get(vue['genomicLocation'], 0),
-                        "germlineVariantsCountByCancerType": counts['sampleCountByCancerType']['germlineVariantsCount'].get(vue['genomicLocation'], {}),
-                        "somaticVariantsCountByCancerType": counts['sampleCountByCancerType']['somaticVariantsCount'].get(vue['genomicLocation'], {}),
-                        "unknownVariantsCountByCancerType": counts['sampleCountByCancerType']['unknownVariantsCount'].get(vue['genomicLocation'], {}),
-                        "totalVariantCountByCancerType": counts['totalSampleCountByCancerType'][cancerType],
-                        "totalPatientCount": counts.get("totalPatientCount"),
-                        "genePatientCount": counts['patientCountByGene'].get(vueSet['hugoGeneSymbol'], 0)
-                }}
+def build_variant_and_status_maps(mutation_df, vue_df):
+    matched = mutation_df[mutation_df['genomicLocation'].isin(vue_df.index)]
+    variant_to_sample = matched.groupby('genomicLocation')['Tumor_Sample_Barcode'].apply(list).to_dict()
+    sample_to_mutation_status = matched.set_index('Tumor_Sample_Barcode')['Mutation_Status'].to_dict()
+    return matched, variant_to_sample, sample_to_mutation_status
 
-# Update mskimpact counts
-study_info_mskimpact = StudyInfo('GENE_PANEL', ["IMPACT341", "IMPACT410", "IMPACT468", "IMPACT505"])
-updateCounts('./files/mskimpact/mskimpact_data_mutations_extended.txt', './files/mskimpact/mskimpact_data_clinical_sample.txt', 'mskimpact', study_info_mskimpact, False, False)
-# Update mskimpact nonsignedout counts
-updateCounts('./files/mskimpact_nonsignedout/data_nonsignedout_mutations.txt', './files/mskimpact_nonsignedout/data_clinical_sample.txt', 'mskimpact_nonsignedout', None, False, False)
-# Update genie counts
-study_info_genie = StudyInfo('SEQ_ASSAY_ID', ["MSK-IMPACT341","MSK-IMPACT410", "MSK-IMPACT468", "MSK-IMPACT505"])
-updateCounts('./files/genie/genie_data_mutations_extended.txt', './files/genie/genie_data_clinical_sample.txt', 'genie', study_info_genie, False, False)
-# Update tcga counts
-tcga_folder = './files/tcga'
-tcga_file_pairs = find_file_pairs(tcga_folder)
-for index, pair in enumerate(tcga_file_pairs):
-    mutation_file_name, clinical_file_name = pair
-    mutation_file_path = tcga_folder + '/' + mutation_file_name
-    clinical_file_path = tcga_folder + '/' + clinical_file_name
-    updateCounts(mutation_file_path, clinical_file_path, 'tcga', None, True, index == 0)
+def build_sample_to_patient_map(clinical_df, valid_sample_ids):
+    filtered = clinical_df[clinical_df['SAMPLE_ID'].isin(valid_sample_ids)]
+    return filtered.set_index('SAMPLE_ID')['PATIENT_ID'].to_dict()
 
-# Write the updated JSON data back to the file
-with open('../generated/VUEs.json', 'w') as f:
-    json.dump(data, f, indent=4)
+def process_cohort(clinical_df, mutation_df, vue_df):
+    matched_df, variant_to_sample, sample_to_mutation_status = build_variant_and_status_maps(mutation_df, vue_df)
+    sample_to_patient = build_sample_to_patient_map(clinical_df, matched_df['Tumor_Sample_Barcode'].unique())
+    sample_to_cancer_type = clinical_df.set_index('SAMPLE_ID')['CANCER_TYPE'].to_dict()
+
+    return variant_to_sample, sample_to_mutation_status, sample_to_patient, sample_to_cancer_type
+
+def find_tcga_file_pairs(folder_path):
+    files = os.listdir(folder_path)
+    mutation_files = [f for f in files if f.endswith('_mutations.txt')]
+    pairs = []
+    for mut_file in mutation_files:
+        prefix = mut_file.replace('_mutations.txt', '')
+        clinical_file = f"{prefix}_clinical_samples.txt"
+        if clinical_file in files:
+            pairs.append((
+                os.path.join(folder_path, clinical_file),
+                os.path.join(folder_path, mut_file)
+            ))
+    return pairs
+
+def read_all_tcga(folder_path):
+    pairs = find_tcga_file_pairs(folder_path)
+
+    all_clinical = [
+        read_clinical_df(clinical_path, "tcga", target_gene_panels_by_cohorts)
+        for clinical_path, _ in pairs
+    ]
+    all_mutation = [
+        read_mutation_df(mutation_path)
+        for _, mutation_path in pairs
+    ]
+
+    clinical_df = pd.concat(all_clinical, ignore_index=True)
+    mutation_df = pd.concat(all_mutation, ignore_index=True)
+
+    return clinical_df, mutation_df
+
+def categorize_mutation_status(mutation_status_series):
+    # gemrline, somatic, unknown
+    return mutation_status_series.str.lower().where(mutation_status_series.str.lower().isin(['germline', 'somatic']), 'unknown')
+
+def count_unique_patients_per_vue(vue, variant_to_sample, sample_to_mutation_status, sample_to_patient, sample_to_cancer_type):
+    sample_ids = variant_to_sample.get(vue, [])
+    df = pd.DataFrame({'sample_id': sample_ids})
+
+    # mutation status category: gemrline, somatic, unknown
+    raw_status = df['sample_id'].map(sample_to_mutation_status).fillna('unknown').str.lower()
+    df['status'] = raw_status.where(raw_status.isin(['germline', 'somatic']), 'unknown')
+
+    df['patient_id'] = df['sample_id'].map(sample_to_patient)
+    df['cancer_type'] = df['sample_id'].map(sample_to_cancer_type)
+
+    df = df.dropna(subset=['patient_id'])
+
+    counts = {
+        'germlineVariantsCount': 0,
+        'somaticVariantsCount': 0,
+        'unknownVariantsCount': 0,
+        'germlineVariantsCountByCancerType': {},
+        'somaticVariantsCountByCancerType': {},
+        'unknownVariantsCountByCancerType': {}
+    }
+
+    for status in ['germline', 'somatic', 'unknown']:
+        group = df[df['status'] == status].drop_duplicates('patient_id')
+        counts[f'{status}VariantsCount'] = len(group)
+
+        counts_by_cancer_type = group.groupby('cancer_type')['patient_id'].nunique()
+        counts[f'{status}VariantsCountByCancerType'] = counts_by_cancer_type.to_dict()
+
+    return counts
+
+def add_vue_counts(vue_df,
+                       variant_to_sample,
+                       sample_to_mutation_status,
+                       sample_to_cancer_type,
+                       sample_to_patient,
+                       clinical_df):
+    vue_df = vue_df.copy()
+    total_patients = clinical_df['PATIENT_ID'].nunique()
+
+    vue_df['count'] = vue_df.index.to_series().apply(
+        lambda vue: {
+            **count_unique_patients_per_vue(
+                vue,
+                variant_to_sample,
+                sample_to_mutation_status,
+                sample_to_patient,
+                sample_to_cancer_type
+            ),
+            'totalPatientCount': total_patients
+        }
+    )
+
+    return vue_df
+
+def merge_sample_maps(sample_maps_by_cohort):
+    return dict(chain.from_iterable(d.items() for d in sample_maps_by_cohort.values()))
+
+def update_vue_counts_json(vues_json, vue_df):
+    for gene in vues_json:
+        for vue in gene.get("revisedProteinEffects", []):
+            vue_genomic_location = vue.get("genomicLocation")
+            if vue_genomic_location in vue_df.index:
+                counts_by_cohort = {}
+                for col in vue_df.columns:
+                    if col.startswith("count_"):
+                        cohort = col.replace("count_", "")
+                        count_data = vue_df.at[vue_genomic_location, col]
+                        if isinstance(count_data, dict):
+                            # Directly store the count structure as-is
+                            counts_by_cohort[cohort] = count_data
+                if "counts" in vue:
+                    del vue["counts"]
+                vue["counts"] = counts_by_cohort
+                vue["therapeuticLevel"] = get_therapeutic_level(vue_genomic_location)
+    return vues_json
+
+cohorts = {
+    "mskimpact": {
+        "clinical_path": "./files/mskimpact/mskimpact_data_clinical_sample.txt",
+        "mutation_path": "./files/mskimpact/mskimpact_data_mutations_extended.txt"
+    },
+    "mskimpact_nonsignedout": {
+        "clinical_path": "./files/mskimpact_nonsignedout/data_clinical_sample.txt",
+        "mutation_path": "./files/mskimpact_nonsignedout/data_nonsignedout_mutations.txt"
+    },
+    "genie": {
+        "clinical_path": "./files/genie/genie_data_clinical_sample.txt",
+        "mutation_path": "./files/genie/genie_data_mutations_extended.txt"
+    }
+}
+# Utility to merge multiple sample maps
+def merge_sample_maps(sample_maps_by_cohort):
+    return dict(chain.from_iterable(d.items() for d in sample_maps_by_cohort.values()))
+
+# Cohort processing wrapper
+def process_and_count_cohort(name, clinical_path, mutation_path, vue_df, target_gene_panels_by_cohort):
+    clinical_df = read_clinical_df(clinical_path, name, target_gene_panels_by_cohort)
+    mutation_df = read_mutation_df(mutation_path)
+    variant_to_sample, sample_to_mutation_status, sample_to_patient, sample_to_cancer_type = process_cohort(
+        clinical_df, mutation_df, vue_df
+    )
+    vue_df[f'count_{name}'] = add_vue_counts(
+        vue_df=vue_df,
+        variant_to_sample=variant_to_sample,
+        sample_to_mutation_status=sample_to_mutation_status,
+        sample_to_cancer_type=sample_to_cancer_type,
+        sample_to_patient=sample_to_patient,
+        clinical_df=clinical_df
+    )['count']
+    return {
+        "variant_to_sample": variant_to_sample,
+        "sample_to_mutation_status": sample_to_mutation_status,
+        "sample_to_patient": sample_to_patient,
+        "sample_to_cancer_type": sample_to_cancer_type,
+        "clinical_df": clinical_df
+    }
+
+# Prepare containers
+all_variant_to_sample = {}
+all_sample_to_mutation_status = {}
+all_sample_to_patient = {}
+all_sample_to_cancer_type = {}
+all_clinical_dfs = []
+
+# Process standard cohorts
+for cohort_name, paths in cohorts.items():
+    result = process_and_count_cohort(
+        name=cohort_name,
+        clinical_path=paths["clinical_path"],
+        mutation_path=paths["mutation_path"],
+        vue_df=vue_df,
+        target_gene_panels_by_cohort=target_gene_panels_by_cohorts
+    )
+    all_variant_to_sample[cohort_name] = result["variant_to_sample"]
+    all_sample_to_mutation_status[cohort_name] = result["sample_to_mutation_status"]
+    all_sample_to_patient[cohort_name] = result["sample_to_patient"]
+    all_sample_to_cancer_type[cohort_name] = result["sample_to_cancer_type"]
+    all_clinical_dfs.append(result["clinical_df"][['PATIENT_ID']])
+
+# Handle TCGA separately
+tcga_clinical_df, tcga_mutation_df = read_all_tcga("./files/tcga")
+tcga_variant_to_sample, tcga_sample_to_mutation_status, tcga_sample_to_patient, tcga_sample_to_cancer_type = process_cohort(
+    tcga_clinical_df, tcga_mutation_df, vue_df
+)
+vue_df['count_tcga'] = add_vue_counts(
+    vue_df=vue_df,
+    variant_to_sample=tcga_variant_to_sample,
+    sample_to_mutation_status=tcga_sample_to_mutation_status,
+    sample_to_cancer_type=tcga_sample_to_cancer_type,
+    sample_to_patient=tcga_sample_to_patient,
+    clinical_df=tcga_clinical_df
+)['count']
+
+# Include TCGA in total maps
+all_variant_to_sample["tcga"] = tcga_variant_to_sample
+all_sample_to_mutation_status["tcga"] = tcga_sample_to_mutation_status
+all_sample_to_patient["tcga"] = tcga_sample_to_patient
+all_sample_to_cancer_type["tcga"] = tcga_sample_to_cancer_type
+all_clinical_dfs.append(tcga_clinical_df[['PATIENT_ID']])
+
+# Compute total (merged) counts
+total_variant_to_sample = {}
+for cohort_map in all_variant_to_sample.values():
+    for vue, samples in cohort_map.items():
+        total_variant_to_sample.setdefault(vue, []).extend(samples)
+
+total_sample_to_mutation_status = merge_sample_maps(all_sample_to_mutation_status)
+total_sample_to_patient = merge_sample_maps(all_sample_to_patient)
+total_sample_to_cancer_type = merge_sample_maps(all_sample_to_cancer_type)
+total_clinical_df = pd.concat(all_clinical_dfs, ignore_index=True).drop_duplicates()
+
+vue_df['count_total'] = add_vue_counts(
+    vue_df=vue_df,
+    variant_to_sample=total_variant_to_sample,
+    sample_to_mutation_status=total_sample_to_mutation_status,
+    sample_to_cancer_type=total_sample_to_cancer_type,
+    sample_to_patient=total_sample_to_patient,
+    clinical_df=total_clinical_df
+)['count']
+
+
+with open("../generated/VUEs.json", "r", encoding="utf-8") as f:
+    original_vues = json.load(f)
+
+with open("../generated/VUEs.json", "w", encoding="utf-8") as f:
+    json.dump(update_vue_counts_json(original_vues, vue_df), f, indent=2, ensure_ascii=False)

@@ -24,6 +24,7 @@
             "referenceText": "Corless et al., 2004"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -56,15 +57,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 3,
@@ -74,10 +66,9 @@
               "Gastrointestinal Stromal Tumor": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "4:g.55593580_55593606del",
@@ -96,6 +87,7 @@
             "referenceText": "Corless et al., 2004"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -128,15 +120,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 8,
@@ -146,10 +129,9 @@
               "Gastrointestinal Stromal Tumor": 8
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "4:g.55593578_55593606del",
@@ -168,6 +150,7 @@
             "referenceText": "Corless et al., 2004"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -200,15 +183,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 5,
@@ -218,10 +192,9 @@
               "Gastrointestinal Stromal Tumor": 5
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -250,6 +223,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -289,15 +263,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 512,
@@ -314,10 +279,9 @@
               "Tubular Adenoma of the Colon": 4
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -346,6 +310,7 @@
             "referenceText": "Niersch et al., 2021"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -374,30 +339,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Renal Clear Cell Carcinoma": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Renal Clear Cell Carcinoma": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -426,6 +377,7 @@
             "referenceText": "Kobayashi et al., 2022"
           }
         ],
+        "therapeuticLevel": "LEVEL_2",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -471,24 +423,10 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 7,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Cholangiocarcinoma": 1,
-              "Colorectal Cancer": 3,
-              "Melanoma": 1,
-              "Thyroid Cancer": 2
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 41,
-            "unknownVariantsCount": 7,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Anal Cancer": 1,
@@ -503,16 +441,10 @@
               "Prostate Cancer": 2,
               "Thyroid Cancer": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Cholangiocarcinoma": 1,
-              "Colorectal Cancer": 3,
-              "Melanoma": 1,
-              "Thyroid Cancer": 2
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_2"
+        }
       }
     ]
   },
@@ -541,6 +473,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -573,15 +506,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -591,10 +515,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266012_41266312del",
@@ -613,6 +536,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -645,15 +569,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -663,10 +578,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266038_41266264del",
@@ -685,6 +599,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -717,15 +632,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -735,10 +641,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265709_41266219del",
@@ -757,6 +662,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -789,15 +695,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -807,10 +704,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266090_41266253del",
@@ -829,6 +725,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -861,15 +758,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -879,10 +767,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265579_41266277del",
@@ -901,6 +788,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -933,15 +821,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -951,10 +830,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265722_41266253del",
@@ -973,6 +851,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1005,15 +884,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1023,10 +893,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266029_41266287del",
@@ -1045,6 +914,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1077,15 +947,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1095,10 +956,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266028_41266420del",
@@ -1117,6 +977,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1149,15 +1010,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1167,10 +1019,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266016_41266403del",
@@ -1189,6 +1040,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1221,15 +1073,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1239,10 +1082,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265975_41266211del",
@@ -1261,6 +1103,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1293,15 +1136,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1311,10 +1145,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265908_41266236del",
@@ -1333,6 +1166,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1365,15 +1199,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1383,10 +1208,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266013_41266355del",
@@ -1405,6 +1229,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1437,15 +1262,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1455,10 +1271,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265897_41266218del",
@@ -1477,6 +1292,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1509,15 +1325,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1527,10 +1334,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41266002_41266029del",
@@ -1549,6 +1355,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1581,15 +1388,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -1599,10 +1397,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265562_41266260del",
@@ -1621,6 +1418,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1649,15 +1447,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1665,10 +1454,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265568_41266266del",
@@ -1687,6 +1475,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1715,15 +1504,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1731,10 +1511,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265571_41266206del",
@@ -1753,6 +1532,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1781,15 +1561,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1797,10 +1568,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265648_41266493del",
@@ -1819,6 +1589,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1847,15 +1618,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1863,10 +1625,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265674_41266212del",
@@ -1885,6 +1646,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1913,15 +1675,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1929,10 +1682,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.41265990_41266204del",
@@ -1951,6 +1703,7 @@
             "referenceText": "Yaeger et al., 2018"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -1979,15 +1732,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -1995,10 +1739,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -2027,6 +1770,7 @@
             "referenceText": "Schrock et al., 2014"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2059,15 +1803,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -2077,10 +1812,9 @@
               "Hepatobiliary Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411770_116412349del",
@@ -2099,6 +1833,7 @@
             "referenceText": "Schrock et al., 2014"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2129,15 +1864,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -2147,10 +1873,9 @@
               "Glioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411818_116412557del",
@@ -2169,6 +1894,7 @@
             "referenceText": "Schrock et al., 2014"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2201,15 +1927,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -2219,10 +1936,9 @@
               "Non-Small Cell Lung Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411874_116411897del",
@@ -2241,6 +1957,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2269,15 +1986,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2285,10 +1993,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411881_116411897del",
@@ -2307,6 +2014,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2335,15 +2043,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2351,10 +2050,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411881_116411937del",
@@ -2373,6 +2071,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2401,15 +2100,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2417,10 +2107,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411860_116411888del",
@@ -2439,6 +2128,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2467,15 +2157,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2483,10 +2164,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "7:g.116411879_116411896del",
@@ -2505,6 +2185,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2533,15 +2214,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2549,10 +2221,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116412046A>G",
@@ -2571,6 +2242,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2609,15 +2281,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 45,
@@ -2631,10 +2294,9 @@
             "unknownVariantsCountByCancerType": {
               "Non-Small Cell Lung Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411879_116411897del",
@@ -2653,6 +2315,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2681,15 +2344,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2697,10 +2351,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411887_116411906del",
@@ -2719,6 +2372,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2747,15 +2401,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2763,10 +2408,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116412043G>A",
@@ -2785,6 +2429,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2827,15 +2472,6 @@
             },
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 72,
@@ -2850,10 +2486,9 @@
             "unknownVariantsCountByCancerType": {
               "Non-Small Cell Lung Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411885_116411897del",
@@ -2872,6 +2507,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2900,15 +2536,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2916,10 +2543,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116412041_116412044del",
@@ -2938,6 +2564,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -2966,15 +2593,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -2982,10 +2600,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411881_116411895del",
@@ -3004,6 +2621,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3032,15 +2650,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3048,10 +2657,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411867_116411882del",
@@ -3070,6 +2678,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3098,15 +2707,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3114,10 +2714,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "7:g.116412044G>A",
@@ -3136,8 +2735,8 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
-        "counts": {},
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "counts": {}
       },
       {
         "variant": "7:g.116411876_116411896del",
@@ -3156,6 +2755,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3184,15 +2784,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3200,10 +2791,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "7:g.116411867_116411890del",
@@ -3222,6 +2812,7 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3250,15 +2841,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3266,10 +2848,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -3298,6 +2879,7 @@
             "referenceText": "Lucas et al., 2014"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3332,15 +2914,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -3351,10 +2924,9 @@
               "Glioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "5:g.67589663G>A",
@@ -3373,6 +2945,7 @@
             "referenceText": "Lucas et al., 2014"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3421,21 +2994,10 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Esophagogastric Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 20,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Breast Cancer": 2,
@@ -3449,13 +3011,10 @@
               "Prostate Cancer": 3,
               "Salivary Gland Cancer": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Esophagogastric Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -3484,6 +3043,7 @@
             "referenceText": "Zhang et al., 2020"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3514,15 +3074,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -3532,10 +3083,9 @@
               "Leukemia": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -3565,6 +3115,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3595,15 +3146,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -3613,10 +3155,9 @@
               "Soft Tissue Sarcoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "11:g.108127067G>A",
@@ -3641,6 +3182,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "This heterozygous germline variant ATM c.2250G>A variant does not change the encoded amino acid of the ATM protein (p.Lys750=), however, it falls at the last base pair of exon 14 of ATM. This variant has been identified in <0.01% of Non-Finnish European chromosomes in the genome Aggregation Database (http://gnomad.broadinstitute.org). It has been reported in combination with another pathogenic variant in individuals and families with Ataxia-telangiectasia (PMID: 9463314, 10980530, 9887333, 10330348, 19691550). It has also been reported in the heterozygous state in a BRCA1/2 negative individual undergoing multigene panel testing (PMID:26270727). An experimental study showed that this variant affects splicing and leads to exon skipping of exon 14 (PMID: 9887333). This variant is classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.). Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia.",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 8,
@@ -3690,15 +3232,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 8,
             "somaticVariantsCount": 15,
@@ -3724,10 +3257,9 @@
               "Thyroid Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "11:g.108138071T>C",
@@ -3747,6 +3279,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3777,15 +3310,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -3795,10 +3319,9 @@
               "Esophagogastric Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108175400A>C",
@@ -3818,6 +3341,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3846,15 +3370,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3862,10 +3377,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108198370A>C",
@@ -3885,6 +3399,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3913,15 +3428,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3929,10 +3435,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108198484_108198522del",
@@ -3952,6 +3457,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -3980,15 +3486,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -3996,10 +3493,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108214099_108214103del",
@@ -4019,6 +3515,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4047,15 +3544,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4063,10 +3551,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108236051G>A",
@@ -4086,6 +3573,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4114,15 +3602,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4130,10 +3609,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108202764G>A",
@@ -4154,6 +3632,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "This heterozygous ATM c.7788G>A p.Glu2596Glu variant is a synonymous variant that occurs at the last nucleotide of exon 52 and does not alter the amino acid at this position. It has been identified in 0.002% of Non-Finnish European chromosomes by the Exome Aggregation Consortium (ExAC: http://exac.broadinstitute.org; dbSNP). This variant has been reported in two homozygous and one compound heterozygous individuals with ataxia-telangiectasia (PMID: 9792409 and 26693373). It has been demonstrated to cause altered splicing, leading to deletion of 53 amino acids in exon 52 (PMID: 9792409). This region includes part of the FAT domain, which has been suggested to be important for proper activity of the protein (PMID: 23532176, 25460276, 10782091, 27229179). In summary, based on the previous reports of this variant in individuals with ataxia-telangiectasia and its impact on the protein, this variant meets our criteria to be classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.) Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia.",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -4184,15 +3663,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -4202,10 +3672,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "11:g.108151895G>A",
@@ -4234,6 +3703,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "This heterozygous ATM c.3576G>A variant is a synonymous alteration that does not change a Lysine to another amino acid at codon 1192 (p.Lys1192=). This variant occurs in the last nucleotide of an exon and leads to aberrant splicing leading to exon skipping according to in-vitro RNA studies (PMID: 9887333, 16941484, 21965147). This variant has been identified in 4/113572 of Non-Finnish European chromosomes by the Genome Aggregation Database (http://gnomad.broadinstitute.org/;), and has been reported in multiple individuals with ataxia telangiectasia in heterozygous (in-trans with another pathogenic ATM variant) or homozygous states (PMID: 30819809, 8845835, 9443866, 9792409, 9887333, 10330348, 12552559, 16941484, 17124347). Furthermore, this variant has been detected in patients with breast, thyroid or ampullary cancers (PMID: 27599564, 30620386, 31300551). In summary, based on the previous reports of this variant in individuals with ATM associated disease and in-vitro functional studies, this variant is classified as pathogenic. ATM truncating mutations may increase the risk of breast cancer and pancreatic cancer (PMID: 21787400; PMID: 22585167) and have been reported in families with familial prostate cancer (PMID: 24556621.) Ataxia-telangiectasia is an autosomal recessive condition characterized by progressive cerebellar ataxia, telangiectasias, immunodeficiency, and increased cancer risks and is caused by two mutations (one affecting each allele) in the ATM gene. If an ATM mutation carrier's partner is heterozygous for a pathogenic ATM mutation, there is a 25% risk that each child would be affected by ataxia-telangiectasia.",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 3,
@@ -4269,15 +3739,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 3,
             "somaticVariantsCount": 2,
@@ -4291,10 +3752,9 @@
               "Skin Cancer, Non-Melanoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -4324,6 +3784,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4352,15 +3813,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4368,10 +3820,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.41228505C>A",
@@ -4391,6 +3842,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 4,
@@ -4431,15 +3883,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 3,
             "somaticVariantsCount": 9,
@@ -4456,10 +3899,9 @@
               "Small Cell Lung Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.41258474T>C",
@@ -4483,6 +3925,7 @@
           }
         ],
         "variantNote": "The BRCA1 c.211A>G variant changes an arginine to glycine at codon 71 (p.R71G). This variant has been identified in 1/249744 chromosomes by the Genome Aggregation Database (http://gnomad.broadinstitute.org/), and has been reported as a founder mutation in the Spanish population shown to segregate with breast and ovarian cancer in multiple families (PMID: 11385711, 23683081, 27081505, 12014998, 20215541). According to RT-PCR analysis, this variants leads to an aberrantly spliced mRNA creating a premature stop codon (p.Cys64*) (PMID: 11385711, 19123044, 20215541, 21735045). Heterozygous truncating variants in BRCA1 are known to be pathogenic. Note: this variant is also known as 330A>G in the literature. The sequence analysis indicated that 22 base pairs of exon 4 were deleted, creating with the first bases of exon 5, a termination codon at position 64",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -4516,15 +3959,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 2,
@@ -4537,10 +3971,9 @@
               "Pancreatic Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.41258472C>T",
@@ -4560,6 +3993,7 @@
           }
         ],
         "variantNote": "Deletion of 22 bp at the end of exon 4",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4590,15 +4024,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -4608,10 +4033,9 @@
               "Cancer of Unknown Primary": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.41256985T>C",
@@ -4631,6 +4055,7 @@
           }
         ],
         "variantNote": "Insertion of 11 bp of intro 4 at the beginning of exon 5",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -4661,15 +4086,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -4679,10 +4095,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "17:g.41234420C>A",
@@ -4703,8 +4118,8 @@
         ],
         "variantNote": "Skipping of exon 12",
         "otherVariation": "Deletion of the first three bases of exon 14 (r.4358_4360del), leading to an in-frame deletion of the amino acid alanine at codon 1,453 (p.Ala1453del)",
-        "counts": {},
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "counts": {}
       },
       {
         "variant": "17:g.41234420del",
@@ -4725,6 +4140,7 @@
         ],
         "variantNote": "Deletion of a guanine at the last base of exon 12 (r.4357del) because of the use of a cryptic donor splice site created by the DNA mutation",
         "otherVariation": "Can also be a a skipping of exon 13, although in the case of c.4357+1delG this aberrant band is observed in a lower proportion; this frameshift deletion is predicted to generate a premature stop codon (p.Arg1397TyrfsX2)",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4753,15 +4169,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4769,10 +4176,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.41228504C>A",
@@ -4792,6 +4198,7 @@
           }
         ],
         "variantNote": "This mutation arises in the invariant guanine in the consensus sequence of the 5' donor splice site of exon 13. cDNA analysis showed that this mutation abolishes the natural 5_ splice site of exon 13, causing complete deletion of this exon (r.4358_4484del)",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4820,15 +4227,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4836,10 +4234,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.41219622T>C",
@@ -4860,6 +4257,7 @@
         ],
         "variantNote": "The BRCA1 c.5074+3A>G variant was identified in a woman with bilateral breast cancer; her mother, who was diagnosed with breast cancer at age 53 and with colorectal cancer at age 68, carried the same variant. RNA analysis of this variant shows an insertion of the first 153 bp of intron 16 (r.5074_5075ins5074+1_5074+153). the pathogenicity of this mutation may derive from the splicing anomalies detected and is supported by the co-segregation with breast cancer observed in this family.",
         "otherVariation": "Can also be a skipping of exon 17 (r.4987_5074del), which is predicted to lead to the truncated proteins p.Val1665SerfsX8",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4888,15 +4286,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -4904,10 +4293,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -4937,6 +4325,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -4968,15 +4357,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -4987,10 +4367,9 @@
               "Non-Small Cell Lung Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "13:g.32931878G>A",
@@ -5010,6 +4389,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5042,15 +4422,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 3,
@@ -5062,10 +4433,9 @@
               "Pancreatic Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "13:g.32954050G>A",
@@ -5085,6 +4455,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 2,
@@ -5122,15 +4493,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 2,
             "somaticVariantsCount": 6,
@@ -5146,10 +4508,9 @@
               "Skin Cancer, Non-Melanoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "13:g.32919384T>G",
@@ -5168,6 +4529,7 @@
             "referenceText": "Anczuków et al., 2012"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5196,15 +4558,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5212,10 +4565,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "13:g.32900635G>A",
@@ -5236,6 +4588,7 @@
         ],
         "variantNote": "Leads to a skipping of exon 7 (r.517_631del)",
         "otherVariation": "Activate a cryptic donor splice site that leads to the skipping of most of exon 6 and all of exon 7 (r.478_631del). This transcript is predicted to lead to a truncated protein (p.Val160SerfsX19)",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 2,
@@ -5267,15 +4620,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 2,
             "somaticVariantsCount": 0,
@@ -5286,10 +4630,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "13:g.32907378A>G",
@@ -5309,6 +4652,7 @@
           }
         ],
         "variantNote": "Identified in a woman diagnosed with breast cancer at age 31. This variant creates a new cryptic donor site, which leads to an alternative transcript consisting of an in-frame deletion of 147 nucleotides (r.1763_1909del) that, in turn, produces an in-frame deletion of 49 amino acids with the insertion of a serine (p.Asn588_Gly637delinsSer)",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5337,15 +4681,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5353,10 +4688,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "13:g.32944538G>A",
@@ -5376,6 +4710,7 @@
           }
         ],
         "variantNote": "This mutation arises in the invariant dinucleotide in the consensus sequence of the 3_ acceptor splice site of exon 19. cDNA analysis of the mutation showed that this mutation abolishes the natural 3_ splice site of exon 19 and leads to the activation of a cryptic splice site 14 bp downstream. Consequently, the mutated transcript shows a 14-bp deletion at the beginning of exon 19 (r.8332_8345del).",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5409,15 +4744,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -5428,10 +4754,9 @@
               "Melanoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "13:g.32953872T>G",
@@ -5451,6 +4776,7 @@
           }
         ],
         "variantNote": "It creates a new cryptic donor site that leads to an alternative transcript with an insertion of the last 14 nucleotides of intron 22 (r.8953_8954ins8954-14_8954-1), generating a truncated protein (p.Val2985AlafsX8). Segregation analysis showed that the two sisters with breast cancer (diagnosed at 29 and 40 years old, respectively) are carriers of this variant, which was inherited from their unaffected father whose history is non-informative of HBOCS.",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5479,15 +4805,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5495,10 +4812,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "13:g.32953882A>G",
@@ -5518,6 +4834,7 @@
           }
         ],
         "variantNote": "It creates a novel cryptic donor site that leads to an alternative transcript with an insertion of the last four nucleotides of intron 22 (r.8953_8954ins8954-4_8954-1), generating a truncated protein (p.Val2985AspfsX34). The variant was observed in a young female patient with metachronic bilateral cancer diagnosed at 36 and 42 years who has no relative affected by tumors associated with HBOCS.",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 2,
@@ -5549,15 +4866,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 2,
             "somaticVariantsCount": 0,
@@ -5568,10 +4876,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -5602,6 +4909,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "This silent sequence change affects codon 169 of the BRIP1 mRNA and does not change the encoded amino acid sequence (p.Gln169=). This variant falls at the last nucleotide of BRIP1 exon 5. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD), and has been reported in the literature in individuals with breast and ovarian cancers (PMID: 29368626). An experimental study using patient RNA showed that this variant led to skipping of exon 5 and a prematurely truncated protein product (PMID: 29368626). In summary, although additional studies are required to fully establish its clinical significance, this BRIp1 c.507G>A p.Gln169= variant is classified as likely pathogenic. Heterozygous pathogenic variants in BRIP1 have been associated with an increased risk of ovarian cancer (PMID: 26315354, 2196457) and may increase the risk of breast cancer (PMID: 17033622). Biallelic mutations in BRIP1 have been associated with Fanconi Anemia, an autosomal recessive condition characterized by physical abnormalities, bone marrow failure, and increased risk of malignancy. If a BRIP1 mutation carrier's partner is heterozygous for a pathogenic BRIP1 mutation, there is a 25% risk that each child would be affected by Fanconi Anemia.",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -5634,15 +4942,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 1,
@@ -5654,10 +4953,9 @@
               "Non-Small Cell Lung Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "17:g.59938807C>T",
@@ -5677,6 +4975,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5705,15 +5004,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -5721,10 +5011,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -5754,6 +5043,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -5797,21 +5087,10 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 2,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 2
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 21,
-            "unknownVariantsCount": 2,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Colorectal Cancer": 1
             },
@@ -5823,13 +5102,10 @@
               "Esophagogastric Cancer": 7,
               "Glioma": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 2
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "16:g.68845762G>A",
@@ -5854,6 +5130,7 @@
         ],
         "variantNote": "The heterozygous germline variant, CDH1 c.1008G>A (p.Glu336=) is located at the last nucleotide of exon 7 of the CDH1 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD) and has been reported in an individual affected with diffuse gastric cancer (PMID: 27730413). Experimental studies and analysis of RNA demonstrated that this variant leads to aberrant splicing (PMID: 8127895, 18427545). Additionally, a different variant at this position (c.1008G>T) has been reported in a family affected with hereditary diffuse gastric cancer (PMID: 9537325, 19725995). In summary, although additional studies are required to fully establish its clinical significance, this c.1008G>A variant is classified as likely pathogenic.",
         "otherVariation": "Can also be 25, 42, 150 bp intron 7 insertion, and whole intron 7 insertions",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -5886,34 +5163,20 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 1,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Esophagogastric Cancer": 1
             },
             "somaticVariantsCountByCancerType": {
               "Colorectal Cancer": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Breast Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "16:g.68853328G>A",
@@ -5933,6 +5196,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -5966,15 +5230,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -5985,10 +5240,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -6018,6 +5272,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 13,
@@ -6062,15 +5317,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 10,
             "somaticVariantsCount": 7,
@@ -6092,10 +5338,9 @@
               "Mesothelioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -6125,6 +5370,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -6153,15 +5399,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -6169,10 +5406,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "16:g.23640597C>A",
@@ -6192,6 +5428,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -6222,15 +5459,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -6240,10 +5468,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -6273,6 +5500,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -6305,15 +5533,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 1,
@@ -6325,10 +5544,9 @@
               "Breast Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -6367,6 +5585,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "The heterozygous germline variant, MLH1 c.1731G>A (p.Ser577Ser), results in a silent mutation and occurs at the last nucleotide of exon 15. This variant is absent from the major population databases (1000G, ESP and gnomAD). It is a well known pathogenic variant that has been reported in several individuals and families with Lynch syndrome (PMID: 16341550, 15849733, 20223024, 26300997, 14635101, 16216036, 16395668, 19669161). Experimental studies using mRNA isolated from patients blood as well as a reporter minigene assay showed that this variant results in the skipping of exon 15 and leads to an out-of-frame transcript and premature protein truncation (PMID: 16341550, 18561205, 16451135). In summary, based on the previous reports of this variant in individuals with MLH1 associated cancers and its truncating effect on the protein, this variant meets our criteria to be classified as pathogenic. Lynch syndrome is an autosomal dominant condition that confers an increased risk for colorectal cancer and endometrial cancers as well as other cancers. There is a 50% chance that each child would inherit this variant from a carrier parent.",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -6404,15 +5623,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 13,
@@ -6426,10 +5636,9 @@
               "Glioma": 2
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "3:g.37059048C>T",
@@ -6449,6 +5658,7 @@
           }
         ],
         "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -6481,32 +5691,18 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Head and Neck Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Appendiceal Cancer": 1
             },
-            "unknownVariantsCountByCancerType": {
-              "Head and Neck Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.37090087G>C",
@@ -6526,6 +5722,7 @@
           }
         ],
         "variantNote": "Alterations on the ESE motifs cause deletion of exons, affects splicing across multiple cancer types",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -6554,15 +5751,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -6570,10 +5758,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "3:g.37050394C>T",
@@ -6593,6 +5780,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -6623,15 +5811,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -6641,10 +5820,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "3:g.37053309A>G",
@@ -6664,6 +5842,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -6692,30 +5871,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       },
       {
         "variant": "3:g.37053590G>T",
@@ -6739,6 +5904,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -6769,15 +5935,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -6787,10 +5944,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.37059089A>C",
@@ -6814,6 +5970,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -6842,15 +5999,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -6858,10 +6006,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "3:g.37067499G>C",
@@ -6885,6 +6032,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -6919,15 +6067,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 1,
@@ -6939,10 +6078,9 @@
               "Colorectal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -6971,6 +6109,7 @@
             "referenceText": "Sousa et al., 2020"
           }
         ],
+        "therapeuticLevel": "LEVEL_1",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7003,15 +6142,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 16,
@@ -7021,10 +6151,9 @@
               "Non-Small Cell Lung Cancer": 16
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": "LEVEL_1"
+        }
       }
     ]
   },
@@ -7054,6 +6183,7 @@
           }
         ],
         "otherVariation": "Partial exon 4 skip, p.G59Vfs*23, Splice_Exon_Shortening_Frame_Shift",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7110,15 +6240,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 78,
@@ -7145,10 +6266,9 @@
               "Soft Tissue Sarcoma": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "17:g.7579312C>A",
@@ -7169,6 +6289,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "The heterozygous germline variant, TP53 c.375G>T (Thr125=), is located at the last nucleotide of exon 4 of the TP53 gene. This variant is absent from large population databases (1000 Genomes, ESP, and gnomAD). It has been reported in a family with Li Fraumeni syndrome (PMID: 11420676). In vitro studies and analysis of RNA from patient cells demonstrated that this variant leads to aberrant splicing (PMID: 11420676, 25730903). Two other variants at this position (c.375G>A and c.375G>C) have been reported in individuals and families with Li Fraumeni syndrome (PMID: 9242456, 10864200, 11420676, 24382691, 31105275). In summary, although additional studies are required to fully establish its clinical significance, based on its previous report in an individual with Li Fraumeni syndrome and its demonstrated impact on splicing, this c.375G>T (p.?) variant is classified as likely pathogenic. Li-Fraumeni syndrome (LFS) is an autosomal dominant cancer predisposition syndrome associated with an increased risk of tumors including soft tissue sarcoma, osteosarcoma, pre-menopausal breast cancer, brain tumors, adrenocortical carcinoma (ACC), and leukemias (http://www.ncbi.nlm.nih.gov/books/NBK1311/).",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7237,28 +6358,10 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 25,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 1,
-              "Bladder Cancer": 2,
-              "Endometrial Cancer": 2,
-              "Glioma": 1,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 1,
-              "Non-Small Cell Lung Cancer": 14,
-              "Ovarian Epithelial Tumor": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 234,
-            "unknownVariantsCount": 26,
+            "unknownVariantsCount": 1,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Adrenocortical Carcinoma": 2,
@@ -7287,19 +6390,11 @@
               "Uterine Sarcoma": 1
             },
             "unknownVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 1,
-              "Bladder Cancer": 2,
-              "Endometrial Cancer": 2,
-              "Glioma": 1,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 2,
-              "Non-Small Cell Lung Cancer": 14,
-              "Ovarian Epithelial Tumor": 1
+              "Hepatobiliary Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -7328,6 +6423,7 @@
             "referenceText": "Zucker et al., 2011"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7356,15 +6452,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -7372,10 +6459,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "4:g.187201659G>A",
@@ -7394,6 +6480,7 @@
             "referenceText": "Zucker et al., 2011"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7422,30 +6509,16 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
-            "unknownVariantsCount": 1,
+            "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Endometrial Cancer": 1
-            },
-            "totalPatientCount": 193482
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "4:g.187197405C>T",
@@ -7464,6 +6537,7 @@
             "referenceText": "Zucker et al., 2011"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7492,15 +6566,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -7508,10 +6573,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -7540,6 +6604,7 @@
             "referenceText": "Lastella et al., 2006"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7570,15 +6635,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -7588,10 +6644,9 @@
               "Mesothelioma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47641430C>T",
@@ -7610,6 +6665,7 @@
             "referenceText": "Lastella et al., 2006"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7654,15 +6710,6 @@
             },
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 7,
@@ -7680,10 +6727,9 @@
             "unknownVariantsCountByCancerType": {
               "Soft Tissue Sarcoma": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47693802G>T",
@@ -7702,6 +6748,7 @@
             "referenceText": "Lastella et al., 2006"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7734,15 +6781,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 2,
@@ -7752,10 +6790,9 @@
               "Non-Small Cell Lung Cancer": 2
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47693886C>T",
@@ -7774,6 +6811,7 @@
             "referenceText": "Lastella et al., 2006"
           }
         ],
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -7813,15 +6851,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 17,
@@ -7837,10 +6866,9 @@
               "Soft Tissue Sarcoma": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47641560A>T",
@@ -7868,6 +6896,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 21,
@@ -7920,15 +6949,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 20,
             "somaticVariantsCount": 9,
@@ -7955,10 +6975,9 @@
               "Thyroid Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47693952G>C",
@@ -7986,6 +7005,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8014,15 +7034,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -8030,10 +7041,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47637512G>T",
@@ -8057,6 +7067,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8085,15 +7096,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -8101,10 +7103,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47703711G>C",
@@ -8128,6 +7129,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8156,15 +7158,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 0,
@@ -8172,10 +7165,9 @@
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "2:g.47708011G>A",
@@ -8199,6 +7191,7 @@
           }
         ],
         "mutationOrigin": "germline",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8229,15 +7222,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 1,
@@ -8247,10 +7231,9 @@
               "Endometrial Cancer": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -8280,6 +7263,7 @@
           }
         ],
         "variantNote": "This heterozygous RB1 c.1206C>T variant is a synonymous variant that does not alter the amino acid at this position (p.Ser402=). This variant has been identified in 3/30442 South Asian chromosomes by the Genome Aggregation Database (gnomAD: http://gnomad.broadinstitute.org). It has been reported in an individual with unilateral retinoblastoma and was demonstrated to cause abnormal splicing based on patient RNA studies (PMID 21763628). In our patient (DMG19-4863) with unilateral retinoblastoma, tumor analysis identified somatic biallelic mutations (two somatic hits) in RB1 (DMG internal data). In summary, based on the currently available data, the clinical significance of the RB1 c.1206C>T (p.Ser402=) variant is uncertain.",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 1,
@@ -8310,15 +7294,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 0,
@@ -8328,10 +7303,9 @@
             },
             "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   },
@@ -8362,6 +7336,7 @@
         ],
         "mutationOrigin": "somatic",
         "variantNote": "−124C > T (this mutation) and −146C > T are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation.",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 6,
@@ -8576,15 +7551,6 @@
             },
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 1,
             "somaticVariantsCount": 9981,
@@ -8666,10 +7632,9 @@
               "Soft Tissue Sarcoma": 9,
               "Thyroid Cancer": 5
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "5:g.1295250G>A",
@@ -8690,6 +7655,7 @@
         ],
         "mutationOrigin": "somatic",
         "variantNote": "−124C > T and −146C > T (this mutation) are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation.",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8803,15 +7769,6 @@
             },
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 3166,
@@ -8867,10 +7824,9 @@
               "Bone Cancer": 1,
               "Glioma": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "5:g.1295228_1295229delinsAA",
@@ -8891,6 +7847,7 @@
         ],
         "mutationOrigin": "somatic",
         "variantNote": "In melanoma two CC > TT tandem mutations affecting −124/−125 and −138/−139 residues were also detected with a combined frequency of 9%; this mutation augmented the evidence for the UV-origin of tumor specific nucleotide changes in melanoma",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8939,15 +7896,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 124,
@@ -8966,10 +7914,9 @@
               "Soft Tissue Sarcoma": 3
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "5:g.1295242_1295243delinsAA",
@@ -8990,6 +7937,7 @@
         ],
         "mutationOrigin": "somatic",
         "variantNote": "In melanoma two CC > TT tandem mutations affecting −124/−125 and −138/−139 residues were also detected with a combined frequency of 9%; this mutation augmented the evidence for the UV-origin of tumor specific nucleotide changes in melanoma",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -9043,15 +7991,6 @@
             },
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 206,
@@ -9073,10 +8012,9 @@
             "unknownVariantsCountByCancerType": {
               "Melanoma": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "5:g.1295161T>G",
@@ -9097,6 +8035,7 @@
         ],
         "mutationOrigin": "germline",
         "variantNote": "In a large melanoma pedigree where affected individuals presented a severe form of the disease with an early age of onset. The germline mutation was present in affected and absent in unaffected individuals in the family with the exception of one.",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -9170,21 +8109,10 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 4,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Hepatobiliary Cancer": 4
-            },
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 242,
-            "unknownVariantsCount": 5,
+            "unknownVariantsCount": 1,
             "germlineVariantsCountByCancerType": {},
             "somaticVariantsCountByCancerType": {
               "Bladder Cancer": 57,
@@ -9214,13 +8142,11 @@
               "Vaginal Cancer": 1
             },
             "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Hepatobiliary Cancer": 4
+              "Bladder Cancer": 1
             },
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       },
       {
         "variant": "5:g.1295349A>G",
@@ -9240,6 +8166,7 @@
           }
         ],
         "variantNote": "Bladder cancer patients with TERT promoter mutations in tumors showed almost two-fold decreased survival and increased disease recurrence in the absence but not in the presence of the variant allele for the rs2853669 polymorphism (PMID: 24101484)",
+        "therapeuticLevel": null,
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -9272,15 +8199,6 @@
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 172005
           },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
           "total": {
             "germlineVariantsCount": 0,
             "somaticVariantsCount": 3,
@@ -9292,10 +8210,9 @@
               "Miscellaneous Brain Tumor": 1
             },
             "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
+            "totalPatientCount": 182529
           }
-        },
-        "therapeuticLevel": null
+        }
       }
     ]
   }
