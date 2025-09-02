@@ -77,7 +77,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       },
       {
         "variant": "4:g.55593580_55593606del",
@@ -149,7 +150,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       },
       {
         "variant": "4:g.55593578_55593606del",
@@ -221,7 +223,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       }
     ]
   },
@@ -317,7 +320,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -397,7 +401,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -512,7 +517,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_2"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -594,7 +600,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266012_41266312del",
@@ -666,7 +673,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266038_41266264del",
@@ -738,7 +746,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265709_41266219del",
@@ -810,7 +819,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266090_41266253del",
@@ -882,7 +892,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265579_41266277del",
@@ -954,7 +965,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265722_41266253del",
@@ -1026,7 +1038,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266029_41266287del",
@@ -1098,7 +1111,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266028_41266420del",
@@ -1170,7 +1184,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266016_41266403del",
@@ -1242,7 +1257,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265975_41266211del",
@@ -1314,7 +1330,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265908_41266236del",
@@ -1386,7 +1403,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266013_41266355del",
@@ -1458,7 +1476,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265897_41266218del",
@@ -1530,7 +1549,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266002_41266029del",
@@ -1602,7 +1622,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.41265562_41266260del",
@@ -1668,7 +1689,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265568_41266266del",
@@ -1734,7 +1756,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265571_41266206del",
@@ -1800,7 +1823,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265648_41266493del",
@@ -1866,7 +1890,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265674_41266212del",
@@ -1932,7 +1957,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265990_41266204del",
@@ -1998,7 +2024,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -2080,7 +2107,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411770_116412349del",
@@ -2150,7 +2178,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411818_116412557del",
@@ -2222,7 +2251,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411874_116411897del",
@@ -2288,7 +2318,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411881_116411897del",
@@ -2354,7 +2385,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411881_116411937del",
@@ -2420,7 +2452,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411860_116411888del",
@@ -2486,7 +2519,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "7:g.116411879_116411896del",
@@ -2552,7 +2586,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116412046A>G",
@@ -2634,7 +2669,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411879_116411897del",
@@ -2700,7 +2736,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411887_116411906del",
@@ -2766,7 +2803,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116412043G>A",
@@ -2853,7 +2891,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411885_116411897del",
@@ -2919,7 +2958,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116412041_116412044del",
@@ -2985,7 +3025,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411881_116411895del",
@@ -3051,7 +3092,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411867_116411882del",
@@ -3117,7 +3159,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "7:g.116412044G>A",
@@ -3137,7 +3180,8 @@
           }
         ],
         "counts": {},
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411876_116411896del",
@@ -3203,7 +3247,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411867_116411890del",
@@ -3269,7 +3314,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -3354,7 +3400,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.67589663G>A",
@@ -3455,7 +3502,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -3535,7 +3583,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -3557,7 +3606,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.901G>A",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3616,7 +3665,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "11:g.108127067G>A",
@@ -3727,7 +3777,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "11:g.108138071T>C",
@@ -3739,7 +3790,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.2638+2T>C",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3798,7 +3849,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108175400A>C",
@@ -3810,7 +3862,7 @@
         "revisedVariantClassification": "Splice_Exon_Shortening_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.5497-2A>C",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3865,7 +3917,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108198370A>C",
@@ -3877,7 +3930,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
         "revisedStandardVariantClassification": "In_Frame_Del",
         "hgvsc": "ENST00000278616.4:c.6976-2A>C",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3932,7 +3985,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108198484_108198522del",
@@ -3944,7 +3998,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
         "revisedStandardVariantClassification": "In_Frame_Del",
         "hgvsc": "ENST00000278616.4:c.7088_7089+37del",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3999,7 +4053,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108214099_108214103del",
@@ -4011,7 +4066,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
         "revisedStandardVariantClassification": "In_Frame_Del",
         "hgvsc": "ENST00000278616.4:c.8418+1_8418+5del",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -4066,7 +4121,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108236051G>A",
@@ -4078,7 +4134,7 @@
         "revisedVariantClassification": "Splice_Exon_Shortening_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.8988-1G>A",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -4133,7 +4189,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108202764G>A",
@@ -4205,7 +4262,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108151895G>A",
@@ -4294,7 +4352,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -4304,7 +4363,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "missense, splice, intron",
     "comment": "Splice leads to frameshift",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "17:g.41197820C>T",
@@ -4371,7 +4430,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41228505C>A",
@@ -4441,15 +4501,15 @@
             "totalPatientCount": 10953
           },
           "total": {
-            "germlineVariantsCount": 3,
-            "somaticVariantsCount": 9,
+            "germlineVariantsCount": 4,
+            "somaticVariantsCount": 8,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Breast Cancer": 1,
+              "Glioma": 1,
               "Ovarian Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
-              "Glioma": 1,
               "Non-Small Cell Lung Cancer": 3,
               "Ovarian Cancer": 3,
               "Pancreatic Cancer": 1,
@@ -4459,7 +4519,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41258474T>C",
@@ -4540,7 +4601,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41258472C>T",
@@ -4611,7 +4673,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41256985T>C",
@@ -4682,7 +4745,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "17:g.41234420C>A",
@@ -4704,7 +4768,8 @@
         "variantNote": "Skipping of exon 12",
         "otherVariation": "Deletion of the first three bases of exon 14 (r.4358_4360del), leading to an in-frame deletion of the amino acid alanine at codon 1,453 (p.Ala1453del)",
         "counts": {},
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41234420del",
@@ -4772,7 +4837,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41228504C>A",
@@ -4839,7 +4905,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41219622T>C",
@@ -4907,7 +4974,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -4917,7 +4985,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice, intron",
     "comment": "Splice leads to frameshift",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "13:g.32900634A>G",
@@ -4990,7 +5058,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32931878G>A",
@@ -5065,7 +5134,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32954050G>A",
@@ -5149,7 +5219,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32919384T>G",
@@ -5215,7 +5286,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "13:g.32900635G>A",
@@ -5235,7 +5307,7 @@
           }
         ],
         "variantNote": "Leads to a skipping of exon 7 (r.517_631del)",
-        "otherVariation": "Activate a cryptic donor splice site that leads to the skipping of most of exon 6 and all of exon 7 (r.478_631del). This transcript is predicted to lead to a truncated protein (p.Val160SerfsX19)",
+        "otherVariation": "Activate a cryptic donor splice site that leads to the skipping of most of exon 6 and all of exon 7 (r.478_631del). This transcript is predicted to lead to a truncated protein (p.Val160SerfsX19) ",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 2,
@@ -5289,7 +5361,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32907378A>G",
@@ -5356,7 +5429,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "13:g.32944538G>A",
@@ -5431,7 +5505,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32953872T>G",
@@ -5498,7 +5573,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32953882A>G",
@@ -5571,7 +5647,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -5657,7 +5734,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.59938807C>T",
@@ -5724,7 +5802,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -5734,7 +5813,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "missense, splice",
     "comment": "Splice leads to frameshift(exon 11) and nonsense(exon 10)",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "16:g.68849663G>A",
@@ -5829,7 +5908,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "16:g.68845762G>A",
@@ -5913,7 +5993,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "16:g.68853328G>A",
@@ -5988,7 +6069,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -5998,7 +6080,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice",
     "comment": "Splice leads to frameshift",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "22:g.29121230C>T",
@@ -6072,30 +6154,31 @@
             "totalPatientCount": 10953
           },
           "total": {
-            "germlineVariantsCount": 10,
-            "somaticVariantsCount": 7,
+            "germlineVariantsCount": 13,
+            "somaticVariantsCount": 4,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
+              "Bladder Cancer": 1,
               "Breast Cancer": 2,
               "Colorectal Cancer": 2,
-              "Melanoma": 1,
+              "Glioma": 1,
+              "Melanoma": 2,
               "Non-Small Cell Lung Cancer": 1,
               "Pancreatic Cancer": 1,
               "Peripheral Nervous System": 1,
               "Prostate Cancer": 2
             },
             "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
               "Colorectal Cancer": 1,
-              "Glioma": 3,
-              "Melanoma": 1,
+              "Glioma": 2,
               "Mesothelioma": 1
             },
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -6105,7 +6188,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice",
     "comment": "Splice leads to exon 9 or exon 6 skipping",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "16:g.23634452C>G",
@@ -6172,7 +6255,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "16:g.23640597C>A",
@@ -6243,7 +6327,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -6253,7 +6338,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice",
     "comment": "Splice leads to frameshift exon truncation",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "17:g.33428057T>A",
@@ -6328,7 +6413,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -6429,7 +6515,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37059048C>T",
@@ -6506,7 +6593,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.37090087G>C",
@@ -6573,7 +6661,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37050394C>T",
@@ -6644,7 +6733,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37053309A>G",
@@ -6715,7 +6805,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37053590G>T",
@@ -6790,7 +6881,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.37059089A>C",
@@ -6861,7 +6953,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.37067499G>C",
@@ -6942,7 +7035,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -7024,7 +7118,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       }
     ]
   },
@@ -7148,7 +7243,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.7579312C>A",
@@ -7299,7 +7395,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -7375,7 +7472,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "4:g.187201659G>A",
@@ -7445,7 +7543,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "4:g.187197405C>T",
@@ -7511,7 +7610,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -7591,7 +7691,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "2:g.47641430C>T",
@@ -7683,7 +7784,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Neutral"
       },
       {
         "variant": "2:g.47693802G>T",
@@ -7755,7 +7857,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "2:g.47693886C>T",
@@ -7840,7 +7943,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "2:g.47641560A>T",
@@ -7930,11 +8034,12 @@
             "totalPatientCount": 10953
           },
           "total": {
-            "germlineVariantsCount": 20,
-            "somaticVariantsCount": 9,
+            "germlineVariantsCount": 21,
+            "somaticVariantsCount": 8,
             "unknownVariantsCount": 0,
             "germlineVariantsCountByCancerType": {
               "Bladder Cancer": 2,
+              "Bone Cancer": 1,
               "Colorectal Cancer": 7,
               "Endometrial Cancer": 4,
               "Miscellaneous Neuroepithelial Tumor": 1,
@@ -7945,7 +8050,6 @@
               "Tubular Adenoma of the Colon": 1
             },
             "somaticVariantsCountByCancerType": {
-              "Bone Cancer": 1,
               "Colorectal Cancer": 2,
               "Endometrial Cancer": 1,
               "Esophagogastric Cancer": 1,
@@ -7958,7 +8062,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47693952G>C",
@@ -8033,7 +8138,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47637512G>T",
@@ -8104,7 +8210,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47703711G>C",
@@ -8175,7 +8282,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47708011G>A",
@@ -8250,7 +8358,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -8331,971 +8440,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
-      }
-    ]
-  },
-  {
-    "hugoGeneSymbol": "TERT",
-    "transcriptId": "ENST00000310581",
-    "genomicLocationDescription": "−124 bp from the ATG start site in the TERT promoter",
-    "defaultEffect": "non-coding",
-    "comment": "Creates new Ets/TCF binding site, increases TERT expression",
-    "context": "Found in many cancer types, such as glioma, bladder, thyroid, liver, melanoma",
-    "revisedProteinEffects": [
-      {
-        "variant": "5:g.1295228G>A",
-        "genomicLocation": "5,1295228,1295228,G,A",
-        "transcriptId": "ENST00000310581",
-        "vepPredictedProteinEffect": null,
-        "vepPredictedVariantClassification": "5'Flank",
-        "revisedProteinEffect": null,
-        "revisedVariantClassification": null,
-        "revisedStandardVariantClassification": null,
-        "hgvsc": null,
-        "confirmed": false,
-        "references": [
-          {
-            "pubmedId": "24657534",
-            "referenceText": "Heidenreich et al., 2013"
-          }
-        ],
-        "mutationOrigin": "somatic",
-        "variantNote": "−124C > T (this mutation) and −146C > T are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation.",
-        "counts": {
-          "mskimpact": {
-            "germlineVariantsCount": 6,
-            "somaticVariantsCount": 5585,
-            "unknownVariantsCount": 49,
-            "germlineVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Bone Cancer": 1,
-              "Glioma": 2,
-              "Melanoma": 2
-            },
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 4,
-              "Ampullary Cancer": 6,
-              "Anal Cancer": 5,
-              "Bladder Cancer": 1641,
-              "Bone Cancer": 29,
-              "Breast Cancer": 33,
-              "Breast Sarcoma": 16,
-              "CNS Cancer": 7,
-              "Cancer of Unknown Primary": 160,
-              "Cervical Cancer": 28,
-              "Choroid Plexus Tumor": 2,
-              "Colorectal Cancer": 45,
-              "Embryonal Tumor": 16,
-              "Endometrial Cancer": 35,
-              "Esophagogastric Cancer": 8,
-              "Gastrointestinal Neuroendocrine Tumor": 2,
-              "Gastrointestinal Stromal Tumor": 3,
-              "Germ Cell Tumor": 1,
-              "Glioma": 1257,
-              "Head and Neck Cancer": 152,
-              "Hepatobiliary Cancer": 270,
-              "Medulloblastoma": 1,
-              "Melanoma": 553,
-              "Mesothelioma": 26,
-              "Miscellaneous Brain Tumor": 4,
-              "Miscellaneous Neuroepithelial Tumor": 4,
-              "Neoplastic Vs Reactive": 7,
-              "Nerve Sheath Tumor": 2,
-              "Non-Small Cell Lung Cancer": 178,
-              "Ovarian Cancer": 56,
-              "Pancreatic Cancer": 10,
-              "Penile Cancer": 8,
-              "Peripheral Nervous System": 8,
-              "Peritoneal Cancer, NOS": 2,
-              "Pheochromocytoma": 1,
-              "Prostate Cancer": 5,
-              "Renal Cell Carcinoma": 130,
-              "Salivary Gland Cancer": 29,
-              "Sellar Tumor": 1,
-              "Sex Cord Stromal Tumor": 39,
-              "Skin Cancer, Non-Melanoma": 52,
-              "Small Bowel Cancer": 9,
-              "Small Cell Lung Cancer": 5,
-              "Soft Tissue Sarcoma": 187,
-              "Thyroid Cancer": 508,
-              "Tubular Adenoma of the Colon": 1,
-              "Uterine Sarcoma": 10,
-              "Vaginal Cancer": 21,
-              "Wilms Tumor": 5
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 10,
-              "Breast Sarcoma": 1,
-              "CNS Cancer": 1,
-              "Choroid Plexus Tumor": 1,
-              "Glioma": 6,
-              "Head and Neck Cancer": 1,
-              "Hepatobiliary Cancer": 2,
-              "Mature B-Cell Neoplasms": 3,
-              "Melanoma": 7,
-              "Non-Small Cell Lung Cancer": 3,
-              "Soft Tissue Sarcoma": 9,
-              "Thyroid Cancer": 5
-            },
-            "totalPatientCount": 70067
-          },
-          "mskimpact_nonsignedout": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1112,
-            "unknownVariantsCount": 11,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 2,
-              "Ampullary Cancer": 2,
-              "Anal Cancer": 1,
-              "Bladder Cancer": 208,
-              "Bone Cancer": 6,
-              "Breast Cancer": 8,
-              "Breast Sarcoma": 6,
-              "CNS Cancer": 1,
-              "Cancer of Unknown Primary": 30,
-              "Cervical Cancer": 8,
-              "Colorectal Cancer": 8,
-              "Embryonal Tumor": 3,
-              "Endometrial Cancer": 4,
-              "Gastrointestinal Stromal Tumor": 1,
-              "Germ Cell Tumor": 1,
-              "Glioma": 358,
-              "Head and Neck Cancer": 30,
-              "Hepatobiliary Cancer": 62,
-              "Melanoma": 97,
-              "Mesothelioma": 4,
-              "Miscellaneous Brain Tumor": 1,
-              "Non-Small Cell Lung Cancer": 29,
-              "Ovarian Cancer": 9,
-              "Pancreatic Cancer": 3,
-              "Penile Cancer": 1,
-              "Peripheral Nervous System": 1,
-              "Prostate Cancer": 2,
-              "Renal Cell Carcinoma": 26,
-              "Salivary Gland Cancer": 11,
-              "Sex Cord Stromal Tumor": 5,
-              "Skin Cancer, Non-Melanoma": 7,
-              "Small Bowel Cancer": 2,
-              "Small Cell Lung Cancer": 1,
-              "Soft Tissue Sarcoma": 36,
-              "Thyroid Cancer": 131,
-              "Uterine Sarcoma": 4,
-              "Vaginal Cancer": 2,
-              "Wilms Tumor": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Breast Sarcoma": 1,
-              "Choroid Plexus Tumor": 1,
-              "Hepatobiliary Cancer": 1,
-              "Mature B-Cell Neoplasms": 1,
-              "Non-Small Cell Lung Cancer": 1,
-              "Soft Tissue Sarcoma": 4,
-              "Thyroid Cancer": 1
-            },
-            "totalPatientCount": 71283
-          },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 7917,
-            "unknownVariantsCount": 44,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 9,
-              "Ampullary Cancer": 6,
-              "Anal Cancer": 2,
-              "Appendiceal Cancer": 1,
-              "Bladder Cancer": 1580,
-              "Bone Cancer": 30,
-              "Breast Cancer": 45,
-              "Breast Sarcoma": 20,
-              "CNS Cancer": 22,
-              "Cancer of Unknown Primary": 274,
-              "Cervical Cancer": 26,
-              "Choroid Plexus Tumor": 6,
-              "Colorectal Cancer": 61,
-              "Desmoplastic/Nodular Medulloblastoma": 9,
-              "Embryonal Tumor": 50,
-              "Endometrial Cancer": 42,
-              "Esophagogastric Cancer": 8,
-              "Gastrointestinal Neuroendocrine Tumor": 2,
-              "Gastrointestinal Stromal Tumor": 3,
-              "Germ Cell Tumor": 2,
-              "Glioma": 2851,
-              "Head and Neck Cancer": 192,
-              "Hepatobiliary Cancer": 297,
-              "Leukemia": 2,
-              "Mature B-Cell Neoplasms": 22,
-              "Mature T and NK Neoplasms": 2,
-              "Medulloblastoma": 7,
-              "Melanocytoma": 1,
-              "Melanoma": 835,
-              "Mesothelioma": 29,
-              "Miscellaneous Brain Tumor": 11,
-              "Miscellaneous Neuroepithelial Tumor": 4,
-              "Myelodysplastic/Myeloproliferative Neoplasms": 1,
-              "Nerve Sheath Tumor": 4,
-              "Non-Small Cell Lung Cancer": 266,
-              "Other Cancer": 1,
-              "Ovarian Cancer": 62,
-              "Pancreatic Cancer": 13,
-              "Penile Cancer": 3,
-              "Peripheral Nervous System": 4,
-              "Peritoneal Cancer, NOS": 2,
-              "Pheochromocytoma": 1,
-              "Prostate Cancer": 4,
-              "Renal Cell Carcinoma": 122,
-              "Salivary Gland Cancer": 30,
-              "Sellar Tumor": 1,
-              "Sex Cord Stromal Tumor": 49,
-              "Skin Cancer, Non-Melanoma": 73,
-              "Small Bowel Cancer": 5,
-              "Small Cell Lung Cancer": 7,
-              "Soft Tissue Sarcoma": 175,
-              "Thyroid Cancer": 594,
-              "UNKNOWN": 7,
-              "Uterine Sarcoma": 10,
-              "Vaginal Cancer": 26,
-              "Wilms Tumor": 6
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 7,
-              "Breast Sarcoma": 1,
-              "CNS Cancer": 1,
-              "Choroid Plexus Tumor": 1,
-              "Glioma": 4,
-              "Head and Neck Cancer": 1,
-              "Hepatobiliary Cancer": 2,
-              "Mature B-Cell Neoplasms": 3,
-              "Melanoma": 7,
-              "Non-Small Cell Lung Cancer": 3,
-              "Soft Tissue Sarcoma": 9,
-              "Thyroid Cancer": 5
-            },
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 1,
-            "somaticVariantsCount": 9981,
-            "unknownVariantsCount": 49,
-            "germlineVariantsCountByCancerType": {
-              "Melanoma": 1
-            },
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 9,
-              "Ampullary Cancer": 8,
-              "Anal Cancer": 6,
-              "Appendiceal Cancer": 1,
-              "Bladder Cancer": 2282,
-              "Bone Cancer": 41,
-              "Breast Cancer": 60,
-              "Breast Sarcoma": 21,
-              "CNS Cancer": 24,
-              "Cancer of Unknown Primary": 352,
-              "Cervical Cancer": 38,
-              "Choroid Plexus Tumor": 6,
-              "Colorectal Cancer": 77,
-              "Desmoplastic/Nodular Medulloblastoma": 9,
-              "Embryonal Tumor": 57,
-              "Endometrial Cancer": 56,
-              "Esophagogastric Cancer": 15,
-              "Gastrointestinal Neuroendocrine Tumor": 2,
-              "Gastrointestinal Stromal Tumor": 4,
-              "Germ Cell Tumor": 2,
-              "Glioma": 3191,
-              "Head and Neck Cancer": 238,
-              "Hepatobiliary Cancer": 405,
-              "Leukemia": 2,
-              "Mature B-Cell Neoplasms": 23,
-              "Mature T and NK Neoplasms": 2,
-              "Medulloblastoma": 8,
-              "Melanocytoma": 1,
-              "Melanoma": 1040,
-              "Mesothelioma": 38,
-              "Miscellaneous Brain Tumor": 13,
-              "Miscellaneous Neuroepithelial Tumor": 6,
-              "Myelodysplastic/Myeloproliferative Neoplasms": 1,
-              "Neoplastic Vs Reactive": 2,
-              "Nerve Sheath Tumor": 4,
-              "Non-Small Cell Lung Cancer": 356,
-              "Other Cancer": 1,
-              "Ovarian Cancer": 88,
-              "Pancreatic Cancer": 15,
-              "Penile Cancer": 10,
-              "Peripheral Nervous System": 8,
-              "Peritoneal Cancer, NOS": 2,
-              "Pheochromocytoma": 1,
-              "Prostate Cancer": 6,
-              "Renal Cell Carcinoma": 177,
-              "Salivary Gland Cancer": 37,
-              "Sellar Tumor": 2,
-              "Sex Cord Stromal Tumor": 60,
-              "Skin Cancer, Non-Melanoma": 86,
-              "Small Bowel Cancer": 12,
-              "Small Cell Lung Cancer": 8,
-              "Soft Tissue Sarcoma": 240,
-              "Thyroid Cancer": 758,
-              "Tubular Adenoma of the Colon": 1,
-              "UNKNOWN": 11,
-              "Uterine Sarcoma": 13,
-              "Vaginal Cancer": 34,
-              "Wilms Tumor": 9
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 10,
-              "Breast Sarcoma": 1,
-              "CNS Cancer": 1,
-              "Choroid Plexus Tumor": 1,
-              "Glioma": 6,
-              "Head and Neck Cancer": 1,
-              "Hepatobiliary Cancer": 2,
-              "Mature B-Cell Neoplasms": 3,
-              "Melanoma": 7,
-              "Non-Small Cell Lung Cancer": 3,
-              "Soft Tissue Sarcoma": 9,
-              "Thyroid Cancer": 5
-            },
-            "totalPatientCount": 193482
-          }
-        },
-        "therapeuticLevel": null
-      },
-      {
-        "variant": "5:g.1295250G>A",
-        "genomicLocation": "5,1295250,1295250,G,A",
-        "transcriptId": "ENST00000310581",
-        "vepPredictedProteinEffect": null,
-        "vepPredictedVariantClassification": "5'Flank",
-        "revisedProteinEffect": null,
-        "revisedVariantClassification": null,
-        "revisedStandardVariantClassification": null,
-        "hgvsc": null,
-        "confirmed": false,
-        "references": [
-          {
-            "pubmedId": "24657534",
-            "referenceText": "Heidenreich et al., 2013"
-          }
-        ],
-        "mutationOrigin": "somatic",
-        "variantNote": "−124C > T and −146C > T (this mutation) are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation.",
-        "counts": {
-          "mskimpact": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 1520,
-            "unknownVariantsCount": 3,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 1,
-              "Ampullary Cancer": 1,
-              "Anal Cancer": 2,
-              "Bladder Cancer": 285,
-              "Bone Cancer": 4,
-              "Breast Cancer": 9,
-              "Breast Sarcoma": 1,
-              "CNS Cancer": 3,
-              "Cancer of Unknown Primary": 44,
-              "Cervical Cancer": 7,
-              "Colorectal Cancer": 12,
-              "Endometrial Cancer": 10,
-              "Esophagogastric Cancer": 3,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 372,
-              "Head and Neck Cancer": 53,
-              "Hepatobiliary Cancer": 11,
-              "Melanoma": 495,
-              "Mesothelioma": 3,
-              "Miscellaneous Brain Tumor": 2,
-              "Neoplastic Vs Reactive": 1,
-              "Non-Small Cell Lung Cancer": 24,
-              "Ovarian Cancer": 9,
-              "Pancreatic Cancer": 2,
-              "Penile Cancer": 2,
-              "Renal Cell Carcinoma": 13,
-              "Salivary Gland Cancer": 10,
-              "Sex Cord Stromal Tumor": 4,
-              "Skin Cancer, Non-Melanoma": 46,
-              "Small Bowel Cancer": 1,
-              "Small Cell Lung Cancer": 4,
-              "Soft Tissue Sarcoma": 21,
-              "Thyroid Cancer": 55,
-              "Vaginal Cancer": 9
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Bone Cancer": 1,
-              "Glioma": 1
-            },
-            "totalPatientCount": 70067
-          },
-          "mskimpact_nonsignedout": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 71283
-          },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 2530,
-            "unknownVariantsCount": 3,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 2,
-              "Anal Cancer": 3,
-              "Bladder Cancer": 256,
-              "Bone Cancer": 6,
-              "Breast Cancer": 13,
-              "CNS Cancer": 8,
-              "Cancer of Unknown Primary": 80,
-              "Cervical Cancer": 9,
-              "Colorectal Cancer": 18,
-              "Desmoplastic/Nodular Medulloblastoma": 1,
-              "Embryonal Tumor": 4,
-              "Endometrial Cancer": 9,
-              "Esophagogastric Cancer": 5,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 895,
-              "Head and Neck Cancer": 71,
-              "Hepatobiliary Cancer": 15,
-              "Histiocytosis": 1,
-              "Leukemia": 1,
-              "Mature B-Cell Neoplasms": 2,
-              "Medulloblastoma": 1,
-              "Melanoma": 838,
-              "Mesothelioma": 5,
-              "Miscellaneous Brain Tumor": 1,
-              "Miscellaneous Neuroepithelial Tumor": 1,
-              "Nerve Sheath Tumor": 1,
-              "Non-Small Cell Lung Cancer": 50,
-              "Ovarian Cancer": 12,
-              "Pancreatic Cancer": 3,
-              "Penile Cancer": 7,
-              "Prostate Cancer": 1,
-              "Renal Cell Carcinoma": 11,
-              "Salivary Gland Cancer": 15,
-              "Sex Cord Stromal Tumor": 8,
-              "Skin Cancer, Non-Melanoma": 70,
-              "Small Bowel Cancer": 4,
-              "Small Cell Lung Cancer": 2,
-              "Soft Tissue Sarcoma": 20,
-              "Thyroid Cancer": 72,
-              "UNKNOWN": 2,
-              "Vaginal Cancer": 6
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Bone Cancer": 1,
-              "Glioma": 1
-            },
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 3166,
-            "unknownVariantsCount": 3,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Adrenocortical Carcinoma": 2,
-              "Ampullary Cancer": 1,
-              "Anal Cancer": 5,
-              "Bladder Cancer": 392,
-              "Bone Cancer": 6,
-              "Breast Cancer": 15,
-              "Breast Sarcoma": 1,
-              "CNS Cancer": 11,
-              "Cancer of Unknown Primary": 97,
-              "Cervical Cancer": 13,
-              "Colorectal Cancer": 23,
-              "Desmoplastic/Nodular Medulloblastoma": 1,
-              "Embryonal Tumor": 4,
-              "Endometrial Cancer": 14,
-              "Esophagogastric Cancer": 7,
-              "Gastrointestinal Neuroendocrine Tumor": 1,
-              "Glioma": 1018,
-              "Head and Neck Cancer": 94,
-              "Hepatobiliary Cancer": 22,
-              "Histiocytosis": 1,
-              "Leukemia": 1,
-              "Mature B-Cell Neoplasms": 2,
-              "Medulloblastoma": 1,
-              "Melanoma": 1057,
-              "Mesothelioma": 5,
-              "Miscellaneous Brain Tumor": 2,
-              "Neoplastic Vs Reactive": 1,
-              "Nerve Sheath Tumor": 1,
-              "Non-Small Cell Lung Cancer": 59,
-              "Ovarian Cancer": 16,
-              "Pancreatic Cancer": 4,
-              "Penile Cancer": 8,
-              "Prostate Cancer": 1,
-              "Renal Cell Carcinoma": 20,
-              "Salivary Gland Cancer": 17,
-              "Sex Cord Stromal Tumor": 8,
-              "Skin Cancer, Non-Melanoma": 87,
-              "Small Bowel Cancer": 4,
-              "Small Cell Lung Cancer": 4,
-              "Soft Tissue Sarcoma": 33,
-              "Thyroid Cancer": 92,
-              "UNKNOWN": 2,
-              "Vaginal Cancer": 13
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Bone Cancer": 1,
-              "Glioma": 1
-            },
-            "totalPatientCount": 193482
-          }
-        },
-        "therapeuticLevel": null
-      },
-      {
-        "variant": "5:g.1295228_1295229delinsAA",
-        "genomicLocation": "5,1295228,1295229,GG,AA",
-        "transcriptId": "ENST00000310581",
-        "vepPredictedProteinEffect": null,
-        "vepPredictedVariantClassification": "5'Flank",
-        "revisedProteinEffect": null,
-        "revisedVariantClassification": null,
-        "revisedStandardVariantClassification": null,
-        "hgvsc": null,
-        "confirmed": false,
-        "references": [
-          {
-            "pubmedId": "24657534",
-            "referenceText": "Heidenreich et al., 2013"
-          }
-        ],
-        "mutationOrigin": "somatic",
-        "variantNote": "In melanoma two CC > TT tandem mutations affecting −124/−125 and −138/−139 residues were also detected with a combined frequency of 9%; this mutation augmented the evidence for the UV-origin of tumor specific nucleotide changes in melanoma",
-        "counts": {
-          "mskimpact": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 86,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Cancer of Unknown Primary": 3,
-              "Glioma": 1,
-              "Head and Neck Cancer": 2,
-              "Hepatobiliary Cancer": 1,
-              "Melanoma": 63,
-              "Non-Small Cell Lung Cancer": 1,
-              "Skin Cancer, Non-Melanoma": 12,
-              "Soft Tissue Sarcoma": 2
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 70067
-          },
-          "mskimpact_nonsignedout": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 71283
-          },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 100,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Cancer of Unknown Primary": 7,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 1,
-              "Melanoma": 70,
-              "Nerve Sheath Tumor": 1,
-              "Non-Small Cell Lung Cancer": 1,
-              "Skin Cancer, Non-Melanoma": 14,
-              "Soft Tissue Sarcoma": 2
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 124,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Cancer of Unknown Primary": 8,
-              "Glioma": 1,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 1,
-              "Melanoma": 90,
-              "Nerve Sheath Tumor": 1,
-              "Non-Small Cell Lung Cancer": 1,
-              "Skin Cancer, Non-Melanoma": 15,
-              "Soft Tissue Sarcoma": 3
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
-          }
-        },
-        "therapeuticLevel": null
-      },
-      {
-        "variant": "5:g.1295242_1295243delinsAA",
-        "genomicLocation": "5,1295242,1295243,GG,AA",
-        "transcriptId": "ENST00000310581",
-        "vepPredictedProteinEffect": null,
-        "vepPredictedVariantClassification": "5'Flank",
-        "revisedProteinEffect": null,
-        "revisedVariantClassification": null,
-        "revisedStandardVariantClassification": null,
-        "hgvsc": null,
-        "confirmed": false,
-        "references": [
-          {
-            "pubmedId": "24657534",
-            "referenceText": "Heidenreich et al., 2013"
-          }
-        ],
-        "mutationOrigin": "somatic",
-        "variantNote": "In melanoma two CC > TT tandem mutations affecting −124/−125 and −138/−139 residues were also detected with a combined frequency of 9%; this mutation augmented the evidence for the UV-origin of tumor specific nucleotide changes in melanoma",
-        "counts": {
-          "mskimpact": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 131,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 17,
-              "Breast Cancer": 1,
-              "Cancer of Unknown Primary": 6,
-              "Head and Neck Cancer": 1,
-              "Hepatobiliary Cancer": 1,
-              "Melanoma": 90,
-              "Skin Cancer, Non-Melanoma": 12,
-              "Soft Tissue Sarcoma": 1,
-              "Thyroid Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Melanoma": 1
-            },
-            "totalPatientCount": 70067
-          },
-          "mskimpact_nonsignedout": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 71283
-          },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 160,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 12,
-              "Breast Cancer": 1,
-              "Cancer of Unknown Primary": 10,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 1,
-              "Melanoma": 116,
-              "Pancreatic Cancer": 1,
-              "Skin Cancer, Non-Melanoma": 13,
-              "Soft Tissue Sarcoma": 2,
-              "Thyroid Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Melanoma": 1
-            },
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 206,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 22,
-              "Breast Cancer": 1,
-              "Cancer of Unknown Primary": 10,
-              "Head and Neck Cancer": 4,
-              "Hepatobiliary Cancer": 1,
-              "Melanoma": 146,
-              "Pancreatic Cancer": 1,
-              "Skin Cancer, Non-Melanoma": 17,
-              "Soft Tissue Sarcoma": 2,
-              "Thyroid Cancer": 1,
-              "UNKNOWN": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Melanoma": 1
-            },
-            "totalPatientCount": 193482
-          }
-        },
-        "therapeuticLevel": null
-      },
-      {
-        "variant": "5:g.1295161T>G",
-        "genomicLocation": "5,1295161,1295161,T,G",
-        "transcriptId": "ENST00000310581",
-        "vepPredictedProteinEffect": null,
-        "vepPredictedVariantClassification": "5'Flank",
-        "revisedProteinEffect": null,
-        "revisedVariantClassification": null,
-        "revisedStandardVariantClassification": null,
-        "hgvsc": null,
-        "confirmed": false,
-        "references": [
-          {
-            "pubmedId": "24657534",
-            "referenceText": "Heidenreich et al., 2013"
-          }
-        ],
-        "mutationOrigin": "germline",
-        "variantNote": "In a large melanoma pedigree where affected individuals presented a severe form of the disease with an early age of onset. The germline mutation was present in affected and absent in unaffected individuals in the family with the exception of one.",
-        "counts": {
-          "mskimpact": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 70067
-          },
-          "mskimpact_nonsignedout": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 169,
-            "unknownVariantsCount": 1,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 45,
-              "Breast Cancer": 1,
-              "Breast Sarcoma": 1,
-              "Cancer of Unknown Primary": 3,
-              "Colorectal Cancer": 5,
-              "Endometrial Cancer": 2,
-              "Esophagogastric Cancer": 2,
-              "Glioma": 1,
-              "Head and Neck Cancer": 6,
-              "Hepatobiliary Cancer": 11,
-              "Melanoma": 28,
-              "Mesothelioma": 11,
-              "Non-Small Cell Lung Cancer": 8,
-              "Ovarian Cancer": 9,
-              "Pancreatic Cancer": 1,
-              "Prostate Cancer": 1,
-              "Renal Cell Carcinoma": 20,
-              "Salivary Gland Cancer": 2,
-              "Small Bowel Cancer": 2,
-              "Soft Tissue Sarcoma": 7,
-              "Tubular Adenoma of the Colon": 1,
-              "Uterine Sarcoma": 1,
-              "Vaginal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1
-            },
-            "totalPatientCount": 71283
-          },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 73,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 12,
-              "Breast Cancer": 2,
-              "Cancer of Unknown Primary": 4,
-              "Cervical Cancer": 1,
-              "Colorectal Cancer": 4,
-              "Endometrial Cancer": 2,
-              "Esophagogastric Cancer": 1,
-              "Glioma": 3,
-              "Head and Neck Cancer": 3,
-              "Hepatobiliary Cancer": 3,
-              "Melanoma": 18,
-              "Mesothelioma": 2,
-              "Myelodysplastic Syndromes": 1,
-              "Non-Small Cell Lung Cancer": 6,
-              "Ovarian Cancer": 1,
-              "Pancreatic Cancer": 2,
-              "Renal Cell Carcinoma": 7,
-              "Salivary Gland Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 4,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {
-              "Hepatobiliary Cancer": 4
-            },
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 242,
-            "unknownVariantsCount": 5,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 57,
-              "Breast Cancer": 3,
-              "Breast Sarcoma": 1,
-              "Cancer of Unknown Primary": 7,
-              "Cervical Cancer": 1,
-              "Colorectal Cancer": 9,
-              "Endometrial Cancer": 4,
-              "Esophagogastric Cancer": 3,
-              "Glioma": 4,
-              "Head and Neck Cancer": 9,
-              "Hepatobiliary Cancer": 14,
-              "Melanoma": 46,
-              "Mesothelioma": 13,
-              "Myelodysplastic Syndromes": 1,
-              "Non-Small Cell Lung Cancer": 14,
-              "Ovarian Cancer": 10,
-              "Pancreatic Cancer": 3,
-              "Prostate Cancer": 1,
-              "Renal Cell Carcinoma": 27,
-              "Salivary Gland Cancer": 3,
-              "Small Bowel Cancer": 2,
-              "Soft Tissue Sarcoma": 7,
-              "Tubular Adenoma of the Colon": 1,
-              "Uterine Sarcoma": 1,
-              "Vaginal Cancer": 1
-            },
-            "unknownVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Hepatobiliary Cancer": 4
-            },
-            "totalPatientCount": 193482
-          }
-        },
-        "therapeuticLevel": null
-      },
-      {
-        "variant": "5:g.1295349A>G",
-        "genomicLocation": "5,1295349,1295349,A,G",
-        "transcriptId": "ENST00000310581",
-        "vepPredictedProteinEffect": null,
-        "vepPredictedVariantClassification": "5'Flank",
-        "revisedProteinEffect": null,
-        "revisedVariantClassification": null,
-        "revisedStandardVariantClassification": null,
-        "hgvsc": null,
-        "confirmed": false,
-        "references": [
-          {
-            "pubmedId": "24657534",
-            "referenceText": "Heidenreich et al., 2013"
-          }
-        ],
-        "variantNote": "Bladder cancer patients with TERT promoter mutations in tumors showed almost two-fold decreased survival and increased disease recurrence in the absence but not in the presence of the variant allele for the rs2853669 polymorphism (PMID: 24101484)",
-        "counts": {
-          "mskimpact": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 70067
-          },
-          "mskimpact_nonsignedout": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 71283
-          },
-          "genie": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 3,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Hepatobiliary Cancer": 1,
-              "Miscellaneous Brain Tumor": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 172005
-          },
-          "tcga": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 0,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {},
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 10953
-          },
-          "total": {
-            "germlineVariantsCount": 0,
-            "somaticVariantsCount": 3,
-            "unknownVariantsCount": 0,
-            "germlineVariantsCountByCancerType": {},
-            "somaticVariantsCountByCancerType": {
-              "Bladder Cancer": 1,
-              "Hepatobiliary Cancer": 1,
-              "Miscellaneous Brain Tumor": 1
-            },
-            "unknownVariantsCountByCancerType": {},
-            "totalPatientCount": 193482
-          }
-        },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   }
