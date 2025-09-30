@@ -4,7 +4,10 @@ import json
 # Read the file as a dataframe
 df = pd.read_csv('../VUEs.txt', delimiter='\t', encoding='utf-8')
 
-# Set columns to string type for splitting
+# Replace NaN with None so JSON shows null
+df = df.where(pd.notnull(df), None)
+
+# Set columns to string type for splitting (only if not None)
 df['pubmedId'] = df['pubmedId'].astype(str)
 df['referenceText'] = df['referenceText'].astype(str)
 
@@ -22,8 +25,8 @@ for name, group in grouped_data:
         "transcriptId": group['transcriptId'].iloc[0],
         "genomicLocationDescription": group['genomicLocationDescription'].iloc[0],
         "defaultEffect": group['defaultEffect'].iloc[0],
-        "comment": group['comment'].iloc[0] if not pd.isnull(group['comment'].iloc[0]) else "",
-        "context": group['context'].iloc[0] if not pd.isnull(group['context'].iloc[0]) else "",
+        "comment": group['comment'].iloc[0] if group['comment'].iloc[0] is not None else "",
+        "context": group['context'].iloc[0] if group['context'].iloc[0] is not None else "",
         "revisedProteinEffects": []
     }
 
@@ -40,19 +43,19 @@ for name, group in grouped_data:
             "revisedVariantClassification": row['revisedVariantClassification'],
             "revisedStandardVariantClassification": row['revisedStandardVariantClassification'],
             "hgvsc": row['hgvsc'],
-            "confirmed": bool(row['confirmed']),
+            "confirmed": bool(row['confirmed']) if row['confirmed'] is not None else False,
             "references": []
         }
-        if not pd.isnull(row['mutationOrigin']):
+        if row['mutationOrigin'] is not None:
             variant_dict['mutationOrigin'] = row['mutationOrigin']
-        if not pd.isnull(row['variantNote']):
+        if row['variantNote'] is not None:
             variant_dict['variantNote'] = row['variantNote']
-        if not pd.isnull(row['otherVariation']):
+        if row['otherVariation'] is not None:
             variant_dict['otherVariation'] = row['otherVariation']
 
         # Parse pubmedId and referenceText
-        pubmed_ids = row['pubmedId'].split(';')
-        reference_texts = row['referenceText'].split(';')
+        pubmed_ids = row['pubmedId'].split(';') if row['pubmedId'] else []
+        reference_texts = row['referenceText'].split(';') if row['referenceText'] else []
 
         # Create pairs of pubmedId and referenceText
         pairs = []

@@ -28,14 +28,14 @@ vue_df = pd.json_normalize(
 vue_df = vue_df.rename(columns={'genomicLocation': 'vue'})
 vue_df = vue_df.set_index('vue')[[]]
 
-# fetch therapeutic level from OncoKB
+# fetch therapeutic level and oncogenicity from OncoKB
 def get_therapeutic_level(genomic_location):
     url = f"https://www.oncokb.org/api/v1/annotate/mutations/byGenomicChange?genomicLocation={genomic_location}&referenceGenome=GRCh37"
     headers = {"Authorization": f"Bearer {os.environ.get('ONCOKB_TOKEN')}"}
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
-        return response.json().get('highestSensitiveLevel', None)
-    return None
+        return response.json().get('highestSensitiveLevel', None), response.json().get('oncogenic', None)
+    return None, None
 
 def read_clinical_df(path, cohort_name, target_gene_panels_by_cohorts):
     """Read and normalize a clinical file. Filter by GENE_PANEL if gene panels are provided for this cohort."""
@@ -192,7 +192,7 @@ def update_vue_counts_json(vues_json, vue_df):
                 if "counts" in vue:
                     del vue["counts"]
                 vue["counts"] = counts_by_cohort
-                vue["therapeuticLevel"] = get_therapeutic_level(vue_genomic_location)
+                vue["therapeuticLevel"], vue["oncogenic"] = get_therapeutic_level(vue_genomic_location)
     return vues_json
 
 cohorts = {

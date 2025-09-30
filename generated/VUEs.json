@@ -77,7 +77,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       },
       {
         "variant": "4:g.55593580_55593606del",
@@ -149,7 +150,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       },
       {
         "variant": "4:g.55593578_55593606del",
@@ -221,7 +223,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       }
     ]
   },
@@ -317,7 +320,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -397,7 +401,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -512,7 +517,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_2"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -594,7 +600,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266012_41266312del",
@@ -666,7 +673,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266038_41266264del",
@@ -738,7 +746,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265709_41266219del",
@@ -810,7 +819,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266090_41266253del",
@@ -882,7 +892,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265579_41266277del",
@@ -954,7 +965,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265722_41266253del",
@@ -1026,7 +1038,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266029_41266287del",
@@ -1098,7 +1111,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266028_41266420del",
@@ -1170,7 +1184,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266016_41266403del",
@@ -1242,7 +1257,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265975_41266211del",
@@ -1314,7 +1330,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265908_41266236del",
@@ -1386,7 +1403,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266013_41266355del",
@@ -1458,7 +1476,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265897_41266218del",
@@ -1530,7 +1549,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41266002_41266029del",
@@ -1602,7 +1622,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.41265562_41266260del",
@@ -1668,7 +1689,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265568_41266266del",
@@ -1734,7 +1756,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265571_41266206del",
@@ -1800,7 +1823,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265648_41266493del",
@@ -1866,7 +1890,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265674_41266212del",
@@ -1932,7 +1957,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265990_41266204del",
@@ -1998,7 +2024,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -2080,7 +2107,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411770_116412349del",
@@ -2150,7 +2178,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411818_116412557del",
@@ -2222,7 +2251,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411874_116411897del",
@@ -2288,7 +2318,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411881_116411897del",
@@ -2354,7 +2385,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411881_116411937del",
@@ -2420,7 +2452,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411860_116411888del",
@@ -2486,7 +2519,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "7:g.116411879_116411896del",
@@ -2552,7 +2586,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116412046A>G",
@@ -2634,7 +2669,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411879_116411897del",
@@ -2700,7 +2736,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411887_116411906del",
@@ -2766,7 +2803,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116412043G>A",
@@ -2853,7 +2891,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411885_116411897del",
@@ -2919,7 +2958,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116412041_116412044del",
@@ -2985,7 +3025,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411881_116411895del",
@@ -3051,7 +3092,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411867_116411882del",
@@ -3117,7 +3159,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "7:g.116412044G>A",
@@ -3136,8 +3179,71 @@
             "referenceText": "Confirmed by MSK Clinical Bioinformatics Team (Unpublished)"
           }
         ],
-        "counts": {},
-        "therapeuticLevel": "LEVEL_1"
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 19,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Cancer of Unknown Primary": 1,
+              "Glioma": 2,
+              "Non-Small Cell Lung Cancer": 16
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 37,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Cancer of Unknown Primary": 2,
+              "Glioma": 2,
+              "Non-Small Cell Lung Cancer": 33
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 1,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {
+              "Non-Small Cell Lung Cancer": 1
+            },
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 42,
+            "unknownVariantsCount": 1,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Cancer of Unknown Primary": 2,
+              "Glioma": 2,
+              "Non-Small Cell Lung Cancer": 38
+            },
+            "unknownVariantsCountByCancerType": {
+              "Non-Small Cell Lung Cancer": 1
+            },
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411876_116411896del",
@@ -3203,7 +3309,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "7:g.116411867_116411890del",
@@ -3269,7 +3376,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -3354,7 +3462,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.67589663G>A",
@@ -3455,7 +3564,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -3535,7 +3645,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -3557,7 +3668,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.901G>A",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3616,7 +3727,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "11:g.108127067G>A",
@@ -3727,7 +3839,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "11:g.108138071T>C",
@@ -3739,7 +3852,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.2638+2T>C",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3798,7 +3911,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108175400A>C",
@@ -3810,7 +3924,7 @@
         "revisedVariantClassification": "Splice_Exon_Shortening_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.5497-2A>C",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3865,7 +3979,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108198370A>C",
@@ -3877,7 +3992,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
         "revisedStandardVariantClassification": "In_Frame_Del",
         "hgvsc": "ENST00000278616.4:c.6976-2A>C",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3932,7 +4047,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108198484_108198522del",
@@ -3944,7 +4060,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
         "revisedStandardVariantClassification": "In_Frame_Del",
         "hgvsc": "ENST00000278616.4:c.7088_7089+37del",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -3999,7 +4115,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108214099_108214103del",
@@ -4011,7 +4128,7 @@
         "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
         "revisedStandardVariantClassification": "In_Frame_Del",
         "hgvsc": "ENST00000278616.4:c.8418+1_8418+5del",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -4066,7 +4183,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108236051G>A",
@@ -4078,7 +4196,7 @@
         "revisedVariantClassification": "Splice_Exon_Shortening_Frame_Shift",
         "revisedStandardVariantClassification": "Frame_Shift_Del",
         "hgvsc": "ENST00000278616.4:c.8988-1G>A",
-        "confirmed": false,
+        "confirmed": true,
         "references": [
           {
             "pubmedId": "31843900",
@@ -4133,7 +4251,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108202764G>A",
@@ -4205,7 +4324,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "11:g.108151895G>A",
@@ -4294,7 +4414,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -4304,7 +4425,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "missense, splice, intron",
     "comment": "Splice leads to frameshift",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "17:g.41197820C>T",
@@ -4371,7 +4492,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41228505C>A",
@@ -4459,7 +4581,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41258474T>C",
@@ -4540,7 +4663,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41258472C>T",
@@ -4611,7 +4735,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41256985T>C",
@@ -4682,11 +4807,12 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "17:g.41234420C>A",
-        "genomicLocation": "7,116412044,116412044,G,A",
+        "genomicLocation": "17,41234420,41234420,C,A",
         "transcriptId": "ENST00000357654",
         "vepPredictedProteinEffect": "p.X1453_splice",
         "vepPredictedVariantClassification": "Splice_Site",
@@ -4703,8 +4829,55 @@
         ],
         "variantNote": "Skipping of exon 12",
         "otherVariation": "Deletion of the first three bases of exon 14 (r.4358_4360del), leading to an in-frame deletion of the amino acid alanine at codon 1,453 (p.Ala1453del)",
-        "counts": {},
-        "therapeuticLevel": "LEVEL_1"
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41234420del",
@@ -4772,7 +4945,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41228504C>A",
@@ -4839,7 +5013,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.41219622T>C",
@@ -4907,7 +5082,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -4917,7 +5093,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice, intron",
     "comment": "Splice leads to frameshift",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "13:g.32900634A>G",
@@ -4990,7 +5166,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32931878G>A",
@@ -5065,7 +5242,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32954050G>A",
@@ -5149,7 +5327,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32919384T>G",
@@ -5215,7 +5394,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "13:g.32900635G>A",
@@ -5235,7 +5415,7 @@
           }
         ],
         "variantNote": "Leads to a skipping of exon 7 (r.517_631del)",
-        "otherVariation": "Activate a cryptic donor splice site that leads to the skipping of most of exon 6 and all of exon 7 (r.478_631del). This transcript is predicted to lead to a truncated protein (p.Val160SerfsX19)",
+        "otherVariation": "Activate a cryptic donor splice site that leads to the skipping of most of exon 6 and all of exon 7 (r.478_631del). This transcript is predicted to lead to a truncated protein (p.Val160SerfsX19) ",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 2,
@@ -5289,7 +5469,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32907378A>G",
@@ -5356,7 +5537,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "13:g.32944538G>A",
@@ -5431,7 +5613,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32953872T>G",
@@ -5498,7 +5681,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "13:g.32953882A>G",
@@ -5571,7 +5755,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -5657,7 +5842,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.59938807C>T",
@@ -5724,7 +5910,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -5734,7 +5921,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "missense, splice",
     "comment": "Splice leads to frameshift(exon 11) and nonsense(exon 10)",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "16:g.68849663G>A",
@@ -5829,7 +6016,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "16:g.68845762G>A",
@@ -5913,7 +6101,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "16:g.68853328G>A",
@@ -5988,7 +6177,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -5998,7 +6188,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice",
     "comment": "Splice leads to frameshift",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "22:g.29121230C>T",
@@ -6095,7 +6285,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -6105,7 +6296,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice",
     "comment": "Splice leads to exon 9 or exon 6 skipping",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "16:g.23634452C>G",
@@ -6172,7 +6363,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "16:g.23640597C>A",
@@ -6243,7 +6435,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -6253,7 +6446,7 @@
     "genomicLocationDescription": "Mutations at canonical splice sites predicted to alter splicing",
     "defaultEffect": "splice",
     "comment": "Splice leads to frameshift exon truncation",
-    "context": null,
+    "context": "",
     "revisedProteinEffects": [
       {
         "variant": "17:g.33428057T>A",
@@ -6328,7 +6521,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -6429,7 +6623,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37059048C>T",
@@ -6506,7 +6701,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.37090087G>C",
@@ -6573,7 +6769,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37050394C>T",
@@ -6644,7 +6841,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37053309A>G",
@@ -6715,7 +6913,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.37053590G>T",
@@ -6790,7 +6989,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.37059089A>C",
@@ -6861,7 +7061,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "3:g.37067499G>C",
@@ -6942,7 +7143,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -7024,7 +7226,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": "LEVEL_1"
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Oncogenic"
       }
     ]
   },
@@ -7148,7 +7351,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "17:g.7579312C>A",
@@ -7299,7 +7503,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -7375,7 +7580,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "4:g.187201659G>A",
@@ -7445,7 +7651,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "4:g.187197405C>T",
@@ -7511,7 +7718,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -7591,7 +7799,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "2:g.47641430C>T",
@@ -7683,7 +7892,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Neutral"
       },
       {
         "variant": "2:g.47693802G>T",
@@ -7755,7 +7965,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "2:g.47693886C>T",
@@ -7840,7 +8051,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       },
       {
         "variant": "2:g.47641560A>T",
@@ -7958,7 +8170,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47693952G>C",
@@ -8033,7 +8246,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47637512G>T",
@@ -8104,7 +8318,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47703711G>C",
@@ -8175,7 +8390,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "2:g.47708011G>A",
@@ -8250,7 +8466,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   },
@@ -8331,7 +8548,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
       }
     ]
   },
@@ -8361,7 +8579,7 @@
           }
         ],
         "mutationOrigin": "somatic",
-        "variantNote": "−124C > T (this mutation) and −146C > T are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation.",
+        "variantNote": "−124C > T (this mutation) and −146C > T are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation. ",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 6,
@@ -8669,7 +8887,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.1295250G>A",
@@ -8689,7 +8908,7 @@
           }
         ],
         "mutationOrigin": "somatic",
-        "variantNote": "−124C > T and −146C > T (this mutation) are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation.",
+        "variantNote": "−124C > T and −146C > T (this mutation) are the most common mutations. In melanoma −146C > T mutation is more frequent than the −124C > T; in cancers, especially in gliomas, thyroid cancers and bladder cancers the latter is the most common mutation. ",
         "counts": {
           "mskimpact": {
             "germlineVariantsCount": 0,
@@ -8870,7 +9089,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.1295228_1295229delinsAA",
@@ -8969,7 +9189,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.1295242_1295243delinsAA",
@@ -9076,7 +9297,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.1295161T>G",
@@ -9220,7 +9442,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "5:g.1295349A>G",
@@ -9295,7 +9518,8 @@
             "totalPatientCount": 193482
           }
         },
-        "therapeuticLevel": null
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
       }
     ]
   }
