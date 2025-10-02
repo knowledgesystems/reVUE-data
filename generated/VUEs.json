@@ -1623,7 +1623,7 @@
           }
         },
         "therapeuticLevel": null,
-        "oncogenic": "Unknown"
+        "oncogenic": "Likely Oncogenic"
       },
       {
         "variant": "3:g.41265562_41266260del",
@@ -9514,6 +9514,613 @@
               "Hepatobiliary Cancer": 1,
               "Miscellaneous Brain Tumor": 1
             },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
+      }
+    ]
+  },
+  {
+    "hugoGeneSymbol": "ERBB2",
+    "transcriptId": "ENST00000269571",
+    "genomicLocationDescription": "Alterations at intron 15 acceptor site and intron 16 donor site",
+    "defaultEffect": "splice",
+    "comment": "Alters intron 15 acceptor site or intron 16 donor site, leads to exon 16 skipping",
+    "context": "Found in many cancer types, such as NSCLC, ovary, brest, esophageal, gastric, urinary, melanoma, crc, head and neck, biliary, endometrial, and glioma.",
+    "revisedProteinEffects": [
+      {
+        "variant": "17:g.37876039G>A",
+        "genomicLocation": "17,37876039,37876039,G,A",
+        "transcriptId": "ENST00000269571",
+        "vepPredictedProteinEffect": "p.X633_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.C634_S649del",
+        "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000269571.5:c.1899-1G>A",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "32727899",
+            "referenceText": "Smith et al., 2020"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "Mutations alter intron 15 acceptor site or intron 16 donor site, facilitate exon 16 skipping, and thereby promote overexpression of the highly oncogenic ERBB2ΔEx16 isoform, which is a more potent oncogene than ERBB2-FL in lung epithelial cells.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Ovarian Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Ovarian Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
+      },
+      {
+        "variant": "17:g.37876039G>T",
+        "genomicLocation": "17,37876039,37876039,G,T",
+        "transcriptId": "ENST00000269571",
+        "vepPredictedProteinEffect": "p.X633_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.C634_S649del",
+        "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000269571.5:c.1899-1G>T",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "32727899",
+            "referenceText": "Smith et al., 2020"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "Mutations alter intron 15 acceptor site or intron 16 donor site, facilitate exon 16 skipping, and thereby promote overexpression of the highly oncogenic ERBB2ΔEx16 isoform, which is a more potent oncogene than ERBB2-FL in lung epithelial cells.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Non-Small Cell Lung Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 2,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Non-Small Cell Lung Cancer": 2
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 2,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Non-Small Cell Lung Cancer": 2
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
+      },
+      {
+        "variant": "17:g.37876039G>C",
+        "genomicLocation": "17,37876039,37876039,G,C",
+        "transcriptId": "ENST00000269571",
+        "vepPredictedProteinEffect": "p.X633_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.C634_S649del",
+        "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000269571.5:c.1899-1G>C",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "32727899",
+            "referenceText": "Smith et al., 2020"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "Mutations alter intron 15 acceptor site or intron 16 donor site, facilitate exon 16 skipping, and thereby promote overexpression of the highly oncogenic ERBB2ΔEx16 isoform, which is a more potent oncogene than ERBB2-FL in lung epithelial cells.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Bladder Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Bladder Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Bladder Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
+      },
+      {
+        "variant": "17:g.37876038A>G",
+        "genomicLocation": "17,37876038,37876038,A,G",
+        "transcriptId": "ENST00000269571",
+        "vepPredictedProteinEffect": "p.X633_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.C634_S649del",
+        "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000269571.5:c.1899-2A>G",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "32727899",
+            "referenceText": "Smith et al., 2020"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "Mutations alter intron 15 acceptor site or intron 16 donor site, facilitate exon 16 skipping, and thereby promote overexpression of the highly oncogenic ERBB2ΔEx16 isoform, which is a more potent oncogene than ERBB2-FL in lung epithelial cells.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 2,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Cancer of Unknown Primary": 1,
+              "Non-Small Cell Lung Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 2,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Cancer of Unknown Primary": 1,
+              "Non-Small Cell Lung Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 2,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Cancer of Unknown Primary": 1,
+              "Non-Small Cell Lung Cancer": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": "LEVEL_1",
+        "oncogenic": "Likely Oncogenic"
+      },
+      {
+        "variant": "17:g.37876088G>T",
+        "genomicLocation": "17,37876088,37876088,G,T",
+        "transcriptId": "ENST00000269571",
+        "vepPredictedProteinEffect": "p.X649_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.C634_S649del",
+        "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000269571.5:c.1946+1G>T",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "32727899",
+            "referenceText": "Smith et al., 2020"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "Mutations alter intron 15 acceptor site or intron 16 donor site, facilitate exon 16 skipping, and thereby promote overexpression of the highly oncogenic ERBB2ΔEx16 isoform, which is a more potent oncogene than ERBB2-FL in lung epithelial cells.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Renal Cell Carcinoma": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Renal Cell Carcinoma": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Renal Cell Carcinoma": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
+      },
+      {
+        "variant": "17:g.37876089T>C",
+        "genomicLocation": "17,37876089,37876089,T,C",
+        "transcriptId": "ENST00000269571",
+        "vepPredictedProteinEffect": "p.X649_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.C634_S649del",
+        "revisedVariantClassification": "Splice_Exon_Skip_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000269571.5:c.1946+2T>C",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "32727899",
+            "referenceText": "Smith et al., 2020"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "Mutations alter intron 15 acceptor site or intron 16 donor site, facilitate exon 16 skipping, and thereby promote overexpression of the highly oncogenic ERBB2ΔEx16 isoform, which is a more potent oncogene than ERBB2-FL in lung epithelial cells.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Melanoma": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 1,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {
+              "Melanoma": 1
+            },
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": null,
+        "oncogenic": "Unknown"
+      }
+    ]
+  },
+  {
+    "hugoGeneSymbol": "EIF1AX",
+    "transcriptId": "ENST00000379607",
+    "genomicLocationDescription": "Splice-acceptor mutations at the exon 5–6 junction",
+    "defaultEffect": "splice",
+    "comment": "Activation of a cryptic splice acceptor within exon 6, leads to in-frame deletion of 12 aa in exon 6",
+    "context": "The C-terminal p.A113 splice mutation is specific to thyroid cancer.",
+    "revisedProteinEffects": [
+      {
+        "variant": "23:g.20148726C>G",
+        "genomicLocation": "23,20148726,20148726,C,G",
+        "transcriptId": "ENST00000379607",
+        "vepPredictedProteinEffect": "p.X113_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.A113_G124del",
+        "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000379607.5:c.338-1G>C",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "26878173",
+            "referenceText": "Landa et al., 2016"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "EIF1AX is mutated in only 1% of PTCs but in approximately 10% of PDTCs and ATCs. The concordance of EIF1AX with RAS mutations is extremely strong, which is distinct from PTC, where these are largely mutually exclusive. EIF1AX mutations are mutually exclusive with alterations in any of the PI3K/AKT/mTOR pathway members, suggesting that they may confer overlapping functional gains. In addition, EIF1AX mutations are predictive of worse survival in PDTCs, providing a potentially useful marker for risk stratification in a heterogeneous disease in need of better prognostic indicators. The mutations of EIF1AX cluster in specific N- and C-terminal residues.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
+      },
+      {
+        "variant": "23:g.20148725_20148726delinsAA",
+        "genomicLocation": "23,20148725,20148726,GC,AA",
+        "transcriptId": "ENST00000379607",
+        "vepPredictedProteinEffect": "p.X113_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.A113_G124del",
+        "revisedVariantClassification": "Splice_Exon_Shortening_In_Frame",
+        "revisedStandardVariantClassification": "In_Frame_Del",
+        "hgvsc": "ENST00000379607.5:c.338-1_338delinsTT",
+        "confirmed": true,
+        "references": [
+          {
+            "pubmedId": "26878173",
+            "referenceText": "Landa et al., 2016"
+          }
+        ],
+        "mutationOrigin": "somatic",
+        "variantNote": "EIF1AX is mutated in only 1% of PTCs but in approximately 10% of PDTCs and ATCs. The concordance of EIF1AX with RAS mutations is extremely strong, which is distinct from PTC, where these are largely mutually exclusive. EIF1AX mutations are mutually exclusive with alterations in any of the PI3K/AKT/mTOR pathway members, suggesting that they may confer overlapping functional gains. In addition, EIF1AX mutations are predictive of worse survival in PDTCs, providing a potentially useful marker for risk stratification in a heterogeneous disease in need of better prognostic indicators. The mutations of EIF1AX cluster in specific N- and C-terminal residues.",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
             "unknownVariantsCountByCancerType": {},
             "totalPatientCount": 193482
           }
