@@ -9522,5 +9522,83 @@
         "oncogenic": "Likely Oncogenic"
       }
     ]
+  },
+  {
+    "hugoGeneSymbol": "BRAF",
+    "transcriptId": "ENST00000288602",
+    "genomicLocationDescription": "c.1511_1517+2dup",
+    "defaultEffect": "splice",
+    "comment": "This mutant consisted in a 9 base pair duplication (c.1511_1517 + 2 duplication), encoding for a predicted mutant protein with insertion of 3 amino acids (p.Arg506_Lys507insLeuLeuArg) in the N-terminal lobe of the kinase domain of BRAF.",
+    "context": "Found in Langerhans Cell Histiocytosis",
+    "revisedProteinEffects": [
+      {
+        "variant": "7:g.140477789_140477797dup",
+        "genomicLocation": "7,140477788,1404777989,-,ATGAGTCCA",
+        "transcriptId": "ENST00000288602",
+        "vepPredictedProteinEffect": "p.X504_splice",
+        "vepPredictedVariantClassification": "Splice_Site",
+        "revisedProteinEffect": "p.R506_K507insLLR",
+        "revisedVariantClassification": "Splice_Exon_Extension_In_Frame",
+        "revisedStandardVariantClassification": "Frame_Shift_Del",
+        "hgvsc": "ENST00000288602.1:c.1511_1517+2dup",
+        "confirmed": false,
+        "references": [
+          {
+            "pubmedId": "28679432",
+            "referenceText": "Héritier et al., 2017"
+          }
+        ],
+        "variantNote": "This variant overlaps with a similar insertion that we have curated as likely oncogenic, so this variant should be level 2 in LCH",
+        "counts": {
+          "mskimpact": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 70067
+          },
+          "mskimpact_nonsignedout": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 71283
+          },
+          "genie": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 172005
+          },
+          "tcga": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 10953
+          },
+          "total": {
+            "germlineVariantsCount": 0,
+            "somaticVariantsCount": 0,
+            "unknownVariantsCount": 0,
+            "germlineVariantsCountByCancerType": {},
+            "somaticVariantsCountByCancerType": {},
+            "unknownVariantsCountByCancerType": {},
+            "totalPatientCount": 193482
+          }
+        },
+        "therapeuticLevel": null,
+        "oncogenic": "Likely Oncogenic"
+      }
+    ]
   }
 ]
